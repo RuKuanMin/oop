@@ -22,7 +22,7 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 #### [7 - Một số lớp dựng sẵn trong .NET Framework](Lecturenotes/07-dotnet-builtin-classes) 
 
-#### [8 - Lập trình Windows Forms](LectureNotes/08-windows-forms-apps) 
+#### [8 - Lập trình Windows Forms](Lecturenotes/08-windows-forms-apps) 
 
 ### [Bài thực hành](Labs)
 
