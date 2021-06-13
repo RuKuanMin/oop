@@ -10,11 +10,11 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 ### [Bài giảng](Lecturenotes)
 #### [1 - Tổng quan về lập trình hướng đối tượng](Lecturenotes/01-overview) 
 
-#### [2 - Phân tích thiết kế hướng đối tượng](https://github.com/nd-hung/OOP/tree/main/LectureNotes/02-OOP-Analysis-and-Design) 
+#### [2 - Phân tích thiết kế hướng đối tượng](Lecturenotes/02-oop-analysis-and-design) 
 
-#### [3 - Nền tảng .NET và ngôn ngữ C#](https://github.com/nd-hung/OOP/tree/main/LectureNotes/03-dotnet-and-csharp) 
+#### [3 - Nền tảng .NET và ngôn ngữ C#](LectureNotes/03-dotnet-and-csharp) 
 
-#### [4 - Lớp và đối tượng](https://github.com/nd-hung/OOP/tree/main/LectureNotes/04-Classes-and-Objects) 
+#### [4 - Lớp và đối tượng](LectureNotes/04-Classes-and-Objects) 
 
 #### [5 - Thừa kế và đa hình](https://github.com/nd-hung/OOP/tree/main/LectureNotes/05-Inheritance) 
 
