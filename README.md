@@ -7,8 +7,8 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 ### Khoa Công nghệ thông tin, Trường đại học Nha Trang
 <hr>
 
-### [Bài giảng](https://github.com/nd-hung/OOP/tree/main/Lecturenotes)
-#### [1 - Tổng quan về lập trình hướng đối tượng](https://github.com/nd-hung/OOP/tree/main/LectureNotes/01-Overview) 
+### [Bài giảng](Lecturenotes)
+#### [1 - Tổng quan về lập trình hướng đối tượng](Lecturenotes/01-overview) 
 
 #### [2 - Phân tích thiết kế hướng đối tượng](https://github.com/nd-hung/OOP/tree/main/LectureNotes/02-OOP-Analysis-and-Design) 
 
