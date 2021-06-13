@@ -12,17 +12,17 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 #### [2 - Phân tích thiết kế hướng đối tượng](Lecturenotes/02-oop-analysis-and-design) 
 
-#### [3 - Nền tảng .NET và ngôn ngữ C#](LectureNotes/03-dotnet-and-csharp) 
+#### [3 - Nền tảng .NET và ngôn ngữ C#](Lecturenotes/03-dotnet-and-csharp)
 
-#### [4 - Lớp và đối tượng](LectureNotes/04-Classes-and-Objects) 
+#### [4 - Lớp và đối tượng](Lecturenotes/04-classes-and-objects) 
 
-#### [5 - Thừa kế và đa hình](https://github.com/nd-hung/OOP/tree/main/LectureNotes/05-Inheritance) 
+#### [5 - Thừa kế và đa hình](Lecturenotes/05-inheritance) 
 
-#### [6 - Lớp trừu tượng và giao diện ](https://github.com/nd-hung/OOP/tree/main/LectureNotes/06-Abstract-Classes) 
+#### [6 - Lớp trừu tượng và giao diện ](Lecturenotes/06-abstract-classes) 
 
-#### [7 - Một số lớp dựng sẵn trong .NET Framework](https://github.com/nd-hung/OOP/tree/main/LectureNotes/07-dotnet-builtin-classes) 
+#### [7 - Một số lớp dựng sẵn trong .NET Framework](Lecturenotes/07-dotnet-builtin-classes) 
 
-#### [8 - Lập trình Windows Forms](LectureNotes/08-Windows-Forms-Apps) 
+#### [8 - Lập trình Windows Forms](LectureNotes/08-windows-forms-apps) 
 
 ### [Bài thực hành](Labs)
 
