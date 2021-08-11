@@ -19,5 +19,7 @@ express any computable function.
 
 ## Tài liệu tham khảo 
 https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/i/Imperative_programming.htm
+
 Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
+
 Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, Trường đại học Nha Trang, 2020
