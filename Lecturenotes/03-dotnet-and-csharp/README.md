@@ -1,7 +1,67 @@
 <h1 align="center"> 
-NỀN TẢNG .NET VÀ NGÔN NGỮ LẬP TRÌNH C#
+NGÔN NGỮ LẬP TRÌNH C#
 </h1>
 
+## [Nền tảng .NET và ngôn ngữ C#]
+## Lập trình với C#
+## [Một số tài nguyên học C# trực tuyến hữu ích]
+
+https://dotnet.microsoft.com/learn/dotnet/in-browser-tutorial
+https://www.w3schools.com/cs/index.php
+https://docs.microsoft.com/en-us/dotnet/core/introduction
+
+What is C#?
+C# is pronounced "C-Sharp".
+
+It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
+
+C# has roots from the C family, and the language is close to other popular languages like C++ and Java.
+
+The first version was released in year 2002. The latest version, C# 8, was released in September 2019.
+
+C# is used for:
+
+Mobile applications
+Desktop applications
+Web applications
+Web services
+Web sites
+Games
+VR
+Database applications
+And much, much more!
+Why Use C#?
+It is one of the most popular programming language in the world
+It is easy to learn and simple to use
+It has a huge community support
+C# is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+As C# is close to C, C++ and Java, it makes it easy for programmers to switch to C# or vice versa
+What is C#?
+C# is pronounced "C-Sharp".
+
+It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
+
+C# has roots from the C family, and the language is close to other popular languages like C++ and Java.
+
+The first version was released in year 2002. The latest version, C# 8, was released in September 2019.
+
+C# is used for:
+
+Mobile applications
+Desktop applications
+Web applications
+Web services
+Web sites
+Games
+VR
+Database applications
+And much, much more!
+Why Use C#?
+It is one of the most popular programming language in the world
+It is easy to learn and simple to use
+It has a huge community support
+C# is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+As C# is close to C, C++ and Java, it makes it easy for programmers to switch to C# or vice versa
 ## Nền tảng .NET
 
 - .NET, do Microsoft phát triển, là nền tảng bao gồm các công cụ, ngôn ngữ lập trình và các thư viện dùng để tạo nhiều loại ứng dụng khác nhau. Phiên bản .NET đầu tiên phát hành năm 2020. 
