@@ -5,6 +5,8 @@ NGÔN NGỮ LẬP TRÌNH C#
 ## [Nền tảng .NET và ngôn ngữ C#]
 ## Lập trình với C#
 ## [Một số tài nguyên học C# trực tuyến hữu ích]
+## [Một số ứng dụng đơn giản]
+https://www.codeproject.com/Tips/986054/Csharp-Simple-Pingpong-Game
 
 https://dotnet.microsoft.com/learn/dotnet/in-browser-tutorial
 https://www.w3schools.com/cs/index.php
