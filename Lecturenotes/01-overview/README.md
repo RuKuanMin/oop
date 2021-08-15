@@ -19,7 +19,7 @@ Một số ngôn ngữ phổ biến hiện nay hỗ trợ lập trình mệnh l�
 #### Structured Programming (lập trình cấu trúc)
 Structured program theorem (Bohm-Jacopini): sequencing, selection, and iteration are sucient to
 express any computable function.
-
+ 
 ## Cách tiếp cận hướng đối tượng
 
 ## Tài liệu tham khảo 
