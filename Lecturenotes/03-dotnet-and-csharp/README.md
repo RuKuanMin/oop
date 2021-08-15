@@ -4,6 +4,10 @@ NGÔN NGỮ LẬP TRÌNH C#
 
 ## [Nền tảng .NET và ngôn ngữ C#]()
 ## [Lập trình với C#]
+## Các công cụ lập trình C# phổ biến
+MS Visual Studio
+Visual Studio Code
+https://code.visualstudio.com/docs
 ### [Một số tài nguyên học C# trực tuyến hữu ích]
 ### [Một số ứng dụng đơn giản]
 https://www.codeproject.com/Tips/986054/Csharp-Simple-Pingpong-Game
