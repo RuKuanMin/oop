@@ -9,7 +9,10 @@ Có thể nói, lập trình (programming) là trọng tâm của khoa học má
 ### Các mô thức lập trình (programming paradigms)
 Đến nay, có nhiều phương pháp lập trình được đề xuất, nhiều ngôn ngữ lập trình được phát triển. Dưới đây là một số cách tiếp cận chính trong lập trình (được gọi là "mô thức" - programming paradigm).
 
-<img src="figs/programming_paradigms.png"/>
+
+| <img src="figs/programming_paradigms.png" width="70%"/> |
+|:--:|
+| Các mô thức lập trình |
 
 
 #### Imperative Programming (lập trình mệnh lệnh)
