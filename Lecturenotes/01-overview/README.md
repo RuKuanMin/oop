@@ -9,11 +9,9 @@ Có thể nói, lập trình (programming) là trọng tâm của khoa học má
 ### Các mô thức lập trình (programming paradigms)
 Đến nay, có nhiều phương pháp lập trình được đề xuất, nhiều ngôn ngữ lập trình được phát triển. Dưới đây là một số cách tiếp cận chính trong lập trình (được gọi là "mô thức" - programming paradigm).
 
-
 | <img src="figs/programming_paradigms.png" width="70%"/> |
 |:--:|
 | Các mô thức lập trình |
-
 
 #### Imperative Programming (lập trình mệnh lệnh)
 Ý tưởng cơ bản của lập trình mệnh lệnh tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện cho đến khi đạt được kết quả mong muốn. Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
