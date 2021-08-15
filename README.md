@@ -7,7 +7,7 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 ### Khoa Công nghệ thông tin, Trường đại học Nha Trang
 <hr>
 
-### [Bài giảng](Lecturenotes)
+### [Bài giảng tóm tắt](Lecturenotes)
 #### [1 - Tổng quan về lập trình hướng đối tượng](Lecturenotes/01-overview) 
 
 #### [2 - Phân tích thiết kế hướng đối tượng](Lecturenotes/02-oop-analysis-and-design) 
@@ -27,5 +27,6 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 ### [Bài thực hành](Labs)
 
 ### [Bài tập](Assignments)
+### [Đồ án môn học](Projects)
 
 ### [Tham khảo](References.md)
