@@ -1,10 +1,10 @@
 <h1 align="center"> 
-TỔNG QUAN VỀ PHƯƠNG PHÁP LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 </h1>
 
 ## Sơ lược các phương pháp lập trình
-### Giới thiệu
-Có thể nói, lập trình (programming) là trọng tâm của khoa học máy tính bởi đây là công cụ thực hành trình kết hợp trí tuệ con người với sức mạnh xử lý của máy tính điện tử để tạo ra các chương trình máy tính (computer programs) giúp tự động hóa xử lý thông tin. Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải mà con người cần phân tích yêu cầu của bài toán để xây dựng một dãy các chỉ thị được định nghĩa rõ ràng - gọi là thuật toán (algorithm) - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming language) để cài đặt thuật toán đó thành chương trình máy tính. 
+
+Có thể nói, lập trình (programming) là trọng tâm của khoa học máy tính bởi đây là công cụ thực hành kết hợp trí tuệ con người với sức mạnh xử lý của máy tính điện tử để tạo ra chương trình máy tính (computer program) giúp tự động hóa xử lý thông tin. Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải mà con người cần phân tích yêu cầu của bài toán để xây dựng một dãy các chỉ thị được định nghĩa rõ ràng - gọi là thuật toán (algorithm) - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming language) để cài đặt thuật toán đó thành chương trình máy tính. 
 
 ### Các mô thức lập trình (programming paradigms)
 Đến nay, có nhiều phương pháp lập trình được đề xuất, nhiều ngôn ngữ lập trình được phát triển. Dưới đây là một số cách tiếp cận chính trong lập trình (được gọi là "mô thức" - programming paradigm).
