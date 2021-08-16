@@ -31,10 +31,9 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện cho đến khi đạt được kết quả mong muốn. Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
 Một số ngôn ngữ phổ biến hiện nay hỗ trợ lập trình mệnh lệnh: C/C++, C#, Java, Python.
+
+Ví dụ: Chương trình C tìm phần tử lớn nhất của dãy số.
 ```C
-/*
-Chương trình tìm phần tử lớn nhất của dãy số viết theo mô thức Lập trình hướng mệnh lệnh.
-*/
 #include <stdio.h>
 
 int main()
@@ -42,12 +41,12 @@ int main()
 	int a[] = {3,8,2,1,6,5};
 	int n=6, i=0, max;
 	max = a[i];
-	loop:
+	LOOP:
 		if(max < a[i]) max = a[i];
 		i++;
-		if( i == n) goto finish;
-		goto loop;
-	finish:
+		if( i == n) goto FINISHED;
+		goto LOOP;
+	FINISHED:
 		printf("Max value = %d\n", max);
 }
 ```
