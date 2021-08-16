@@ -29,26 +29,35 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 #### Imperative Programming (lập trình hướng mệnh lệnh)
 Ý tưởng cơ bản của lập trình mệnh lệnh tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 
-Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện cho đến khi đạt được kết quả mong muốn. Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
+Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện - từng bước một - cho đến khi đạt được kết quả mong muốn. Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
+
 Một số ngôn ngữ phổ biến hiện nay hỗ trợ lập trình mệnh lệnh: C/C++, C#, Java, Python.
 
-Ví dụ: Chương trình C tìm phần tử lớn nhất của dãy số.
-```C
-#include <stdio.h>
+Ví dụ: Chương trình C# tìm phần tử lớn nhất của dãy số.
+```csharp
+using System;
 
-int main()
+namespace FindMax
 {
-	int a[] = {3,8,2,1,6,5};
-	int n=6, i=0, max;
-	max = a[i];
-	LOOP:
-		if(max < a[i]) max = a[i];
-		i++;
-		if( i == n) goto FINISHED;
-		goto LOOP;
-	FINISHED:
-		printf("Max value = %d\n", max);
+    class Program
+    {
+        static void Main(string[] args)
+        {
+			int[] a = new int[] {3, 8, 1, 2, 6, 5};
+			int n = 6, i = 0, max;
+			max = a[i];
+		LOOP:
+			if (max < a[i]) max = a[i];
+			i++;
+			if (i == n) goto FINISHED;
+			goto LOOP;
+		FINISHED:
+			Console.WriteLine("Max value = {0}", max);
+			Console.ReadKey();
+		}
+    }
 }
+
 ```
 
 #### Structured Programming (lập trình cấu trúc)
