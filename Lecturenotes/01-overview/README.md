@@ -43,15 +43,15 @@ namespace FindMax
     {
         static void Main(string[] args)
         {
-			int[] a = new int[] { 3, 8, 1, 2, 6, 5};
+			int[] a = new int[6] {3, 8, 1, 2, 6, 5};
 			int n = 6, i = 0, max;
 
 			max = a[i];
 
 			LOOP:
-				if (max < a[i]) max = a[i];
 				i++;
 				if (i == n) goto FINISHED;
+				if (max < a[i]) max = a[i];
 				goto LOOP;
 
 			FINISHED:
@@ -60,8 +60,6 @@ namespace FindMax
 		}
     }
 }
-
-
 ```
 
 #### Structured Programming (lập trình cấu trúc)
