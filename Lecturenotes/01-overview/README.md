@@ -19,6 +19,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 - Có khả năng tái sử dụng hoặc kế thừa cho bài toán khác.
 
 ## Các mô thức lập trình (programming paradigms)
+
 Đến nay, có nhiều phương pháp lập trình được đề xuất, nhiều ngôn ngữ lập trình được phát triển. Dưới đây là một số cách tiếp cận chính trong lập trình (được gọi là "mô thức" - programming paradigm).
 
 | <img src="figs/programming_paradigms.png" width="70%"/> |
@@ -26,8 +27,30 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 | Các mô thức lập trình |
 
 #### Imperative Programming (lập trình hướng mệnh lệnh)
-Ý tưởng cơ bản của lập trình mệnh lệnh tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện cho đến khi đạt được kết quả mong muốn. Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
+Ý tưởng cơ bản của lập trình mệnh lệnh tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+
+Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện cho đến khi đạt được kết quả mong muốn. Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
 Một số ngôn ngữ phổ biến hiện nay hỗ trợ lập trình mệnh lệnh: C/C++, C#, Java, Python.
+```C
+/*
+Chương trình tìm phần tử lớn nhất của dãy số viết theo mô thức Lập trình hướng mệnh lệnh.
+*/
+#include <stdio.h>
+
+int main()
+{
+	int a[] = {3,8,2,1,6,5};
+	int n=6, i=0, max;
+	max = a[i];
+	loop:
+		if(max < a[i]) max = a[i];
+		i++;
+		if( i == n) goto finish;
+		goto loop;
+	finish:
+		printf("Max value = %d\n", max);
+}
+```
 
 #### Structured Programming (lập trình cấu trúc)
 Structured program theorem (Bohm-Jacopini): sequencing, selection, and iteration are sucient to
