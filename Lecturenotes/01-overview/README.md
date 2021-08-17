@@ -9,7 +9,7 @@ Các sản phẩm phần mềm thường được phát triển theo quy trình 
 
 <p align="center">
 
-|<img src="./figs/SDLC.PNG" alt="SDLC" width="70%"/>|
+|<img src="./figs/SDLC.PNG" alt="SDLC" width="80%"/>|
 |:--:|
 |Vòng đời phát triển phần mềm|
 
