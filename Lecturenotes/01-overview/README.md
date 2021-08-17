@@ -30,7 +30,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 Ý tưởng cơ bản của lập trình mệnh lệnh tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện - từng bước một - cho đến khi đạt được kết quả mong muốn. Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
 
-Một số ngôn ngữ phổ biến hiện nay hỗ trợ lập trình mệnh lệnh: C/C++, C#, Java, Python.
+Một số ngôn ngữ phổ biến hỗ trợ lập trình mệnh lệnh: C/C++, C#, Java, PHP, Python.
 
 > Ví dụ: Chương trình C# tìm phần tử lớn nhất của dãy số.
 ```csharp
@@ -75,3 +75,15 @@ Lectures on High-performance Computing for Economists, University of Pennsylvani
 https://cs.lmu.edu/~ray/notes/paradigms/
 
 Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, Trường đại học Nha Trang, 2020
+
+> ### {% icon hands_on %} Hands-on: My Step
+>
+> 1. **My Tool** {% icon tool %} with the following parameters
+>    - {% icon param-text %} *"My text parameter"*: `my value`
+>    - {% icon param-file %} *"My input file"*: `my file`
+>    - {% icon param-files %} *"My multiple file input or collection"*: `my collection`
+>    - {% icon param-select %} *"My select menu"*: `my choice`
+>    - {% icon param-check %} *"My check box"*: `yes`
+>    - {% icon param-repeat %} **My repeat parameter**
+>      - *"param1"*: `42`
+{: .hands_on}
