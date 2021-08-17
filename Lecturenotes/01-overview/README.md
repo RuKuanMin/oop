@@ -38,14 +38,6 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 - Dễ cập nhật, nâng cấp khi yêu cầu của bài toán thay đổi.
 - Có khả năng tái sử dụng hoặc kế thừa cho bài toán khác.
 
-- Giai đoạn **kiểm thử** thực hiện kiểm tra các chức năng của phần mềm bằng các *test case* nhằm đảm bảo sản phẩm đáp ứng được yêu cầu đề ra, đồng thời ghi nhận các lỗi phát sinh (nếu có).
-
-- Giai đoạn **triển khai** tiến hành đưa sản phẩm vào sử dụng sau giai đoạn kiểm thử.
-
-- Giai đoạn **bảo trì** thực hiện hỗ trợ khách hàng, xử lý lỗi phát sinh (nếu có) trong quá trình sử dụng, hoặc cập nhật, chỉnh sửa sản phẩm theo yêu cầu.
-
-Các mô hình SDLC phổ biến gồm: mô hình thác nước (waterfall model), mô hình chữ V (V model) và mô hình xoắn ốc (spiral model).
-
 ## Các mô thức lập trình (programming paradigms)
 
 Đến nay, có nhiều phương pháp lập trình được đề xuất, nhiều ngôn ngữ lập trình được phát triển. Dưới đây là một số cách tiếp cận chính trong lập trình (được gọi là "mô thức" - programming paradigm).
