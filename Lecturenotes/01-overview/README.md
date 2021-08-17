@@ -2,9 +2,25 @@
 TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 </h1>
 
-## Sơ lược về lập trình
 
-Có thể nói, lập trình (programming) là trọng tâm của khoa học máy tính bởi đây là công cụ thực hành kết hợp trí tuệ con người với sức mạnh xử lý của máy tính điện tử để tạo ra chương trình máy tính (computer program) giúp tự động hóa xử lý thông tin. Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải mà con người cần phân tích yêu cầu của bài toán để xây dựng một dãy các chỉ thị được định nghĩa rõ ràng - gọi là thuật toán (algorithm) - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming language) để cài đặt thuật toán thành chương trình máy tính. 
+## Quy trình phát triển phần mềm
+
+Các sản phẩm phần mềm thường được phát triển theo quy trình có tên gọi **Vòng đời phát triển phần mềm (software development lifecycle - SDLC)**. Quy trình này gồm các giai đoạn: lập kế hoạch (planning), phân tích (analysis), thiết kế (design), cài đặt (implementation), kiểm thử (testing), triển khai (deployment) và bảo trì (maintenance) sản phẩm. 
+
+|<img src="./figs/SDLC.PNG" alt="SDLC" width="70%"/>|
+|:--:|
+|Vòng đời phát triển phần mềm|
+
+- Giai đoạn **lập kế hoạch** tiếp nhận yêu cầu từ khách hàng để làm rõ các yêu cần cần có của sản phẩm, từ đó lập kế hoạch tổng thể cho dự án và nghiên cứu các giải pháp khả thi về kỹ thuật, vận hành và kinh tế. 
+
+- Giai đoạn **phân tích** tiến hành làm rõ yêu cầu về sản phẩm và lập bảng đặc tả chức năng (software requirement specification - SRS) mà phần mềm cần có. 
+
+- Giai đoạn **thiết kế** căn cứ vào bảng SRS để xây dựng bảng đặc tả thiết kế (design document specification - DDS).
+
+- Giai đoạn **cài đặt** triển khai lập trình tạo ứng dụng dựa trên bản DDS được chọn. Tùy thuộc vào loại ứng dụng mà một hoặc một số ngôn ngữ lập trình được sử dụng để cài đặt.
+
+## Sơ lược về lập trình
+Có thể nói, lập trình (implementation/programming/coding) là khâu rất quan trọng trong quy trình phát triển phần mềm, bởi đây là bước triển khai cài đặt thiết kế thành chương trình máy tính (computer program). Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải mà con người cần phân tích yêu cầu của bài toán để xây dựng một dãy các chỉ thị được định nghĩa rõ ràng - gọi là thuật toán (algorithm) - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming language) để cài đặt thuật toán thành chương trình máy tính. 
 
 Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
@@ -17,6 +33,14 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 - Mã nguồn dễ hiểu: Giúp giảm thiểu lỗi, bảo trì, nâng cấp.
 - Dễ cập nhật, nâng cấp khi yêu cầu của bài toán thay đổi.
 - Có khả năng tái sử dụng hoặc kế thừa cho bài toán khác.
+
+- Giai đoạn **kiểm thử** thực hiện kiểm tra các chức năng của phần mềm bằng các *test case* nhằm đảm bảo sản phẩm đáp ứng được yêu cầu đề ra, đồng thời ghi nhận các lỗi phát sinh (nếu có).
+
+- Giai đoạn **triển khai** tiến hành đưa sản phẩm vào sử dụng sau giai đoạn kiểm thử.
+
+- Giai đoạn **bảo trì** thực hiện hỗ trợ khách hàng, xử lý lỗi phát sinh (nếu có) trong quá trình sử dụng, hoặc cập nhật, chỉnh sửa sản phẩm theo yêu cầu.
+
+Các mô hình SDLC phổ biến gồm: mô hình thác nước (waterfall model), mô hình chữ V (V model) và mô hình xoắn ốc (spiral model).
 
 ## Các mô thức lập trình (programming paradigms)
 
