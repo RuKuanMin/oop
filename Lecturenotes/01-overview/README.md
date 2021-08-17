@@ -7,9 +7,13 @@ TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 Các sản phẩm phần mềm thường được phát triển theo quy trình có tên gọi **Vòng đời phát triển phần mềm (software development lifecycle - SDLC)**. Quy trình này gồm các giai đoạn: lập kế hoạch (planning), phân tích (analysis), thiết kế (design), cài đặt (implementation), kiểm thử (testing), triển khai (deployment) và bảo trì (maintenance) sản phẩm. 
 
+<p align="center">
+
 |<img src="./figs/SDLC.PNG" alt="SDLC" width="70%"/>|
 |:--:|
 |Vòng đời phát triển phần mềm|
+
+</p>
 
 - Giai đoạn **lập kế hoạch** tiếp nhận yêu cầu từ khách hàng để làm rõ các yêu cần cần có của sản phẩm, từ đó lập kế hoạch tổng thể cho dự án và nghiên cứu các giải pháp khả thi về kỹ thuật, vận hành và kinh tế. 
 
