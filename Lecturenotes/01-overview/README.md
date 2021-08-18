@@ -34,7 +34,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 - Giao diện thân thiện.
 
 **Đối với người lập trình:**
-- Mã nguồn dễ hiểu: Giúp giảm thiểu lỗi, bảo trì, nâng cấp.
+- Mã nguồn dễ hiểu: Giúp giảm thiểu lỗi, dễ sửa lỗi, bảo trì, nâng cấp.
 - Dễ cập nhật, nâng cấp khi yêu cầu của bài toán thay đổi.
 - Có khả năng tái sử dụng hoặc kế thừa cho bài toán khác.
 
