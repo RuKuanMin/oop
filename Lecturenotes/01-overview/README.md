@@ -5,7 +5,7 @@ TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 ## Sơ lược quy trình phát triển phần mềm
 
-Cùng với sự phát triển của phần cứng (hardware), các phần mềm (software) ngày càng đa dạng về ứng dụng và phức tạp hơn trong chức năng. Việc phát triển phần mềm, do đó, cần phải có quy trình chặt chẽ nhằm đảm bảo sản phẩm đạt chất lượng cao, đáp ứng yêu cầu người dùng.
+Cùng với sự phát triển của phần cứng (hardware), phần mềm (software) ngày càng đa dạng về ứng dụng và phức tạp hơn trong chức năng. Việc phát triển phần mềm, do đó, cần phải có quy trình chặt chẽ nhằm đảm bảo sản phẩm đạt chất lượng cao, đáp ứng yêu cầu người dùng.
 
 Hiện nay, các sản phẩm phần mềm thường được phát triển theo quy trình có tên gọi **Vòng đời phát triển phần mềm (software development lifecycle - SDLC)**. Quy trình này gồm các giai đoạn: lập kế hoạch (planning), phân tích (analysis), thiết kế (design), cài đặt (implementation), kiểm thử (testing), triển khai (deployment) và bảo trì (maintenance) sản phẩm. 
 
