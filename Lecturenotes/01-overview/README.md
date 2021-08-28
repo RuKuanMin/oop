@@ -80,7 +80,7 @@ namespace SortArray
         {
             // Init an array
             int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
-			int n = 6;
+            int n = 6;
 
             // Print the original array
             Console.WriteLine("The input array:");
@@ -107,7 +107,7 @@ namespace SortArray
 
             // Wait until a key pressed
             Console.ReadKey();
-		}
+        }
     }
 }
 ```
