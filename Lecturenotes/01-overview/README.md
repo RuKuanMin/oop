@@ -79,7 +79,7 @@ namespace SortArray
         static void Main()
         {
             // Init an array
-			int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
+            int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
 			int n = 6;
 
             // Print the original array
