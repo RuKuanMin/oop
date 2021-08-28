@@ -58,33 +58,50 @@ Lập trình hướng mệnh lệnh có các ưu điểm: dễ hiểu, dễ cài
 
 ```csharp
 /*
-Ví dụ: Tính tổng các số lẻ < n.
-Input: Số nguyên n > 0
-Output: Tổng các số lẻ < n
+Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp Lập trình mệnh lệnh với C#.
+Input: Dãy số nguyên có n phần tử.
+Output: Dãy số được sắp xếp tăng dần.
 */
-
 using System;
 
-namespace SumOddNumbers
+namespace SortArray
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-			int n=20, sum=0, i;
-			i = 1;
-			LOOP:
-				if (i >= n) goto FINISHED;
-				if (i % 2 !=0) sum += i;
-				i++;
-				goto LOOP;
-			FINISHED:
-				Console.WriteLine("Sum of the odd numbers < {0} = {1}", n, sum);
-				Console.ReadKey(); // Wait for a key press to exit
+            // Init an array
+			int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
+			int n = 6;
+
+            // Print the original array
+            Console.WriteLine("The input array:");
+            for (int i = 0; i < n; i++)
+                Console.Write("{0} ", a[i]);
+
+            // Sort the array in ascending order
+            // Interchange sort
+            for (int i=0; i < n-1; i++)
+                for(int j=i+1; j < n; j++)
+                {
+                    if(a[i] > a[j])
+                    {
+                        int tmp = a[i];
+                        a[i] = a[j];
+                        a[j] = tmp;
+                    }
+                }
+
+            // Print the sorted array
+            Console.WriteLine("\nThe array in ascending order:");
+            for (int i = 0; i < n; i++)
+                Console.Write("{0} ", a[i]);
+
+            // Wait until a key pressed
+            Console.ReadKey();
 		}
     }
 }
-
 ```
 
 #### Lập trình khai báo (Declarative Programming)
@@ -100,12 +117,12 @@ Một số ngôn ngữ phổ biến hỗ trợ lập trình mệnh lệnh: C/C++
 
 ```csharp
 /*
-Ví dụ: Lập trình khai báo với C# tính tổng các số lẻ < n.
-Input: n > 0
-Output: Tổng các số lẻ < n
+Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp Lập trình khai báo với C#.
+Input: Dãy số.
+Output: Dãy số được sắp xếp tăng dần.
 */
 using System;
-using System.Linq;
+using System.Collections.Generic;
 
 namespace DeclarativeProgramming
 {
@@ -113,11 +130,16 @@ namespace DeclarativeProgramming
     {
         static void Main()
         {
-            int n = 50;
-            var sum = Enumerable.Range(0, n)
-                     .Where(i => i % 2 != 0)
-                     .Sum();
-            Console.WriteLine("Tong cac so le < {0}: {1}", n, sum);
+            // Creating a list of numbers
+            List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
+
+            // Sort the list ascending
+            numbers.Sort();
+
+            // Print the sorted list
+            Console.WriteLine("[{0}]", string.Join(", ", numbers));
+
+            // Wait for a key press
             Console.ReadKey();
         }
     }
