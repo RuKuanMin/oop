@@ -42,19 +42,20 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 ## Các mô thức lập trình (programming paradigms)
 
-Đến nay, có nhiều phương pháp lập trình được đề xuất, nhiều ngôn ngữ lập trình được phát triển. Dưới đây là một số cách tiếp cận chính trong lập trình (được gọi là "mô thức" - programming paradigm).
+Đến nay, có nhiều phương pháp lập trình được đề xuất, và theo đó, nhiều ngôn ngữ lập trình được phát triển. Các phương pháp lập trình (được gọi là "mô thức lập trình" - programming paradigms) được chia thành hai nhóm chính: Lập trình hướng mệnh lệnh (imperative programming) và Lập trình khai báo (declarative programming).
 
 | <img src="figs/programming_paradigms.png" width="70%"/> |
 |:--:|
 | Các mô thức lập trình |
 
 #### Lập trình hướng mệnh lệnh (Imperative Programming)
-**Imperative Programming: tell the computer how to do.**
 
-Ý tưởng cơ bản của lập trình mệnh lệnh tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
-Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện **làm thế nào (how)** - từng bước một - cho đến khi đạt được kết quả mong muốn. Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
+Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể để đạt kết quả mong muốn - tell the computer how to do**. Điều này tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 
-Lập trình hướng mệnh lệnh có các ưu điểm: mã nguồn dễ đọc, dễ hiểu, dễ triển khai. 
+Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
+
+Lập trình hướng mệnh lệnh có các ưu điểm: dễ hiểu, dễ cài đặt. Vì thế người học lập trình thường bắt đầu với phương pháp này.
+
 ```csharp
 /*
 Ví dụ: Tìm giá trị lớn nhất của dãy số.
