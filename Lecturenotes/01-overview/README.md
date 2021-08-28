@@ -5,7 +5,7 @@ TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 ## Sơ lược quy trình phát triển phần mềm
 
-Cùng với sự phát triển của phần cứng (hardware), phần mềm (software) ngày càng đa dạng về ứng dụng và phức tạp hơn trong chức năng. Việc phát triển phần mềm, do đó, cần phải có quy trình chặt chẽ nhằm đảm bảo sản phẩm đạt chất lượng cao, đáp ứng yêu cầu người dùng.
+Cùng với sự phát triển của phần cứng (hardware), phần mềm (software) ngày càng đa dạng về ứng dụng và phức tạp hơn về chức năng. Việc phát triển phần mềm, do đó, cần phải có quy trình chặt chẽ nhằm đảm bảo sản phẩm đạt chất lượng cao, đáp ứng yêu cầu người dùng; đồng thời đáp ứng khả năng bảo trì, nâng cấp, kế thừa và mở rộng về sau.
 
 Hiện nay, các sản phẩm phần mềm thường được phát triển theo chu trình gọi là **Vòng đời phát triển phần mềm (software development lifecycle - SDLC)**. Chu trình này gồm các giai đoạn: lập kế hoạch (planning), phân tích (analysis), thiết kế (design), cài đặt (implementation), kiểm thử (testing), triển khai (deployment) và bảo trì (maintenance) sản phẩm. 
 
@@ -25,19 +25,19 @@ Hiện nay, các sản phẩm phần mềm thường được phát triển theo
 
 - Giai đoạn **cài đặt** triển khai lập trình tạo ứng dụng dựa trên bản DDS được chọn. Tùy thuộc vào loại ứng dụng mà một hoặc một số ngôn ngữ lập trình được sử dụng để cài đặt.
 
-## Sơ lược về lập trình
-Có thể nói, lập trình (implementation/programming/coding) là khâu rất quan trọng trong quy trình phát triển phần mềm, bởi đây là bước triển khai cài đặt bản thiết kế thành chương trình máy tính (computer program). Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải mà con người cần phân tích yêu cầu của bài toán để xây dựng một dãy các chỉ thị được định nghĩa rõ ràng - gọi là thuật toán (algorithm) - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming language) để cài đặt thuật toán thành chương trình máy tính. 
+## Các phương pháp lập trình
+Có thể nói, lập trình (implementation/programming/coding) là khâu rất quan trọng trong quy trình phát triển phần mềm, bởi đây là bước triển khai cài đặt bản thiết kế thành chương trình máy tính (computer program). Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải mà con người cần phân tích yêu cầu của bài toán để xây dựng một dãy các chỉ thị được định nghĩa rõ ràng - gọi là thuật toán (algorithm) - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming language) để cài đặt thuật toán thành chương trình. 
 
 Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 **Đối với người sử dụng:**
 - Chính xác, hiệu quả: Chương trình giải quyết được các yêu cầu đặt ra của bài toán với thời gian ngắn, chi phí thấp.
 - Ổn định, tin cậy.
-- Giao diện thân thiện.
+- Giao diện thân thiện, dễ sử dụng.
 
 **Đối với người lập trình:**
 - Mã nguồn dễ hiểu: Giúp giảm thiểu lỗi, dễ sửa lỗi, bảo trì, nâng cấp, mở rộng.
-- Dễ cập nhật, nâng cấp khi yêu cầu của bài toán thay đổi.
+- Dễ cập nhật, nâng cấp, mở rộng khi yêu cầu của bài toán thay đổi.
 - Có khả năng tái sử dụng hoặc kế thừa cho bài toán khác.
 
 ## Các mô thức lập trình (programming paradigms)
@@ -50,7 +50,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 #### Lập trình hướng mệnh lệnh (Imperative Programming)
 
-Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể để đạt kết quả mong muốn - tell the computer how to do**. Điều này tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể để đạt kết quả mong muốn - (tell the computer how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 
 Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
