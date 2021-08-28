@@ -58,35 +58,33 @@ Lập trình hướng mệnh lệnh có các ưu điểm: dễ hiểu, dễ cài
 
 ```csharp
 /*
-Ví dụ: Tìm giá trị lớn nhất của dãy số.
-Input: Dãy số có n phần tử.
-Output: Giá trị lớn nhất của dãy.
+Ví dụ: Tính tổng các số lẻ < n.
+Input: Số nguyên n > 0
+Output: Tổng các số lẻ < n
 */
+
 using System;
 
-namespace FindMax
+namespace SumOddNumbers
 {
     class Program
     {
         static void Main(string[] args)
         {
-			int[] a = new int[6] {3, 8, 1, 2, 6, 5};
-			int n = 6, i = 0, max;
-
-			max = a[i];
-
+			int n=20, sum=0, i;
+			i = 1;
 			LOOP:
-				i++;
 				if (i >= n) goto FINISHED;
-				if (max < a[i]) max = a[i];
+				if (i % 2 !=0) sum += i;
+				i++;
 				goto LOOP;
-
 			FINISHED:
-				Console.WriteLine("Max value = {0}", max);
+				Console.WriteLine("Sum of the odd numbers < {0} = {1}", n, sum);
 				Console.ReadKey();
 		}
     }
 }
+
 ```
 
 #### Lập trình khai báo (Declarative Programming)
