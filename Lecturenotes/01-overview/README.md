@@ -100,6 +100,32 @@ Lập trình mệnh lệnh phù hợp với các chương trình đơn giản.
 
 Một số ngôn ngữ phổ biến hỗ trợ lập trình mệnh lệnh: C/C++, C#, Java, PHP, Python.
 
+```csharp
+/*
+Ví dụ: Lập trình khai báo với C# tính tổng các số lẻ < n.
+Input: n > 0
+Output: Tổng các số lẻ < n
+*/
+using System;
+using System.Linq;
+
+namespace DeclarativeProgramming
+{
+    class Program
+    {
+        static void Main()
+        {
+            int n = 50;
+            var sum = Enumerable.Range(0, n)
+                     .Where(i => i % 2 != 0)
+                     .Sum();
+            Console.WriteLine("Tong cac so le < {0}: {1}", n, sum);
+            Console.ReadKey();
+        }
+    }
+}
+```
+
 
 ## Cách tiếp cận hướng đối tượng
 
