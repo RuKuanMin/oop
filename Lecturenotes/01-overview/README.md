@@ -80,7 +80,7 @@ namespace SumOddNumbers
 				goto LOOP;
 			FINISHED:
 				Console.WriteLine("Sum of the odd numbers < {0} = {1}", n, sum);
-				Console.ReadKey();
+				Console.ReadKey(); // Wait for a key press to exit
 		}
     }
 }
