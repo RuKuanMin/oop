@@ -49,11 +49,46 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 | Các mô thức lập trình |
 
 #### Lập trình hướng mệnh lệnh (Imperative Programming)
+**Imperative Programming: tell the computer how to do.**
+
 Ý tưởng cơ bản của lập trình mệnh lệnh tương đồng với cách máy tính thực hiện ở mức mã máy (machine code), hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 Theo cách tiếp cận này, chương trình được xem là một dãy các lệnh yêu cầu máy tính thực hiện **làm thế nào (how)** - từng bước một - cho đến khi đạt được kết quả mong muốn. Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
-Lập trình hướng mệnh lệnh có các ưu điểm: mã nguồn dễ đọc, dễ hiểu, dễ triển khai. Vì thế, 
+Lập trình hướng mệnh lệnh có các ưu điểm: mã nguồn dễ đọc, dễ hiểu, dễ triển khai. 
+```csharp
+/*
+Ví dụ: Tìm giá trị lớn nhất của dãy số.
+Input: Dãy số có n phần tử.
+Output: Giá trị lớn nhất của dãy.
+*/
+using System;
 
+namespace FindMax
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+			int[] a = new int[6] {3, 8, 1, 2, 6, 5};
+			int n = 6, i = 0, max;
+
+			max = a[i];
+
+			LOOP:
+				i++;
+				if (i >= n) goto FINISHED;
+				if (max < a[i]) max = a[i];
+				goto LOOP;
+
+			FINISHED:
+				Console.WriteLine("Max value = {0}", max);
+				Console.ReadKey();
+		}
+    }
+}
+```
+
+#### Lập trình khai báo (Declarative Programming)
 
 FEASIBILITY
 Developers can reason a source code easily by determining what a single-core processor can do with it.
