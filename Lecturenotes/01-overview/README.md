@@ -58,17 +58,15 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 #### Lập trình hướng mệnh lệnh (Imperative Programming)
 
-Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể để đạt kết quả mong muốn - (tell the computer how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể để đạt kết quả mong muốn - (tell the computer how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Các lệnh được thực thi theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 
 Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
-Lập trình hướng mệnh lệnh có các ưu điểm: dễ hiểu, dễ cài đặt. Vì thế người học lập trình thường bắt đầu với phương pháp này.
-
 ```csharp
 /*
-Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp Lập trình mệnh lệnh với C#.
-Input: Dãy số nguyên có n phần tử.
-Output: Dãy số được sắp xếp tăng dần.
+Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh.
+Input: Dãy số nguyên
+Output: Dãy số được sắp xếp tăng dần
 */
 using System;
 
@@ -83,7 +81,7 @@ namespace SortArray
             int n = 6;
 
             // Print the original array
-            Console.WriteLine("The input array:");
+            Console.WriteLine("Input array:");
             for (int i = 0; i < n; i++)
                 Console.Write("{0} ", a[i]);
 
@@ -114,20 +112,13 @@ namespace SortArray
 
 #### Lập trình khai báo (Declarative Programming)
 
-FEASIBILITY
-Developers can reason a source code easily by determining what a single-core processor can do with it.
 
-WIDELY USED
-Imperative programming is being taught in schools, colleges, and workplaces by authority. Programmers and developers have a high degree of familiarity with it.
-Lập trình mệnh lệnh phù hợp với các chương trình đơn giản. 
-
-Một số ngôn ngữ phổ biến hỗ trợ lập trình mệnh lệnh: C/C++, C#, Java, PHP, Python.
 
 ```csharp
 /*
-Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp Lập trình khai báo với C#.
-Input: Dãy số.
-Output: Dãy số được sắp xếp tăng dần.
+Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình khai báo.
+Input: Dãy số nguyên
+Output: Dãy số được sắp xếp tăng dần
 */
 using System;
 using System.Collections.Generic;
