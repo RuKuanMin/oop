@@ -58,7 +58,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 #### Lập trình hướng mệnh lệnh (Imperative Programming)
 
-Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể để đạt kết quả mong muốn - (tell the computer how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Các lệnh được thực thi theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Các lệnh được thực thi theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 
 Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
@@ -112,6 +112,9 @@ namespace SortArray
 
 #### Lập trình khai báo (Declarative Programming)
 
+Mô thức lập trình khai báo diễn đạt các câu lệnh **yêu cầu máy tính phải làm gì (what to do)** để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
+
+Lập trình khai báo có các ưu điểm: Mã nguồn cô đọng, dễ bảo trì, tái sử dụng. Tuy nhiên, các ngôn ngữ thuộc nhóm này khó nắm bắt hơn so với nhóm lập trình mệnh lệnh, đồng thời đòi hỏi các công cụ phức tạp để cài đặt.
 
 
 ```csharp
@@ -148,12 +151,20 @@ namespace DeclarativeProgramming
 
 ## Cách tiếp cận hướng đối tượng
 
+– In object oriented programming we allow organization of
+data into classes of objects and then define methods that operate on those objects. Some
+language scholars distinguish between Object-Based Languages that allow the creation
+of classes and objects and Object-Oriented Languages that allow us to create a hierarchy
+of classes, with subclasses inheriting properties and methods from their parent classes.
+
 ## Tài liệu tham khảo 
 https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/i/Imperative_programming.htm
 
 Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
 
 https://cs.lmu.edu/~ray/notes/paradigms/
+
+https://web.stanford.edu/class/cs106e/lectureNotes/L14NProgrammingLanguages.pdf
 
 Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, Trường đại học Nha Trang, 2020
 
