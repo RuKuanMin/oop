@@ -70,7 +70,7 @@ Output: Dãy số được sắp xếp tăng dần
 */
 using System;
 
-namespace SortArray
+namespace ImperativeSort
 {
     class Program
     {
@@ -124,7 +124,7 @@ Output: Dãy số được sắp xếp tăng dần
 using System;
 using System.Collections.Generic;
 
-namespace DeclarativeProgramming
+namespace DeclarativeSort
 {
     class Program
     {
