@@ -58,7 +58,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 #### Lập trình hướng mệnh lệnh (Imperative Programming)
 
-Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Các lệnh được thực thi theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Các câu lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 
 Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
@@ -76,17 +76,16 @@ namespace SortArray
     {
         static void Main()
         {
-            // Init an array
+            // Khởi tạo mảng
             int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
             int n = 6;
 
-            // Print the original array
+            // In mảng 
             Console.WriteLine("Input array:");
             for (int i = 0; i < n; i++)
                 Console.Write("{0} ", a[i]);
 
-            // Sort the array in ascending order
-            // Interchange sort
+            // Sắp xếp tăng dần (giải thuật đổi chỗ trực tiếp)
             for (int i=0; i < n-1; i++)
                 for(int j=i+1; j < n; j++)
                 {
@@ -98,7 +97,7 @@ namespace SortArray
                     }
                 }
 
-            // Print the sorted array
+            // In mảng đã sắp xếp
             Console.WriteLine("\nThe array in ascending order:");
             for (int i = 0; i < n; i++)
                 Console.Write("{0} ", a[i]);
