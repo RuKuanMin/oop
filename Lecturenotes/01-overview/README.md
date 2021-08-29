@@ -111,10 +111,9 @@ namespace SortArray
 
 #### Lập trình khai báo (Declarative Programming)
 
-Mô thức lập trình khai báo diễn đạt các câu lệnh **yêu cầu máy tính phải làm gì (what to do)** để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
+Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách **yêu cầu máy tính phải làm gì (what to do)** để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
 
 Lập trình khai báo có các ưu điểm: Mã nguồn cô đọng, dễ bảo trì, tái sử dụng. Tuy nhiên, các ngôn ngữ thuộc nhóm này khó nắm bắt hơn so với nhóm lập trình mệnh lệnh, đồng thời đòi hỏi các công cụ phức tạp để cài đặt.
-
 
 ```csharp
 /*
