@@ -50,7 +50,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 ## Các mô thức lập trình (programming paradigms)
 
-Đến nay, có nhiều phương pháp lập trình được đề xuất, và theo đó, nhiều ngôn ngữ lập trình được phát triển. Các phương pháp lập trình (được gọi là "mô thức lập trình" - programming paradigms) được chia thành hai nhóm chính: Lập trình hướng mệnh lệnh (imperative programming) và Lập trình khai báo (declarative programming).
+Đến nay, có nhiều phương pháp lập trình được đề xuất, và theo đó, nhiều ngôn ngữ lập trình được phát triển. Các ngôn ngữ lập trình được chia thành hai nhóm chính (được gọi là "mô thức lập trình" - programming paradigms): Lập trình hướng mệnh lệnh (imperative programming), và Lập trình khai báo (declarative programming).
 
 | <img src="figs/programming_paradigms.png" width="70%"/> |
 |:--:|
