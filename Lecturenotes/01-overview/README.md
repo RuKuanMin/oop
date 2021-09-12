@@ -149,12 +149,6 @@ namespace DeclarativeSort
 
 ## Cách tiếp cận hướng đối tượng
 
-– In object oriented programming we allow organization of
-data into classes of objects and then define methods that operate on those objects. Some
-language scholars distinguish between Object-Based Languages that allow the creation
-of classes and objects and Object-Oriented Languages that allow us to create a hierarchy
-of classes, with subclasses inheriting properties and methods from their parent classes.
-
 ## Tài liệu tham khảo 
 https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/i/Imperative_programming.htm
 
