@@ -76,7 +76,7 @@ of classes, with subclasses inheriting properties and methods from their parent 
 ```csharp
 /*
 Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh.
-Input: Dãy số nguyên
+Input: Dãy số nguyên từ bàn phím
 Output: Dãy số được sắp xếp tăng dần
 */
 using System;
