@@ -62,6 +62,17 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
 Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
+#### Lập trình hướng thủ tục (Procedural Programming)
+Lập trình hướng thủ tục là một cải tiến của lập trình hướng mệnh lệnh, trong đó người lập trình có thể định nghĩa các thủ tục (hàm) để sử dụng nhiều lần.
+
+#### Lập trình hướng đối tượng (Object Oriented Programming)
+Cách tiếp cận đối tượng xem phần mềm như cho phép tổ chức dữ liệu thành các lớp đối tượng
+– In object oriented programming we allow organization of
+data into classes of objects and then define methods that operate on those objects. Some
+language scholars distinguish between Object-Based Languages that allow the creation
+of classes and objects and Object-Oriented Languages that allow us to create a hierarchy
+of classes, with subclasses inheriting properties and methods from their parent classes.
+
 ```csharp
 /*
 Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh.
@@ -117,7 +128,7 @@ Lập trình khai báo có các ưu điểm: Mã nguồn cô đọng, dễ bảo
 
 ```csharp
 /*
-Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình khai báo.
+Ví dụ: Sắp xếp dãy số tăng dần theo mô thức lập trình khai báo.
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
