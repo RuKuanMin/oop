@@ -1,5 +1,5 @@
 <h1 align="center"> 
-TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+<span style="color:red"> TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</span>
 </h1>
 
 
