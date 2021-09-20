@@ -160,9 +160,7 @@ namespace DeclarativeSort
 
 ## Cách tiếp cận hướng đối tượng
 
-```php
-print("Hello World!");
-```
+
 ## Tài liệu tham khảo 
 https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/i/Imperative_programming.htm
 
