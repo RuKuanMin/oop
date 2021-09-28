@@ -13,7 +13,7 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
   #### [5 - Thừa kế và đa hình](Lecturenotes/05-inheritance) 
   #### [6 - Lớp trừu tượng và giao diện ](Lecturenotes/06-abstract-classes) 
   #### [7 - Một số lớp dựng sẵn trong .NET Framework](Lecturenotes/07-dotnet-builtin-classes) 
-  #### [8 - Lập trình Windows Forms](Lecturenotes/08-windows-forms-apps) 
+  #### [8 - Phát triển ứng dụng với C#](Lecturenotes/08-windows-forms-apps)
 
 ### [Bài thực hành](Labs)
 
