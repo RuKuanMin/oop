@@ -1,5 +1,5 @@
 <h1 align="center"> 
-GIỚI THIỆU
+GIỚI THIỆU VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 </h1>
 
 ## Sơ lược quy trình phát triển phần mềm
@@ -30,10 +30,9 @@ Hiện nay, các sản phẩm phần mềm thường được phát triển theo
 
 - Giai đoạn **bảo trì** thực hiện hỗ trợ khách hàng, xử lý lỗi phát sinh (nếu có) trong quá trình sử dụng, hoặc cập nhật, chỉnh sửa sản phẩm theo yêu cầu.
 
-Các mô hình SDLC phổ biến gồm: mô hình thác nước (waterfall model), mô hình chữ V (V model) và mô hình xoắn ốc (spiral model).
 
 ## Các phương pháp lập trình
-Có thể nói, lập trình (implementation/programming/coding) là khâu rất quan trọng trong quy trình phát triển phần mềm, bởi đây là bước triển khai cài đặt bản thiết kế thành chương trình máy tính (computer program). Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải mà con người cần phân tích yêu cầu của bài toán để xây dựng một dãy các chỉ thị được định nghĩa rõ ràng - gọi là thuật toán (algorithm) - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming language) để cài đặt thuật toán thành chương trình. 
+Có thể nói, lập trình (implementation/programming/coding) là khâu rất quan trọng trong quy trình phát triển phần mềm, bởi đây là bước triển khai cài đặt bản thiết kế - hay thuật toán - thành chương trình máy tính (computer program). Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải; vì thế, con người cần phân tích yêu cầu của bài toán để xây dựng thuật toán (algorithm) giải quyết - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming languages) để cài đặt thuật toán thành chương trình. 
 
 Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 
@@ -45,11 +44,11 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 **Đối với người lập trình:**
 - Mã nguồn dễ hiểu: Giúp giảm thiểu lỗi, dễ sửa lỗi, bảo trì, nâng cấp, mở rộng.
 - Dễ cập nhật, nâng cấp, mở rộng khi yêu cầu của bài toán thay đổi.
-- Có khả năng tái sử dụng hoặc kế thừa cho bài toán khác.
+- Có khả năng tái sử dụng hoặc kế thừa mã nguồn.
 
 ## Các mô thức lập trình (programming paradigms)
 
-Đến nay, có nhiều phương pháp lập trình được đề xuất, và theo đó, nhiều ngôn ngữ lập trình được phát triển. Các ngôn ngữ lập trình được chia thành hai nhóm chính (được gọi là "mô thức lập trình" - programming paradigms): Lập trình hướng mệnh lệnh (imperative programming), và Lập trình khai báo (declarative programming).
+Các ứng dụng ngày càng đa dạng và phức tạp, theo đó có nhiều ngôn ngữ lập trình được phát triển để đáp ứng các loại ứng dụng khác nhau. Các ngôn ngữ lập trình được chia thành hai nhóm chính (được gọi là "mô thức lập trình" (programming paradigms) - có thể hiểu là phương pháp luận hay các nguyên tắc chung cơ bản trong lập trình): Lập trình hướng mệnh lệnh (imperative programming), và Lập trình khai báo (declarative programming).
 
 | <img src="figs/programming_paradigms.png" width="70%"/> |
 |:--:|
@@ -62,7 +61,7 @@ Một chương trình tốt cần thỏa mãn các yêu cầu sau:
 Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
 #### Lập trình hướng thủ tục (Procedural Programming)
-Lập trình hướng thủ tục là một cải tiến của lập trình hướng mệnh lệnh, trong đó người lập trình có thể định nghĩa các thủ tục (hàm) để sử dụng nhiều lần.
+Lập trình hướng thủ tục, còn gọi là lập trình cấu trúc, là một cải tiến của lập trình hướng mệnh lệnh, trong đó người lập trình có thể định nghĩa các chương trình con (hàm/thủ tục) để sử dụng nhiều lần.
 
 #### Lập trình hướng đối tượng (Object Oriented Programming)
 Cách tiếp cận đối tượng xem phần mềm như cho phép tổ chức dữ liệu thành các lớp đối tượng
