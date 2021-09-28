@@ -4,7 +4,6 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
   ## Khoa Công nghệ thông tin, Trường đại học Nha Trang
-<hr>
 
 ### [Bài giảng tóm tắt](Lecturenotes)
   #### [1 - Giới thiệu về lập trình hướng đối tượng](Lecturenotes/01-overview) 
