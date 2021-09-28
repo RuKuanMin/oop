@@ -26,12 +26,6 @@ Các mô hình SDLC phổ biến gồm: mô hình thác nước (waterfall model
 
 ### Phân tích hướng đối tượng (Object-Oriented Analysis - OOA)
 
-
-Object–Oriented Analysis (OOA) is the procedure of identifying software engineering requirements and developing software specifications in terms of a software system’s object model, which comprises of interacting objects.
-
-The main difference between object-oriented analysis and other forms of analysis is that in object-oriented approach, requirements are organized around objects, which integrate both data and functions. They are modelled after real-world objects that the system interacts with. In traditional analysis methodologies, the two aspects - functions and data - are considered separately.
-
-Grady Booch has defined OOA as, “Ob
 ## Thiết kế hướng đối tượng 
 ## Lập trình hướng đối tượng
 ## Phân tích thiết kế hướng đối tượng với UML

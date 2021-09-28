@@ -24,3 +24,4 @@ Tài liệu tham khảo
 
 3. [W3schools.com - C# Tutorial](https://www.w3schools.com/cs/default.asp)
 
+4. [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
