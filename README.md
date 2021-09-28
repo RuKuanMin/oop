@@ -1,6 +1,6 @@
-<h1 align="center"> 
+<h2 align="center"> 
 LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
-</h1>
+</h2>
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
 
@@ -8,7 +8,7 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 <hr>
 
 ### [Bài giảng tóm tắt](Lecturenotes)
-#### [1 - Tổng quan về lập trình hướng đối tượng](Lecturenotes/01-overview) 
+#### [1 - GioTổng quan về lập trình hướng đối tượng](Lecturenotes/01-overview) 
 
 #### [2 - Phân tích thiết kế hướng đối tượng](Lecturenotes/02-oop-analysis-and-design) 
 
