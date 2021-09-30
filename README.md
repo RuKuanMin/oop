@@ -3,22 +3,16 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 </h2>
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
-  ## Khoa Công nghệ thông tin, Trường đại học Nha Trang
+#### Khoa Công nghệ thông tin, Trường đại học Nha Trang
+<br>
 
-### [Bài giảng tóm tắt](Lecturenotes)
-  #### [1 - Giới thiệu về lập trình hướng đối tượng](Lecturenotes/01-overview) 
-  #### [2 - Phân tích thiết kế hướng đối tượng](Lecturenotes/02-oop-analysis-and-design) 
-  #### [3 - Nền tảng .NET và ngôn ngữ C#](Lecturenotes/03-dotnet-and-csharp)
-  #### [4 - Lớp và đối tượng](Lecturenotes/04-classes-and-objects) 
-  #### [5 - Thừa kế và đa hình](Lecturenotes/05-inheritance) 
-  #### [6 - Lớp trừu tượng và giao diện ](Lecturenotes/06-abstract-classes) 
-  #### [7 - Một số lớp dựng sẵn trong .NET Framework](Lecturenotes/07-dotnet-builtin-classes) 
-  #### [8 - Phát triển ứng dụng với C#](Lecturenotes/08-windows-forms-apps)
+### [1 - Giới thiệu về lập trình hướng đối tượng](01-overview) 
+### [3 - Phân tích thiết kế hướng đối tượng](03-oo-analysis-and-design) 
+### [2 - Nền tảng .NET và ngôn ngữ C#](Lecturenotes/02-dotnet-and-csharp)
+### [4 - Lớp và đối tượng](04-classes-and-objects) 
+### [5 - Thừa kế và đa hình](05-inheritance) 
+### [6 - Một số lớp dựng sẵn trong .NET](06-dotnet-builtin-classes) 
+### [7 - Phát triển ứng dụng với C#](07-app-development)
 
-### [Bài thực hành](Labs)
-
-### [Bài tập](Assignments)
-
-### [Đồ án môn học](Projects)
 
 ### [Tham khảo](References.md)
