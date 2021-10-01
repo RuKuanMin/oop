@@ -2,8 +2,11 @@
 GIỚI THIỆU VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 </h1>
 
-## Sơ lược quy trình phát triển phần mềm
+## [1 - Sơ lược quy trình phát triển phần mềm](#sdlc)
+## [2 - Các mô thức lập trình (programming paradigms)](#paradigms)
+<br>
 
+## 1 - Sơ lược quy trình phát triển phần mềm <a name="sdlc"/>
 Cùng với sự phát triển của phần cứng (hardware), phần mềm (software) ngày càng đa dạng về ứng dụng và phức tạp hơn về chức năng. Việc phát triển phần mềm, do đó, cần phải tuân theo quy trình chặt chẽ nhằm đảm bảo sản phẩm đạt chất lượng cao, đáp ứng yêu cầu người dùng; đồng thời đáp ứng khả năng bảo trì, nâng cấp, kế thừa và mở rộng về sau.
 
 Hiện nay, các sản phẩm phần mềm thường được phát triển theo chu trình gọi là **Vòng đời phát triển phần mềm (software development lifecycle - SDLC)**. Chu trình này gồm các giai đoạn: lập kế hoạch (planning), phân tích (analysis), thiết kế (design), cài đặt (implementation), kiểm thử (testing), triển khai (deployment) và bảo trì (maintenance) sản phẩm. 
@@ -30,15 +33,11 @@ Hiện nay, các sản phẩm phần mềm thường được phát triển theo
 
 - Giai đoạn **bảo trì** thực hiện hỗ trợ khách hàng, xử lý lỗi phát sinh (nếu có) trong quá trình sử dụng, hoặc cập nhật, chỉnh sửa sản phẩm theo yêu cầu.
 
-
-## Các phương pháp lập trình
-Có thể nói, lập trình (implementation/programming/coding) là khâu rất quan trọng trong quy trình phát triển phần mềm, bởi đây là bước triển khai cài đặt bản thiết kế - hay thuật toán - thành chương trình máy tính (computer program). Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải; vì thế, con người cần phân tích yêu cầu của bài toán để xây dựng thuật toán (algorithm) giải quyết - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming languages) để cài đặt thuật toán thành chương trình. 
-
-
-## Các mô thức lập trình (programming paradigms)
-
+## 2 - Các mô thức lập trình (programming paradigms) <a name="paradigms"/>
 - Các ứng dụng ngày càng phức tạp và đa dạng hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
-- Có thể chia ngôn ngữ lập trình thành hai nhóm chính (được gọi là "mô thức lập trình" (programming paradigms) - có thể hiểu là phương pháp luận hay các nguyên tắc chung cơ bản trong lập trình): **Lập trình hướng mệnh lệnh** (imperative programming), và **Lập trình khai báo** (declarative programming).
+- Có thể chia ngôn ngữ lập trình thành hai nhóm chính (được gọi là *"mô thức lập trình" (programming paradigms)* - có thể hiểu là phương pháp luận hay các nguyên tắc chung cơ bản trong lập trình): 
+    * **Lập trình hướng mệnh lệnh (imperative programming)**.
+    * **Lập trình khai báo (declarative programming)**.
 
 ### **Lập trình hướng mệnh lệnh (imperative programming)**
 - Ý tưởng cơ bản của lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
