@@ -63,10 +63,11 @@ of classes, with subclasses inheriting properties and methods from their parent 
 
 ```csharp
 /*
-Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh.
+Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh với C#
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
+
 int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
 int n = 6;
 
@@ -91,10 +92,11 @@ Lập trình khai báo có các ưu điểm: Mã nguồn cô đọng, dễ bảo
 
 ```csharp
 /*
-Ví dụ: Sắp xếp dãy số tăng dần theo lập trình khai báo.
+Ví dụ: Sắp xếp dãy số tăng dần theo lập trình khai báo với C#
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
+
 List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
 
 // Sort the list ascending
