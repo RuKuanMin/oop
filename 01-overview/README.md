@@ -4,7 +4,7 @@ GIỚI THIỆU VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 ## [1 - Sơ lược quy trình phát triển phần mềm](#sdlc)
 ## [2 - Các mô thức lập trình (programming paradigms)](#paradigms)
-## [3 - Cách tiếp cận hướng đối tượng](#ooa)
+## [3 - Phương pháp lập trình hướng đối tượng](#oop)
 
 <br>
 
@@ -49,26 +49,22 @@ Hiện nay, các sản phẩm phần mềm thường được phát triển theo
 
 </p>
 
-### **Lập trình hướng mệnh lệnh (imperative programming)**
+### **Lập trình hướng mệnh lệnh (Imperative Programming)**
 - Ý tưởng cơ bản của lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
 - Các câu lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 - Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
 #### Lập trình cấu trúc (structured programming)
-- Phương pháp lập trình cấu trúc được đề xuất bởi [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra).
-- 
+- Dựa trên cách tiếp cận từ trên xuống (top-down development). Chương trình được chia thành các khối chức năng (stages), các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các khối chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con.
+- Chương trình là sự kết hợp của các cấu trúc điều khiển: tuần tự (sequence), chọn lựa (selection) và lặp (repetition).
+- Mã nguồn dễ đọc dễ hiểu.
+- Giảm lặp lại mã nguồn thông qua lời gọi chương trình con.
 
-#### Lập trình hướng thủ tục (Procedural Programming)
-Lập trình hướng thủ tục, còn gọi là lập trình cấu trúc, là một cải tiến của lập trình hướng mệnh lệnh, trong đó người lập trình có thể định nghĩa các chương trình con (hàm/thủ tục) để sử dụng nhiều lần.
-
-#### Lập trình hướng đối tượng (Object Oriented Programming)
-Cách tiếp cận đối tượng xem phần mềm như cho phép tổ chức dữ liệu thành các lớp đối tượng
-– In object oriented programming we allow organization of
-data into classes of objects and then define methods that operate on those objects. Some
-language scholars distinguish between Object-Based Languages that allow the creation
-of classes and objects and Object-Oriented Languages that allow us to create a hierarchy
-of classes, with subclasses inheriting properties and methods from their parent classes.
-
+#### Lập trình hướng thủ tục (procedural programming)
+Lập trình hướng thủ tục là sự cải tiến của lập trình cấu trúc, với các mở rộng sau:
+-  Mỗi chức năng ở từng lớp được tổ chức thành chương trình con.
+- Chương trình con nhận dữ liệu vào thông qua truyền đối số, xử lý và trả về kết quả.
+- Chương trình có tính module hóa cao.
 ```csharp
 /*
 Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh với C#
@@ -92,11 +88,9 @@ for (int i=0; i < n-1; i++)
     }
 ```
 
-#### Lập trình khai báo (Declarative Programming)
+### **Lập trình khai báo (Declarative Programming)**
 
-Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách **yêu cầu máy tính phải làm gì (what to do)** để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
-
-Lập trình khai báo có các ưu điểm: Mã nguồn cô đọng, dễ bảo trì, tái sử dụng. Tuy nhiên, các ngôn ngữ thuộc nhóm này khó nắm bắt hơn so với nhóm lập trình mệnh lệnh, đồng thời đòi hỏi các công cụ phức tạp để cài đặt.
+Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
 
 ```csharp
 /*
@@ -112,7 +106,8 @@ numbers.Sort();
 ```
 
 
-## 3 - Phương pháp lập trình hướng đối tượng <a name="ooa"/>
+## 3 - Phương pháp lập trình hướng đối tượng <a name="oop"/>
+### Cách tiếp cận hướng đối tượng
 - OOP là phương pháp lập trình phổ biến nhất hiện nay bởi các ưu điểm: 
      * Mã nguồn được tổ chức module hóa
      * Các lập trình có sự tương đồng với bài toán trong thế giới thực.
