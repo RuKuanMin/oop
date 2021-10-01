@@ -19,9 +19,11 @@ Tài liệu tham khảo
 ## Tài liệu trực tuyến
 
 1. [Microsoft - C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
+2. [.NET Framework documentation](https://docs.microsoft.com/en-us/dotnet/framework/)
 
-2. [Microsoft - Build .NET applications with C#](https://docs.microsoft.com/en-us/learn/paths/build-dotnet-applications-csharp/)
+3. [Microsoft - Build .NET applications with C#](https://docs.microsoft.com/en-us/learn/paths/build-dotnet-applications-csharp/)
 
-3. [W3schools.com - C# Tutorial](https://www.w3schools.com/cs/default.asp)
+4. [W3schools.com - C# Tutorial](https://www.w3schools.com/cs/default.asp)
 
-4. [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
+5. [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
+

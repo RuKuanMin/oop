@@ -34,31 +34,20 @@ Hiện nay, các sản phẩm phần mềm thường được phát triển theo
 ## Các phương pháp lập trình
 Có thể nói, lập trình (implementation/programming/coding) là khâu rất quan trọng trong quy trình phát triển phần mềm, bởi đây là bước triển khai cài đặt bản thiết kế - hay thuật toán - thành chương trình máy tính (computer program). Máy tính điện tử chỉ có khả năng xử lý thông tin theo chương trình được lập sẵn. Để giải quyết một bài toán, máy tính không tự nghĩ ra cách giải; vì thế, con người cần phân tích yêu cầu của bài toán để xây dựng thuật toán (algorithm) giải quyết - rồi sử dụng một (hoặc một số) ngôn ngữ lập trình (programming languages) để cài đặt thuật toán thành chương trình. 
 
-Một chương trình tốt cần thỏa mãn các yêu cầu sau:
-
-**Đối với người sử dụng:**
-- Chính xác, hiệu quả: Chương trình giải quyết được các yêu cầu đặt ra của bài toán với thời gian ngắn, chi phí thấp.
-- Ổn định, tin cậy.
-- Giao diện thân thiện, dễ sử dụng.
-
-**Đối với người lập trình:**
-- Mã nguồn dễ hiểu: Giúp giảm thiểu lỗi, dễ sửa lỗi, bảo trì, nâng cấp, mở rộng.
-- Dễ cập nhật, nâng cấp, mở rộng khi yêu cầu của bài toán thay đổi.
-- Có khả năng tái sử dụng hoặc kế thừa mã nguồn.
 
 ## Các mô thức lập trình (programming paradigms)
 
-Các ứng dụng ngày càng đa dạng và phức tạp, theo đó có nhiều ngôn ngữ lập trình được phát triển để đáp ứng các loại ứng dụng khác nhau. Các ngôn ngữ lập trình được chia thành hai nhóm chính (được gọi là "mô thức lập trình" (programming paradigms) - có thể hiểu là phương pháp luận hay các nguyên tắc chung cơ bản trong lập trình): Lập trình hướng mệnh lệnh (imperative programming), và Lập trình khai báo (declarative programming).
+- Các ứng dụng ngày càng phức tạp và đa dạng hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
+- Có thể chia ngôn ngữ lập trình thành hai nhóm chính (được gọi là "mô thức lập trình" (programming paradigms) - có thể hiểu là phương pháp luận hay các nguyên tắc chung cơ bản trong lập trình): **Lập trình hướng mệnh lệnh** (imperative programming), và **Lập trình khai báo** (declarative programming).
 
-| <img src="figs/programming_paradigms.png" width="70%"/> |
-|:--:|
-| Các mô thức lập trình |
+### **Lập trình hướng mệnh lệnh (imperative programming)**
+- Ý tưởng cơ bản của lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
+- Các câu lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+- Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
-#### Lập trình hướng mệnh lệnh (Imperative Programming)
-
-Ý tưởng cơ bản của lập trình mệnh lệnh là **ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)**, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). Các câu lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
-
-Lập trình hướng thủ tục (procedural programming), hướng cấu trúc (structured programming), hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
+#### Lập trình cấu trúc (structured programming)
+- Phương pháp lập trình cấu trúc được đề xuất bởi [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra).
+- 
 
 #### Lập trình hướng thủ tục (Procedural Programming)
 Lập trình hướng thủ tục, còn gọi là lập trình cấu trúc, là một cải tiến của lập trình hướng mệnh lệnh, trong đó người lập trình có thể định nghĩa các chương trình con (hàm/thủ tục) để sử dụng nhiều lần.
