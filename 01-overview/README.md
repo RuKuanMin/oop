@@ -41,6 +41,14 @@ Hiện nay, các sản phẩm phần mềm thường được phát triển theo
     * **Lập trình hướng mệnh lệnh (imperative programming)**.
     * **Lập trình khai báo (declarative programming)**.
 
+<p align="center">
+
+|<img src="figs/programming_paradigms.png" alt="SDLC"/>|
+|:--:|
+|Các mô thức lập trình.|
+
+</p>
+
 ### **Lập trình hướng mệnh lệnh (imperative programming)**
 - Ý tưởng cơ bản của lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước cụ thể theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
 - Các câu lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
