@@ -112,9 +112,11 @@ numbers.Sort();
 ```
 
 
-## 3 - Cách tiếp cận hướng đối tượng <a name="ooa"/>
-
-
+## 3 - Phương pháp lập trình hướng đối tượng <a name="ooa"/>
+- OOP là phương pháp lập trình phổ biến nhất hiện nay bởi các ưu điểm: 
+     * Mã nguồn được tổ chức module hóa
+     * Các lập trình có sự tương đồng với bài toán trong thế giới thực.
+OOP is the most popular programming paradigm because of its unique advantages like the modularity of the code and the ability to directly associate real-world business problems in terms of code.
 
 ## Tài liệu tham khảo 
 https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/i/Imperative_programming.htm
