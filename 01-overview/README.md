@@ -4,6 +4,8 @@ GIỚI THIỆU VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 ## [1 - Sơ lược quy trình phát triển phần mềm](#sdlc)
 ## [2 - Các mô thức lập trình (programming paradigms)](#paradigms)
+## [3 - Cách tiếp cận hướng đối tượng](#ooa)
+
 <br>
 
 ## 1 - Sơ lược quy trình phát triển phần mềm <a name="sdlc"/>
@@ -62,48 +64,23 @@ of classes, with subclasses inheriting properties and methods from their parent 
 ```csharp
 /*
 Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh.
-Input: Dãy số nguyên từ bàn phím
+Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
-using System;
+int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
+int n = 6;
 
-namespace ImperativeSort
-{
-    class Program
+// Sắp xếp tăng dần (giải thuật đổi chỗ trực tiếp)
+for (int i=0; i < n-1; i++)
+    for(int j=i+1; j < n; j++)
     {
-        static void Main()
+        if(a[i] > a[j])
         {
-            // Khởi tạo mảng
-            int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
-            int n = 6;
-
-            // In mảng 
-            Console.WriteLine("Input array:");
-            for (int i = 0; i < n; i++)
-                Console.Write("{0} ", a[i]);
-
-            // Sắp xếp tăng dần (giải thuật đổi chỗ trực tiếp)
-            for (int i=0; i < n-1; i++)
-                for(int j=i+1; j < n; j++)
-                {
-                    if(a[i] > a[j])
-                    {
-                        int tmp = a[i];
-                        a[i] = a[j];
-                        a[j] = tmp;
-                    }
-                }
-
-            // In mảng đã sắp xếp
-            Console.WriteLine("\nThe array in ascending order:");
-            for (int i = 0; i < n; i++)
-                Console.Write("{0} ", a[i]);
-
-            // Wait until a key pressed
-            Console.ReadKey();
+            int tmp = a[i];
+            a[i] = a[j];
+            a[j] = tmp;
         }
     }
-}
 ```
 
 #### Lập trình khai báo (Declarative Programming)
@@ -114,37 +91,19 @@ Lập trình khai báo có các ưu điểm: Mã nguồn cô đọng, dễ bảo
 
 ```csharp
 /*
-Ví dụ: Sắp xếp dãy số tăng dần theo mô thức lập trình khai báo.
+Ví dụ: Sắp xếp dãy số tăng dần theo lập trình khai báo.
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
-using System;
-using System.Collections.Generic;
+List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
 
-namespace DeclarativeSort
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Creating a list of numbers
-            List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
-
-            // Sort the list ascending
-            numbers.Sort();
-
-            // Print the sorted list
-            Console.WriteLine("[{0}]", string.Join(", ", numbers));
-
-            // Wait for a key press
-            Console.ReadKey();
-        }
-    }
-}
+// Sort the list ascending
+numbers.Sort();
 ```
 
 
-## Cách tiếp cận hướng đối tượng
+## 3 - Cách tiếp cận hướng đối tượng <a name="ooa"/>
+
 
 
 ## Tài liệu tham khảo 
