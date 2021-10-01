@@ -1,5 +1,5 @@
 <h1 align="center"> 
-GIỚI THIỆU VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+GIỚI THIỆU
 </h1>
 
 ## [1 - Sơ lược quy trình phát triển phần mềm](#sdlc)
