@@ -1,4 +1,10 @@
-﻿using System;
+/*
+Sắp xếp dãy số tăng dần theo lập trình khai báo với C#
+Input: Dãy số nguyên
+Output: Dãy số được sắp xếp tăng dần
+*/
+
+using System;
 using System.Collections.Generic;
 
 namespace DeclarativeProgramming
