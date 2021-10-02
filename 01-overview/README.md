@@ -76,8 +76,8 @@ numbers.Sort();
 ### Bài toán ví dụ
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
 
-Một trường học cần xây dựng phần mềm quản lý đào tạo. Hệ thống này quản lý dữ liệu của sinh viên (students), giảng viên (lecturers), các môn học (courses), và các kỳ thi (exams). 
-Các chức năng của phần mềm gồm có: thêm sinh viên (addStudent), xóa sinh viên (removeStudent), dự thi (takeExams), xem điểm (viewGrades). 
+Một trường học cần xây dựng phần mềm quản lý đào tạo. Hệ thống này quản lý dữ liệu của sinh viên (Students), giảng viên (Lecturers), các môn học (Courses), và các kỳ thi (exams). 
+Các chức năng của phần mềm gồm có: thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent), dự thi (TakeExams), xem điểm (ViewGrades). 
 
 Sau khi phân tích, mô hình hệ thống quản lý đào tạo được thiết kế như hình sau:
 
