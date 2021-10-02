@@ -74,18 +74,23 @@ numbers.Sort();
 
 ## 2 - Phương pháp lập trình hướng đối tượng <a name="oop"/>
 ### Bài toán ví dụ
-Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau:
-Một trường học cần xây dựng một phần mềm quản lý đào tạo. Hệ thống này quản lý dữ liệu của sinh viên, giảng viên, các môn học, và các kỳ thi. Các chức năng của phần mềm gồm có: thêm sinh viên, xóa sinh viên, tạo ca thi, xem điểm. 
+Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
 
-Dữ liệu cần được lưu trữ
+Một trường học cần xây dựng một phần mềm quản lý đào tạo. Hệ thống này quản lý dữ liệu của sinh viên (students), giảng viên (lecturers), các môn học (courses), và các kỳ thi (exams). 
+Các chức năng của phần mềm gồm có: thêm sinh viên (addStudent), xóa sinh viên (removeStudent), dự thi (takeExams), xem điểm (viewGrades). 
 
-Theo cách tiếp cận lập trình hướng thủ tục/cấu trúc, mỗi chức năng được tổ chức thành một chương trình con tương ứng như sau:
-```csharp
-void addStudent([Danh sách tham số]);
-void removeStudent([Danh sách tham số]);
-void createExam([Danh sách tham số])
-```
+Sau khi phân tích, mô hình hệ thống quản lý đào tạo được thiết kế như hình sau:
 
+<img src="figs/academicsystem.PNG">
+
+Mô hình quản lý đào tạo gồm có dữ liệu (data) và các chức năng (functions) thao tác trên dữ liệu. Trong đó, đường nét đứt thể hiện sự phụ thuộc của một tập dữ liệu vào một tập dữ liệu khác; chẳng hạn, mỗi sinh viên học nhiều môn học, mỗi môn học lại có nhiều sinh viên. Đường mũi tên thể hiện sự tác động của các chức năng lên một hoặc một số tập dữ liệu; ví dụ, chức năng thêm sinh viên (addStudent) sẽ thay đổi nội dung của tập dữ liệu sinh viên (Students), hay chức năng dự thi (takeExams) cần truy cập dữ liệu của sinh viên và kỳ thi (Exams). 
+
+Theo cách tiếp cận lập trình hướng thủ tục/cấu trúc, mỗi chức năng được tổ chức thành một chương trình con (hàm) tương ứng. Các hàm thực hiện xử lý dữ liệu thông qua cách truyền tham số phù hợp và trả về kết quả cho lời gọi hàm. Cách thiết kế phát triển hệ thống như vậy khá rõ ràng, nhưng có những hạn chế. Xét các tình huống sau:
+- *Tình huống 1*: Giả sử dữ liệu đang lưu trữ năm sinh là số có 2 chữ số, cần chuyển đổi năm sinh đang từ 2 chữ số sang 4 chữ số (ví dụ: 97 -> 1997), thì giải quyết thế nào?
+
+Giải pháp hiển nhiên là cần thay đổi trường dữ liệu ngày sinh của sinh viên và giảng viên thành số có 4 chữ số. Khi đó, tất cả các hàm có tác động lên sinh viên và giảng viên sẽ không hoạt động được, trừ khi phải chỉnh sửa lại mã nguồn. Bên cạnh đó, tập dữ liệu sinh viên có mối quan hệ phụ thuộc với các tập dữ liệu khác, vì thế việc thay đổi này có thể gây ra lỗi cho hệ thống.
+
+- *Tình huống 2*: Hệ thống cần quản lý thêm một thành phần dữ liệu mới là sinh viên hệ vừa làm vừa học, vậy cần giải quyết thế nào?
 
 
 
