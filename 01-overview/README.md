@@ -3,43 +3,35 @@ GIỚI THIỆU
 </h1>
 
 ## [1 - Sơ lược các mô thức lập trình (programming paradigms)](#paradigms)
-## [2 - Phương pháp lập trình hướng đối tượng](#oo)
-### [2.1 - Cách tiếp cận hướng đối tượng](#ooa)
-### [2.2 - Lập trình hướng đối tượng](#oop)
+## [2 - Phương pháp lập trình hướng đối tượng](#oop)
 
 <br>
 
-## 1 - Các mô thức lập trình (programming paradigms) <a name="paradigms"/>
-- Các ứng dụng ngày càng phức tạp và đa dạng hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
-- Có thể chia ngôn ngữ lập trình thành hai nhóm chính (được gọi là *"mô thức lập trình" (programming paradigms)* - có thể hiểu là phương pháp luận hay các nguyên tắc chung cơ bản trong lập trình): 
+## 1 - Sơ lược các mô thức lập trình (programming paradigms) <a name="paradigms"/>
+- Các chương trình máy tính ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
+- Có thể chia ngôn ngữ lập trình thành hai nhóm chính (gọi là *"mô thức lập trình" (programming paradigms)* - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình): 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
-<p align="center">
-
-|<img src="figs/programming-paradigms-2.png" alt="Programming paradigms"/>|
-|:--:|
-|Các mô thức lập trình.|
-
-</p>
+<img alt="Programming paradigms" src="figs/programming-paradigms-2.png"> 
 
 ### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative"/>
-- Ý tưởng của lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
-- Các câu lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+- Nguyên lý lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
+- Các lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 - Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
-- 
 
 #### Lập trình cấu trúc (structured programming)
-- Dựa trên cách tiếp cận theo hướng từ trên xuống (top-down development), từ tổng quát đến chi tiết. Theo đó, chương trình được chia thành các khối chức năng (stages), các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các khối chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con.
+- Dựa trên cách tiếp cận theo hướng từ trên xuống (top-down development), từ tổng quát đến chi tiết. Theo đó, chương trình được chia thành các khối chức năng (stages), các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các khối chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con (thủ tục/hàm).
 - Chương trình là sự kết hợp của các cấu trúc điều khiển: tuần tự (sequence), chọn lựa (selection) và lặp (repetition).
 - Mã nguồn dễ đọc dễ hiểu.
 - Giảm lặp lại mã nguồn thông qua lời gọi chương trình con.
 
-#### Lập trình hướng thủ tục (procedural programming)
+#### Lập trình hướng thủ tục(procedural programming)
 Lập trình hướng thủ tục là sự cải tiến của lập trình cấu trúc, với các mở rộng sau:
 -  Mỗi chức năng ở từng lớp được tổ chức thành chương trình con.
 - Chương trình con nhận dữ liệu vào thông qua truyền đối số, xử lý và trả về kết quả.
 - Chương trình có tính module hóa cao.
+- Dữ liệu và xử lý tách rời nhau.
 ```csharp
 /*
 Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh với C#
@@ -80,7 +72,23 @@ List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
 numbers.Sort();
 ```
 
-## 3 - Phương pháp lập trình hướng đối tượng <a name="oop"/>
+## 2 - Phương pháp lập trình hướng đối tượng <a name="oop"/>
+### Bài toán ví dụ
+Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau:
+Một trường học cần xây dựng một phần mềm quản lý đào tạo. Hệ thống này quản lý dữ liệu của sinh viên, giảng viên, các môn học, và các kỳ thi. Các chức năng của phần mềm gồm có: thêm sinh viên, xóa sinh viên, tạo ca thi, xem điểm. 
+
+Dữ liệu cần được lưu trữ
+
+Theo cách tiếp cận lập trình hướng thủ tục/cấu trúc, mỗi chức năng được tổ chức thành một chương trình con tương ứng như sau:
+```csharp
+void addStudent([Danh sách tham số]);
+void removeStudent([Danh sách tham số]);
+void createExam([Danh sách tham số])
+```
+
+
+
+
 ### Cách tiếp cận hướng đối tượng
 - OOP là phương pháp lập trình phổ biến nhất hiện nay bởi các ưu điểm: 
      * Mã nguồn được module hóa cao.
@@ -92,6 +100,8 @@ OOP is the most popular programming paradigm because of its unique advantages li
 #### Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
 
 #### [Programming Languages, Stanford University, 2018](https://web.stanford.edu/class/cs106e/lectureNotes/L14NProgrammingLanguages.pdf)
+
+#### Object Oriented Analysis and Design using the UML
 
 #### Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, Trường đại học Nha Trang, 2020
 
