@@ -32,6 +32,12 @@ Lập trình hướng thủ tục là sự cải tiến của lập trình cấu
 - Chương trình con nhận dữ liệu vào thông qua truyền đối số, xử lý và trả về kết quả.
 - Chương trình có tính module hóa cao.
 - Dữ liệu và xử lý tách rời nhau.
+
+```c++
+printf("Hello World");
+```
+
+
 ```csharp
 /*
 Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh với C#
