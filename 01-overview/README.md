@@ -1,9 +1,9 @@
-<h1 align="center"> 
+<h2 align="center"> 
 GIỚI THIỆU
-</h1>
+</h2>
 
 ## [1 - Sơ lược các mô thức lập trình (programming paradigms)](#paradigms)
-## [2 - Phương pháp lập trình hướng đối tượng](#oop)
+### [2 - Phương pháp lập trình hướng đối tượng](#oop)
 
 <br>
 

@@ -1,15 +1,17 @@
 <h2 align="center"> 
-NGÔN NGỮ LẬP TRÌNH C#
+NGÔN NGỮ LẬP TRÌNH C# và .NET Framework
 </h2>
 
 ## - [Nền tảng .NET và ngôn ngữ C#](#csconcepts)
 ## - [Lập trình với C#](#csprogrammming)
-## - [Một số tài nguyên học C# trực tuyến hữu ích](#resources)
+## - [Thiết lập môi trường lập trình C#](#setupenvironment)
+## - [Tham khảo](#resources)
 
 ## Nền tảng .NET và ngôn ngữ C# <a name="csconcepts"/>
 ### .NET
 
 - .NET Framework, do Microsoft phát hành từ 2002, là nền tảng bao gồm các công cụ, ngôn ngữ lập trình và các thư viện dùng để tạo nhiều loại ứng dụng khác nhau. 
+<img src="figs/language-runtime-class-library-relationship.gif">
 
 The .Net Framework supports more than 60 programming languages such as C#, F#, VB.NET, J#, VC++, JScript.NET, APL, COBOL, Perl, Oberon, ML, Pascal, Eiffel, Smalltalk, Python, Cobra, ADA, etc.
 
@@ -72,6 +74,7 @@ As C# is close to C, C++ and Java, it makes it easy for programmers to switch to
 
 ### Một số tài nguyên học C# trực tuyến <a name="resources"/>
 
+#### [Microsoft: .NET Framework documentation](https://docs.microsoft.com/en-us/dotnet/framework/)
 #### [Microsoft: C# tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/)
 #### [Microsoft: .NET tutorial](https://dotnet.microsoft.com/learn/dotnet/in-browser-tutorial)
 #### [W3Schools.com: C# tutorial](https://www.w3schools.com/cs/index.php)
