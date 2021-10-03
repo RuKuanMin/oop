@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+A "Hello World" C# program with .NET 5
+*/
+using System;
 
 namespace helloworld_dotnet5
 {
@@ -6,7 +9,7 @@ namespace helloworld_dotnet5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World from .NET 5!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
