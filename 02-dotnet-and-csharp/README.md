@@ -7,13 +7,30 @@ NGÔN NGỮ LẬP TRÌNH C# và .NET Framework
 ## - [Thiết lập môi trường lập trình C#](#setupenvironment)
 ## - [Tham khảo](#resources)
 
-## Nền tảng .NET và ngôn ngữ C# <a name="csconcepts"/>
-### .NET
+## Nền tảng .NET Framework và ngôn ngữ C# <a name="csconcepts"/>
+### .NET Framework
 
-- .NET Framework, do Microsoft phát hành từ 2002, là nền tảng bao gồm các công cụ, ngôn ngữ lập trình và các thư viện dùng để tạo nhiều loại ứng dụng khác nhau. 
-<img src="figs/language-runtime-class-library-relationship.gif">
+- .NET Framework, do Microsoft phát hành từ 2002, là nền tảng hỗ trợ phát triển các ứng dụng Windows và dịch vụ web. 
+
+    * Cung cấp môi trường lập trình hướng đối tượng nhất quán.
+    * 
+
+Provide a consistent, object-oriented programming environment whether object code is stored and executed locally, executed locally but web-distributed, or executed remotely.
+
+Provide a code-execution environment that:
+
+Minimizes software deployment and versioning conflicts.
+
+Promotes safe execution of code, including code created by an unknown or semi-trusted third party.
+
+Eliminates the performance problems of scripted or interpreted environments.
+
+Make the developer experience consistent across widely varying types of apps, such as Windows-based apps and Web-based apps.
+
+Build all communication on industry standards to ensure that code based on .NET Framework integrates with any other code.
 
 The .Net Framework supports more than 60 programming languages such as C#, F#, VB.NET, J#, VC++, JScript.NET, APL, COBOL, Perl, Oberon, ML, Pascal, Eiffel, Smalltalk, Python, Cobra, ADA, etc.
+
 
 Following is the .NET framework Stack that shows the modules and components of the Framework.
 
