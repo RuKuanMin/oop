@@ -21,10 +21,8 @@ GIỚI THIỆU
 - Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
 #### Lập trình cấu trúc (structured programming)
-- Dựa trên cách tiếp cận từ trên xuống (top-down development), từ tổng quát đến chi tiết. Theo đó, chương trình được chia thành các khối chức năng (stages), các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các khối chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con (thủ tục/hàm).
+- Là phương pháp lập trình dựa trên cách tiếp cận từ trên xuống (top-down development), từ tổng quát đến chi tiết. Theo đó, chương trình được chia thành các khối chức năng, các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con (thủ tục/hàm).
 - Chương trình là sự kết hợp của các cấu trúc điều khiển: tuần tự (sequence), chọn lựa (selection) và lặp (repetition).
-- Mã nguồn dễ đọc dễ hiểu.
-- Giảm lặp lại mã nguồn thông qua lời gọi chương trình con.
 
 #### Lập trình hướng thủ tục(procedural programming)
 Lập trình hướng thủ tục là sự cải tiến của lập trình cấu trúc, với các mở rộng sau:
@@ -32,11 +30,6 @@ Lập trình hướng thủ tục là sự cải tiến của lập trình cấu
 - Chương trình con nhận dữ liệu vào thông qua truyền đối số, xử lý và trả về kết quả.
 - Chương trình có tính module hóa cao.
 - Dữ liệu và xử lý tách rời nhau.
-
-```c++
-printf("Hello World");
-```
-
 
 ```csharp
 /*
@@ -85,7 +78,7 @@ numbers.Sort();
 Một trường học cần xây dựng phần mềm quản lý đào tạo. Hệ thống này quản lý dữ liệu của sinh viên (Students), giảng viên (Lecturers), các môn học (Courses), và các kỳ thi (Exams). 
 Phần mềm cần có các chức năng: thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent), dự thi (TakeExams), xem điểm (ViewGrades). 
 
-Sau khi phân tích, mô hình hệ thống quản lý đào tạo được thiết kế như hình sau:
+Sau khi phân tích, mô hình hệ thống quản lý đào tạo được thiết kế theo sơ đồ sau:
 
 <img src="figs/academicsystem.PNG">
 
