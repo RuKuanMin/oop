@@ -93,7 +93,6 @@ Giải pháp hiển nhiên là cần thay đổi trường dữ liệu ngày sin
 - *Tình huống 2*: Hệ thống cần quản lý thêm một thành phần dữ liệu mới là sinh viên hệ vừa làm vừa học, vậy cần giải quyết thế nào?
 
 
-
 ### Cách tiếp cận hướng đối tượng
 - OOP là phương pháp lập trình phổ biến nhất hiện nay bởi các ưu điểm: 
      * Mã nguồn được module hóa cao.
