@@ -13,9 +13,9 @@ GIỚI THIỆU
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
-<img src="figs/programming-paradigms-2.png" alt="Programming paradigms" width="60%"> 
+<img src="figs/programming-paradigms-2.png" alt="Programming paradigms" width="70%"> 
 
-### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative"/>
+### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative">
 - Nguyên lý lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
 - Các lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 - Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
@@ -55,7 +55,7 @@ for (int i=0; i < n-1; i++)
     }
 ```
 
-### **Lập trình khai báo (Declarative Programming)** <a name="declarative"/>
+### **Lập trình khai báo (Declarative Programming)** <a name="declarative">
 
 Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
 
