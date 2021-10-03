@@ -59,7 +59,7 @@ for (int i=0; i < n-1; i++)
 
 Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
 
-```csharp
+```cs
 /*
 Ví dụ: Sắp xếp dãy số tăng dần theo lập trình khai báo với C#
 Input: Dãy số nguyên
