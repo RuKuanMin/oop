@@ -31,45 +31,10 @@ Lập trình hướng thủ tục là sự cải tiến của lập trình cấu
 - Chương trình có tính module hóa cao.
 - Dữ liệu và xử lý tách rời nhau.
 
-```csharp
-/*
-Ví dụ: Sắp xếp dãy số tăng dần theo phương pháp lập trình mệnh lệnh với C#
-Input: Dãy số nguyên
-Output: Dãy số được sắp xếp tăng dần
-*/
-
-int[] a = new int[6] { 3, 1, 2, 8, 6, 5 };
-int n = 6;
-
-// Sắp xếp tăng dần (giải thuật đổi chỗ trực tiếp)
-for (int i=0; i < n-1; i++)
-    for(int j=i+1; j < n; j++)
-    {
-        if(a[i] > a[j])
-        {
-            int tmp = a[i];
-            a[i] = a[j];
-            a[j] = tmp;
-        }
-    }
-```
-
 ### **Lập trình khai báo (Declarative Programming)** <a name="declarative">
 
 Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
 
-```cs
-/*
-Ví dụ: Sắp xếp dãy số tăng dần theo lập trình khai báo với C#
-Input: Dãy số nguyên
-Output: Dãy số được sắp xếp tăng dần
-*/
-
-List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
-
-// Sort the list ascending
-numbers.Sort();
-```
 
 ## 2 - Phương pháp lập trình hướng đối tượng <a name="oop"/>
 ### Bài toán ví dụ
@@ -87,7 +52,7 @@ Hệ thống quản lý gồm có dữ liệu (data) và các chức năng (func
 Theo cách tiếp cận lập trình hướng thủ tục/cấu trúc, mỗi chức năng được tổ chức thành một chương trình con (hàm) tương ứng. Các hàm thực hiện xử lý dữ liệu thông qua truyền tham số và trả về kết quả cho lời gọi hàm. 
 
 Xét vài tình huống sau:
-- *Tình huống 1*: Giả sử dữ liệu đang lưu trữ năm sinh là số có 2 chữ số, cần chuyển đổi năm sinh đang từ 2 chữ số sang 4 chữ số (ví dụ: 97 -> 1997), thì giải quyết thế nào?
+- *Tình huống 1*: Giả sử dữ liệu đang lưu trữ năm sinh là số có 2 chữ số, cần chuyển đổi thành số có 4 chữ số (ví dụ: 97 -> 1997), thì giải quyết thế nào?
 
 Giải pháp hiển nhiên là cần thay đổi trường dữ liệu ngày sinh của sinh viên và giảng viên thành số có 4 chữ số. Khi đó, tất cả các hàm có tác động lên sinh viên và giảng viên sẽ không hoạt động được, trừ khi phải chỉnh sửa lại mã nguồn. Bên cạnh đó, tập dữ liệu sinh viên có mối quan hệ phụ thuộc với các tập dữ liệu khác, vì thế việc thay đổi này có thể gây ra lỗi cho hệ thống.
 
@@ -99,7 +64,13 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 
 ### Cách tiếp cận hướng đối tượng
 - Xem phần mềm là tập hợp các đối tượng tương tác với nhau.
-- Mỗi đối tượng có dữ liệu 
+- Mỗi đối tượng là sự đóng gói hai thành phần:
+    * Thuộc tính (properties): Là các thông tin mô tả đối tượng.
+    * Phương thức (methods): Là các hành vi (behaviours) mà đối tượng có thể thực hiện.
+- Đối tượng = Thuộc tính + Phương thức
+
+
+
 ## Tài liệu tham khảo 
 
 #### Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
