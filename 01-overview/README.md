@@ -13,7 +13,7 @@ GIỚI THIỆU
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
-<img alt="Programming paradigms" src="figs/programming-paradigms-2.png"> 
+<img alt="Programming paradigms" src="figs/programming-paradigms-2.png" width="70%"> 
 
 ### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative"/>
 - Nguyên lý lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
