@@ -6,7 +6,7 @@ namespace helloworld_dotnet5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World from .NET 5!");
         }
     }
 }
