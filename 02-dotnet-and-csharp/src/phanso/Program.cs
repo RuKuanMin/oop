@@ -12,7 +12,6 @@ Mục tiêu:
 
 using System;
 
-
 /*
 Khai báo lớp Phân số
 */
@@ -33,9 +32,9 @@ public class PhanSo
     public void Nhap()
     {
         Console.Write("Tu so =");
-        _tuSo = Console.ReadLine();
-        
+        _tuSo = Convert.ToInt32(Console.ReadLine());
     }   
+
     public void Xuat()
     {
         Console.WriteLine("{0}/{1}", _tuSo, _mauSo);
