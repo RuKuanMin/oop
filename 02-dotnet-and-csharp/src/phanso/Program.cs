@@ -15,7 +15,7 @@ using System;
 //Khai báo lớp Phân số
 public class PhanSo
 {
-    private int _tuSo, _mauSo; // Đây là dữ liệu riêng (private), không cho phép truy xuất từ bên ngoài lớp
+    private int _tuSo=0, _mauSo=1; // Đây là dữ liệu riêng (private), không cho phép truy xuất từ bên ngoài lớp
 
     public int tuSo{        // Thuộc tính (property), có thể truy xuất từ bên ngoài lớp (public) 
         get{return _tuSo;}  // lấy giá trị của dữ liệu riêng
