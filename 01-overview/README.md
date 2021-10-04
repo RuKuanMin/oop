@@ -2,7 +2,7 @@
 GIỚI THIỆU
 </h2>
 
-## 1 - Sơ lược các phương pháp lập trình (programming paradigms)
+## Sơ lược các phương pháp lập trình (programming paradigms)
 <details>
 <summary>Xem chi tiết</summary>
 
@@ -74,16 +74,21 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 </details>
 
 ## Tài liệu tham khảo 
-<details>
-   
-<summary>Xem chi tiết</summary>
+<details>  
+<summary>
+    Xem chi tiết
+</summary>
 
 #### Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
-#### [Programming Languages, Stanford University, 2018](https://web.stanford.edu/class/cs106e/lectureNotes/L14NProgrammingLanguages.pdf)
+#### Programming Languages, Stanford University, 2018
 #### Object Oriented Analysis and Design using the UML
 #### Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, Trường đại học Nha Trang, 2020
 
 </details>
+
+
+
+
 
 
 
