@@ -34,7 +34,7 @@ Lập trình hướng thủ tục là sự cải tiến của lập trình cấu
 Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
 </details>
 
-## 2 - Phương pháp lập trình hướng đối tượng
+## Phương pháp lập trình hướng đối tượng
 <details>
 <summary>Xem chi tiết</summary>
 
