@@ -7,7 +7,11 @@ GIỚI THIỆU
 
 <br>
 
-## 1 - Sơ lược các mô thức lập trình (programming paradigms) <a name="paradigms"/>
+<details>
+<summary>
+## Sơ lược các mô thức lập trình (programming paradigms) <a name="paradigms"/>
+</summary>
+
 - Các chương trình máy tính ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
 - Có thể chia ngôn ngữ lập trình thành hai nhóm chính (gọi là *"mô thức lập trình" (programming paradigms)* - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình): 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
@@ -35,6 +39,7 @@ Lập trình hướng thủ tục là sự cải tiến của lập trình cấu
 
 Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
 
+</details>
 
 ## 2 - Phương pháp lập trình hướng đối tượng <a name="oop"/>
 ### Bài toán ví dụ
