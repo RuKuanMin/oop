@@ -1,11 +1,15 @@
 <h2 align="center"> 
-NGÔN NGỮ LẬP TRÌNH C# và .NET Framework
+NGÔN NGỮ C# và .NET Framework
 </h2>
 
-## - [Nền tảng .NET và ngôn ngữ C#](#csconcepts)
-## - [Lập trình với C#](#csprogrammming)
-## - [Thiết lập môi trường lập trình C#](#setupenvironment)
-## - [Tham khảo](#resources)
+- ## [Nền tảng .NET và ngôn ngữ C#](#csconcepts)
+- ## [Thiết lập môi trường lập trình C#](#setupenvironment)
+    * ### [Cài đặt .NET Framework](#dotnet)
+    * ### [Visual Studio](#vs)
+    * ### [Visual Studio Code](#vscode)
+    * ### [SplashKit](#splashkit)
+- ## ["Hello World" app with C#](#csprogrammming)
+- ## [Tham khảo](#resources)
 
 ## Nền tảng .NET Framework và ngôn ngữ C# <a name="csconcepts"/>
 ### .NET Framework
