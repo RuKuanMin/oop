@@ -2,7 +2,7 @@
 Lập trình xử lý phân số.
 
 Mục tiêu: 
-- Giải quyết một bài toán đơn giản theo pp HĐT
+- Giải quyết một bài toán đơn giản theo phương pháp hướng đối tượng
 - Biết cách xây dựng lớp, tạo đối tượng, sử dụng đối tượng (truyền thông điệp)
 - Biết cách thiết lập sự đóng gói (encapsulation) để che dấu dữ liệu "nhạy cảm"
     * Phân biệt được trường dữ liệu (fields) và thuộc tính (properties)
@@ -12,21 +12,22 @@ Mục tiêu:
 
 using System;
 
-/*
-Khai báo lớp Phân số
-*/
+//Khai báo lớp Phân số
 public class PhanSo
 {
     private int _tuSo, _mauSo; // Đây là dữ liệu riêng (private), không cho phép truy xuất từ bên ngoài lớp
 
-    public int tuSo{
-        get{return _tuSo;} // Thuộc tính (property), có thể truy xuất từ bên ngoài lớp (public) thông qua hàm get (lấy giá trị)
-        set{_tuSo = value;} // và set (đặt giá trị)
+    public int tuSo{        // Thuộc tính (property), có thể truy xuất từ bên ngoài lớp (public) 
+        get{return _tuSo;}  // lấy giá trị của dữ liệu riêng
+        set{_tuSo = value;} // thay đổi giá trị của dữ liệu riêng
     }
     
-    public int mauSo{
-        get{return _mauSo;} // Thuộc tính (property), có thể truy xuất từ bên ngoài lớp (public) thông qua hàm get (lấy giá trị)
-        private set{if(value != 0) _mauSo = value;} // và set (đặt giá trị)    
+    public int mauSo{   
+        get{return _mauSo;} 
+        set{
+            if(value != 0) // Điều kiện xác định của phân số  
+                _mauSo = value;
+        } 
     }
 
     public void Nhap()
