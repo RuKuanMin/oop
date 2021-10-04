@@ -75,6 +75,7 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 
 ## Tài liệu tham khảo 
 <details>
+   
 <summary>Xem chi tiết</summary>
 
 #### Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
