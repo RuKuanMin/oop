@@ -2,10 +2,12 @@
 GIỚI THIỆU
 </h2>
 
-## Sơ lược các phương pháp lập trình (programming paradigms)
-<details>
-<summary>Xem chi tiết</summary>
+- ## [Sơ lược các phương pháp lập trình ](#paradigms)
+- ## [Phương pháp lập trình hướng đối tượng](#oop)
 
+
+
+## Sơ lược các phương pháp lập trình (programming paradigms) <a name="paradigms">
 - Các chương trình máy tính ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
 - Có thể chia ngôn ngữ lập trình thành hai nhóm chính (gọi là *"mô thức lập trình" (programming paradigms)* - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình): 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
@@ -33,12 +35,7 @@ Lập trình hướng thủ tục là sự cải tiến của lập trình cấu
 
 Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
    
-</details>
-
-## Phương pháp lập trình hướng đối tượng
-<details>
-<summary>Xem chi tiết</summary>
-
+## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán ví dụ
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
 
@@ -71,20 +68,13 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
     * Phương thức (methods): Là các hành vi (behaviours) mà đối tượng có thể thực hiện.
 - Đối tượng = Thuộc tính + Phương thức
 
-</details>
 
 ## Tài liệu tham khảo 
-<details>  
-<summary>
-    Xem chi tiết
-</summary>
 
 #### Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
 #### Programming Languages, Stanford University, 2018
 #### Object Oriented Analysis and Design using the UML
 #### Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, Trường đại học Nha Trang, 2020
-
-</details>
 
 
 
