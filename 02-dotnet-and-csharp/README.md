@@ -2,6 +2,27 @@
 .NET Framework và ngôn ngữ C#
 </h2>
 
+<div class="header">
+<a href="#dotnet"><h3>Sơ lược về .NET</h3></a>
+<ul>
+    <li><h4>.NET Framwork</h4></li>
+    <li><h4>.NET 5</h4></li>
+</ul>
+
+<a href="#csconcepts"><h3>Ngôn ngữ C#</h3></a>
+<ul>
+    <li>
+        <h4>Đặc điểm</h4>
+    </li>
+    <li>
+        <h4>Các thành phần của C# </h4>
+    </li>
+    <li>
+        <h4>Ngôn ngữ lập trình hướng đối tượng</h4>
+    </li>
+</ul>
+</div>
+
 - ## [Nền tảng .NET](#dotnet)
 - ## [Ngôn ngữ C#](#csconcepts)
 - ## [Môi trường lập trình C#](#setupenvironment)
