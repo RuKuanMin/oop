@@ -26,7 +26,7 @@ GIỚI THIỆU
 
 ## Sơ lược các phương pháp lập trình (programming paradigms) <a name="paradigms">
 - Các chương trình máy tính ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
-- Có thể chia ngôn ngữ lập trình thành hai nhóm chính (gọi là *"mô thức lập trình" (programming paradigms)* - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình): 
+- Dựa theo mô thức lập trình (programming paradigms - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
@@ -37,20 +37,14 @@ GIỚI THIỆU
 - Các lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 - Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
-#### Lập trình cấu trúc (structured programming)
+#### Lập trình hướng thủ tục/cấu trúc (procedural/structured programming)
 - Là phương pháp lập trình dựa trên cách tiếp cận từ trên xuống (top-down development), từ tổng quát đến chi tiết. Theo đó, chương trình được chia thành các khối chức năng, các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con (thủ tục/hàm).
 - Chương trình là sự kết hợp của các cấu trúc điều khiển: tuần tự (sequence), chọn lựa (selection) và lặp (repetition).
-
-#### Lập trình hướng thủ tục(procedural programming)
-Lập trình hướng thủ tục là sự cải tiến của lập trình cấu trúc, với các mở rộng sau:
--  Mỗi chức năng ở từng lớp được tổ chức thành chương trình con.
-- Chương trình con nhận dữ liệu vào thông qua truyền đối số, xử lý và trả về kết quả.
-- Chương trình có tính module hóa cao.
 - Dữ liệu và xử lý tách rời nhau.
 
 ### **Lập trình khai báo (Declarative Programming)** <a name="declarative">
 
-Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính phải làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), ngôn ngữ chuyên dụng (domain-specific) như SQL, HTML.
+Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), các ngôn ngữ chuyên biệt (domain-specific) như SQL, HTML.
    
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
