@@ -2,9 +2,26 @@
 GIỚI THIỆU
 </h2>
 
-- ## [Sơ lược các phương pháp lập trình ](#paradigms)
-- ## [Phương pháp lập trình hướng đối tượng](#oop)
+<div class="header">
+<a href="#paradigms"><h3>Sơ lược các phương pháp lập trình </h3></a>
+<ul>
+    <li><h4>Lập trình hướng mệnh lệnh</h4></li>
+    <li><h4>Lập trình khai báo</h4></li>
+</ul>
 
+<a href="#oop"><h3>Phương pháp lập trình hướng đối tượng</h3></a>
+<ul>
+    <li>
+        <h4>Bài toán minh họa</h4>
+    </li>
+    <li>
+        <h4>Cách tiếp cận hướng đối tượng</h4>
+    </li>
+    <li>
+        <h4>Ngôn ngữ lập trình hướng đối tượng</h4>
+    </li>
+</ul>
+</div>
 
 
 ## Sơ lược các phương pháp lập trình (programming paradigms) <a name="paradigms">

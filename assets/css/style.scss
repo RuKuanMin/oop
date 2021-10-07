@@ -5,35 +5,36 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: dark;
+    //color: dark;
 }
 
 blockquote{
   font-size: 1.2em;
   width:75%;
   margin:30px auto;
-  font-family: "Courier New";
+  font-family:"Courier New";
   font-style:normal;
-  color: #22200;
+  //color:#22200;
   padding:1.2em 25px 0.5em 50px;
-  border-left:8px solid brown ;
+  //border-left:8px solid brown ;
   line-height:1.2;
   position:relative;
-  background:#EDEDED;
+  //background:rgb(231,231,231);
+  background: transparent;
 }
 
 blockquote::before{
   font-family:Arial;
-  content: "\201C";
-  color: brown;
+  content:"\201C";
+  color:brown;
   font-size:4em;
   position: absolute;
-  left: 10px;
+  left:10px;
   top:-10px;
 }
 
 blockquote::after{
-  content: '';
+  content:'';
 }
 
 blockquote span{
@@ -44,7 +45,6 @@ blockquote span{
   margin-top:0.5em;
 }
 
-// set blocknotes
 div {
   margin-bottom: 12px;
   padding: 0px 8px;
@@ -52,7 +52,7 @@ div {
 
 .danger {
   background-color: #ffdddd;
-  border-left: 6px solid #f44336;
+  border: 1px solid #f44336;
 }
 
 .success {
@@ -61,16 +61,44 @@ div {
 }
 
 .info {
-  background-color: #e7f3fe;
-  border-left: 6px solid #2196F3;
+  background: url(../images/icons/info.png) no-repeat; // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  border: 1px solid rgb(89, 164, 219);
+  //background-color: #e7f3fe;
+  //border-left: 6px solid #2196F3;
+
 }
 
 .warning {
-  background-color: #ffcc66 ;
-  border-left: 6px solid #ff9900;
+  background: url(../images/icons/warning.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  border: 1px solid rgb(89, 164, 219);
+  // background-color: #ffcc66 ;
+  // border-left: 6px solid #ff9900;
 }
 
-// set img block
+.header {
+  border: 1px solid brown;
+  padding-left: 10px;
+  padding-top: 10px;
+  line-height: 60%;
+}
+
+.goodpractice {
+  //background-color: lightgrey;
+  background: url(../images/icons/checked.png) no-repeat;
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  border: 1px solid rgb(89,164,219);
+  // border: 1px solid green;
+}
+
+// set img block auto
 img {
   display: block;
   margin-left: auto;
