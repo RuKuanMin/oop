@@ -1,17 +1,18 @@
 <h2 align="center"> 
-NGÔN NGỮ C# và .NET Framework
+.NET Framework và ngôn ngữ C#
 </h2>
 
-- ## [Nền tảng .NET và ngôn ngữ C#](#csconcepts)
-- ## [Thiết lập môi trường lập trình C#](#setupenvironment)
-    * ### [Cài đặt .NET Framework](#dotnet)
-    * ### [Visual Studio](#vs)
+- ## [Nền tảng .NET](#dotnet)
+- ## [Ngôn ngữ C#](#csconcepts)
+- ## [Môi trường lập trình C#](#setupenvironment)
+    * ### [Cài đặt .NET Framework](#installdotnet)
+    * ### [Visual Studio](#installvs)
     * ### [Visual Studio Code](#vscode)
     * ### [SplashKit](#splashkit)
-- ## ["Hello World" app with C#](#csprogrammming)
 - ## [Tham khảo](#resources)
 
-## Nền tảng .NET Framework và ngôn ngữ C# <a name="csconcepts"/>
+
+## Nền tảng .NET <a name="dotnet"/>
 ### .NET Framework
 
 - .NET Framework, do Microsoft phát hành từ 2002, là nền tảng hỗ trợ phát triển các ứng dụng Windows và dịch vụ web. 
