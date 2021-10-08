@@ -187,10 +187,9 @@ namespace DeclarativeProgramming
     }
 }
 ```
+</details>
 
-</deltails>
 
-   
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
