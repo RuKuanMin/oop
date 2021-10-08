@@ -5,7 +5,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    //color: grey;
+    //color: dark;
 }
 
 blockquote{
@@ -61,7 +61,8 @@ div {
 }
 
 .info {
-  background: url(../images/icons/info.png) no-repeat; // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  background: url(../images/icons/info.png) no-repeat; 
   background-size: 40px 40px;
   background-position: 8px center;
   padding-left: 35px;

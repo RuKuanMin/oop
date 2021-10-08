@@ -39,7 +39,7 @@ Giới thiệu về lập trình hướng đối tượng
         Một số ngôn ngữ chỉ hỗ trợ một mô thức lập trình, như Smalltalk, Haskell.
     </li>
     <li>
-        Nhiều ngôn ngữ lập trình hỗ trợ đa mô thức (multiparadigm), như: C++, Java, JavaScript, C#, PHP, Python.
+        Nhiều ngôn ngữ hỗ trợ đa mô thức (multiparadigm), như: C++, Java, JavaScript, C#, PHP, Python.
     </li>
   </ul>
   </p>
