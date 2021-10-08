@@ -1,5 +1,6 @@
 ﻿/*
-Sắp xếp dãy số tăng dần theo lập trình hướng mệnh lệnh với C#
+Minh họa lập trình hướng mệnh lệnh với C#
+Sắp xếp dãy số tăng dần 
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */

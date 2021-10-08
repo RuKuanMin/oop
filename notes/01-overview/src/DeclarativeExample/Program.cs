@@ -1,5 +1,6 @@
 ﻿/*
-Sắp xếp dãy số tăng dần theo lập trình khai báo với C#
+Minh họa lập trình khai báo với C#
+Sắp xếp dãy số tăng dần 
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
