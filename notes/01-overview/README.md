@@ -36,52 +36,52 @@ GIỚI THIỆU
 - Nguyên lý lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
 - Các lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 - Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
+
 <details>
-    <summary>
-        Ví dụ
-    </summary>
+<summary> Ví dụ </summary>
 
-    ```csharp
+```csharp
     /*
-Minh họa lập trình hướng mệnh lệnh với C#
-Sắp xếp dãy số tăng dần 
-Input: Dãy số nguyên
-Output: Dãy số được sắp xếp tăng dần
-*/
+    Minh họa lập trình hướng mệnh lệnh với C#
 
-using System;
+    Input: Dãy số nguyên
+    Output: Dãy số được sắp xếp tăng dần
+    */
 
-namespace ImperativeExample
-{
-    class Program
+    using System;
+
+    namespace ImperativeExample
     {
-        static void Main(string[] args)
+        class Program
         {
-            // Khởi tạo một mảng số nguyên
-            int n=6;
-            int[] numbers = new int[] {3,8,2,1,6,5};
-            
-            // Sắp xếp tăng dần - giải thuật đổi chỗ trực tiếp
-            for(int i=0; i < n-1; i++)
-                for(int j=i+1; j < n; j++)
-                    if(numbers[i] > numbers[j])
-                    {
-                        int t = numbers[i];
-                        numbers[i] = numbers[j];
-                        numbers[j] = t;
-                    }
-
-            // In ra danh sách đã sắp xếp
-            Console.WriteLine("Mang tang dan:");
-            for(int i=0; i < n; i++)
-                Console.Write("{0} ", numbers[i]);
+            static void Main(string[] args)
+            {
+                // Khởi tạo một mảng số nguyên
+                int n=6;
+                int[] numbers = new int[] {3,8,2,1,6,5};
                 
-            // Wait for a key press
-            Console.ReadKey();
+                // Sắp xếp tăng dần - giải thuật đổi chỗ trực tiếp
+                for(int i=0; i < n-1; i++)
+                    for(int j=i+1; j < n; j++)
+                        if(numbers[i] > numbers[j])
+                        {
+                            int t = numbers[i];
+                            numbers[i] = numbers[j];
+                            numbers[j] = t;
+                        }
+
+                // In ra danh sách đã sắp xếp
+                Console.WriteLine("Mang tang dan:");
+                for(int i=0; i < n; i++)
+                    Console.Write("{0} ", numbers[i]);
+                    
+                // Wait for a key press
+                Console.ReadKey();
+            }
         }
     }
-}
-    ```
+```
+
 </details>
 
 #### Lập trình hướng thủ tục/cấu trúc (procedural/structured programming)
@@ -89,9 +89,101 @@ namespace ImperativeExample
 - Chương trình là sự kết hợp của các cấu trúc điều khiển: tuần tự (sequence), chọn lựa (selection) và lặp (repetition).
 - Dữ liệu và xử lý tách rời nhau.
 
+<details>
+<summary>Ví dụ</summary>
+
+```cs
+/*
+Minh họa lập trình cấu trúc với C#
+Input: Dãy số nguyên
+Output: Dãy số được sắp xếp tăng dần
+*/
+
+using System;
+
+namespace StructuredExample
+{
+    class Program
+    {
+       static void Main(string[] args)
+        {
+            // Khởi tạo một mảng số nguyên
+            int n=6;
+            int[] numbers = new int[] {3,8,2,1,6,5};
+            
+            // Sắp xếp tăng dần - giải thuật đổi chỗ trực tiếp
+            SapXepTD(numbers, n);
+            
+            // In ra danh sách đã sắp xếp
+            InMang(numbers, n);
+
+            // Wait for a key press
+            Console.ReadKey();
+        }
+
+    ///////////////////////////////////////////////////////////////////////////
+        static void SapXepTD(int[] a, int n)
+        {
+        for(int i=0; i < n-1; i++)
+            for(int j=i+1; j < n; j++)
+                if(a[i] > a[j])
+                {
+                    int t = a[i];
+                    a[i] = a[j];
+                    a[j] = t;
+                }
+        }
+
+        static void InMang(int[] a, int n)
+        {
+            for(int i=0; i < n; i++)
+                Console.Write("{0} ", a[i]);
+        }
+    }
+}
+```
+</details>
+
 ### **Lập trình khai báo (Declarative Programming)** <a name="declarative">
 
 Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), các ngôn ngữ chuyên biệt (domain-specific) như SQL, HTML.
+
+<details>
+<summary>Ví dụ</summary>
+
+```cs
+/*
+Minh họa lập trình khai báo với C#
+Input: Dãy số nguyên
+Output: Dãy số được sắp xếp tăng dần
+*/
+
+using System;
+using System.Collections.Generic;
+
+namespace DeclarativeProgramming
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Creating a list of numbers
+            List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
+
+            // Sort the list ascending
+            numbers.Sort();
+
+            // Print the sorted list
+            Console.WriteLine("Day tang dan:");
+            Console.WriteLine("{0}", string.Join(", ", numbers));
+
+            // Wait for a key press
+            Console.ReadKey();
+        }
+    }
+}
+```
+</deltails>
    
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
