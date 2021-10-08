@@ -2,3 +2,4 @@ theme: jekyll-theme-modernist
 title: <a href="https://nd-hung.github.io/oop/">Object Oriented Programming</a>
 description: with C#
 show_downloads: false
+markdown: CommonMarkGhPages
