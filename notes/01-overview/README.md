@@ -52,6 +52,7 @@ GIỚI THIỆU
 
 <details>
 <summary> Ví dụ </summary>
+
 <p>
 
 ```c#
@@ -98,6 +99,7 @@ Console.ReadKey();
 
 <details>
 <summary>Ví dụ</summary>
+
 <p>
 
 ```c#
@@ -148,6 +150,7 @@ Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo các
 
 <details>
 <summary>Ví dụ</summary>
+
 <p>
 
 ```c#
