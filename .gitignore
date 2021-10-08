@@ -37,4 +37,4 @@
 *.csproj
 bin/
 obj/
-
+.vscode/
