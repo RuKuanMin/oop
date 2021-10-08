@@ -1,5 +1,5 @@
 <h2 align="center"> 
-GIỚI THIỆU
+Giới thiệu về lập trình hướng đối tượng
 </h2>
 
 <div class="header">
@@ -81,10 +81,7 @@ for(int i=0; i < n-1; i++)
 // In ra danh sách đã sắp xếp
 Console.WriteLine("Mang tang dan:");
 for(int i=0; i < n; i++)
-    Console.Write("{0} ", numbers[i]);
-    
-// Wait for a key press
-Console.ReadKey();
+    Console.Write("{0} ", numbers[i]);    
 ```
 
 </p>
@@ -179,9 +176,6 @@ namespace DeclarativeProgramming
             // Print the sorted list
             Console.WriteLine("Day tang dan:");
             Console.WriteLine("{0}", string.Join(", ", numbers));
-
-            // Wait for a key press
-            Console.ReadKey();
         }
     }
 }

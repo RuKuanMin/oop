@@ -13,16 +13,13 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 #### [1.3 - Sơ lược phân tích thiết kế hướng đối tượng]() 
 #### [1.4 - Lớp và đối tượng]() 
 #### [1.5 - Thừa kế và đa hình]() 
-#### [1.6 - Lớp trừu tượng và giao diện]() 
-#### [1.7 - Một số lớp dựng sẵn trong .NET]() 
-#### [1.8 - Phát triển ứng dụng với C#]()
+#### [1.6 - Phát triển ứng dụng với C#]()
 
 ### 2 - Bài thực hành
 #### [2.1 - Thiết lập môi trường lập trình C#]() 
 #### [2.2 - Lớp và đối tượng]()
 #### [2.3 - Đối tượng, thuộc tính và phương thức]()
 #### [2.4 - Thừa kế và đa hình]()
-#### [2.5 - Lớp trừu tượng và giao diện]()
-#### [2.6 - Lập trình ứng dụng với C#]()
+#### [2.5 - Lập trình ứng dụng với C#]()
 
 ### [Tài liệu tham khảo](references.md)
