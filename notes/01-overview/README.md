@@ -30,7 +30,7 @@ GIỚI THIỆU
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
-<img src="figs/programming-paradigms-2.png" alt="Programming paradigms" width="70%"> 
+<img src="figs/programming-paradigms-2.png" alt="Programming paradigms" width="75%"> 
 
 <div class="info">
   <p>
@@ -188,7 +188,7 @@ Phần mềm cần có các chức năng: thêm sinh viên (AddStudent), xóa si
 
 Sau khi phân tích, mô hình hệ thống quản lý đào tạo được thiết kế theo sơ đồ sau:
 
-<img src="figs/academicsystem.PNG">
+<img src="figs/academicsystem.PNG" width="75%">
 
 Hệ thống quản lý gồm có dữ liệu (data) và các chức năng (functions) thao tác trên dữ liệu. Trong đó, đường nét đứt thể hiện sự phụ thuộc của một tập dữ liệu vào một tập dữ liệu khác; chẳng hạn, mỗi sinh viên học nhiều môn học, mỗi môn học lại có nhiều sinh viên. Đường mũi tên thể hiện sự tác động của các chức năng lên một hoặc một số tập dữ liệu; ví dụ, chức năng thêm sinh viên (AddStudent) sẽ thay đổi nội dung của tập dữ liệu sinh viên (Students), còn chức năng dự thi (TakeExams) cần truy cập dữ liệu của cả sinh viên và kỳ thi (Exams). 
 
