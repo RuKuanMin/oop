@@ -5,11 +5,11 @@ GIỚI THIỆU
 <div class="header">
 <a href="#paradigms"><h3>Sơ lược các phương pháp lập trình </h3></a>
 <ul>
-    <li><h4>Lập trình hướng mệnh lệnh</h4></li>
-    <li><h4>Lập trình khai báo</h4></li>
+    <li><h4>Lập trình hướng mệnh lệnh (Imperative Programming)</h4></li>
+    <li><h4>Lập trình khai báo (Declarative Programming)</h4></li>
 </ul>
 
-<a href="#oop"><h3>Phương pháp lập trình hướng đối tượng</h3></a>
+<a href="#oop"><h3>Phương pháp lập trình hướng đối tượng (Object Oriented Programming)</h3></a>
 <ul>
     <li>
         <h4>Bài toán minh họa</h4>
