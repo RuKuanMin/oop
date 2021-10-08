@@ -111,17 +111,18 @@ namespace StructuredExample
             int n=6;
             int[] numbers = new int[] {3,8,2,1,6,5};
             
-            // Sắp xếp tăng dần - giải thuật đổi chỗ trực tiếp
+            // Gọi hàm sắp xếp tăng dần
             SapXepTD(numbers, n);
             
-            // In ra danh sách đã sắp xếp
+            // Gọi hàm in mảng
             InMang(numbers, n);
 
             // Wait for a key press
             Console.ReadKey();
         }
 
-    ///////////////////////////////////////////////////////////////////////////
+    
+        // Hàm sắp xếp mảng tăng dần
         static void SapXepTD(int[] a, int n)
         {
         for(int i=0; i < n-1; i++)
@@ -134,6 +135,7 @@ namespace StructuredExample
                 }
         }
 
+        // Hàm in mảng
         static void InMang(int[] a, int n)
         {
             for(int i=0; i < n; i++)
@@ -167,10 +169,11 @@ namespace DeclarativeProgramming
     {
         static void Main()
         {
-            // Creating a list of numbers
+            // Tạo một danh sách
             List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
 
-            // Sort the list ascending
+            // Gọi phương thức sắp xếp (tăng dần)
+            // Người lập trình không cần cài đặt hàm Sort()
             numbers.Sort();
 
             // Print the sorted list
