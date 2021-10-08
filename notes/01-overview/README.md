@@ -78,11 +78,7 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
     * Thuộc tính (properties): Là các thông tin mô tả đối tượng.
     * Phương thức (methods): Là các hành vi (behaviours) mà đối tượng có thể thực hiện.
 
-    <div class="formula">
-    <p>
-        Đối tượng = Thuộc tính + Phương thức
-    </p>
-    </div>
+> Đối tượng = Thuộc tính + Phương thức
 
 
 ## Tài liệu tham khảo 
