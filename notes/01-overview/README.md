@@ -53,7 +53,8 @@ GIỚI THIỆU
 <details>
 <summary> Ví dụ </summary>
 <p>
-```csharp
+
+```c#
 /*
 Minh họa lập trình hướng mệnh lệnh với C#
 
@@ -85,6 +86,7 @@ for(int i=0; i < n; i++)
 // Wait for a key press
 Console.ReadKey();
 ```
+
 </p>
 </details>
 
@@ -96,9 +98,9 @@ Console.ReadKey();
 
 <details>
 <summary>Ví dụ</summary>
-
 <p>
-```cs
+
+```c#
 /*
 Minh họa lập trình cấu trúc với C#
 Input: Dãy số nguyên
@@ -135,6 +137,7 @@ static void InMang(int[] a, int n)
         Console.Write("{0} ", a[i]);
 }
 ```
+
 </p>
 </details>
 
@@ -145,9 +148,9 @@ Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo các
 
 <details>
 <summary>Ví dụ</summary>
-
 <p>
-```cs
+
+```c#
 /*
 Minh họa lập trình khai báo với C#
 Input: Dãy số nguyên
@@ -180,6 +183,7 @@ namespace DeclarativeProgramming
     }
 }
 ```
+
 </p>
 </details>
 
