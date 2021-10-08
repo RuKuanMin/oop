@@ -58,7 +58,6 @@ GIỚI THIỆU
 ```c#
 /*
 Minh họa lập trình hướng mệnh lệnh với C#
-
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
