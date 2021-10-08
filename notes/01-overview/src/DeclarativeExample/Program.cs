@@ -1,4 +1,4 @@
-/*
+﻿/*
 Sắp xếp dãy số tăng dần theo lập trình khai báo với C#
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
@@ -20,7 +20,8 @@ namespace DeclarativeProgramming
             numbers.Sort();
 
             // Print the sorted list
-            Console.WriteLine("[{0}]", string.Join(", ", numbers));
+            Console.WriteLine("Day tang dan:");
+            Console.WriteLine("{0}", string.Join(", ", numbers));
 
             // Wait for a key press
             Console.ReadKey();
