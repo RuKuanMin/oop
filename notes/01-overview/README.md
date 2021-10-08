@@ -153,6 +153,7 @@ Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo các
 <details>
 <summary>Ví dụ</summary>
 
+
 ```cs
 /*
 Minh họa lập trình khai báo với C#
@@ -186,7 +187,9 @@ namespace DeclarativeProgramming
     }
 }
 ```
+
 </deltails>
+
    
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
