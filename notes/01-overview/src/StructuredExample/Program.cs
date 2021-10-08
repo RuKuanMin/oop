@@ -1,6 +1,5 @@
 ﻿/*
 Minh họa lập trình cấu trúc với C#
-Sắp xếp dãy số tăng dần 
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
