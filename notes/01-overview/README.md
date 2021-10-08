@@ -36,6 +36,53 @@ GIỚI THIỆU
 - Nguyên lý lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
 - Các lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
 - Các phương pháp lập trình cấu trúc (structured programming), lập trình hướng thủ tục (procedural programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
+<details>
+    <summary>
+        Ví dụ
+    </summary>
+
+    ```csharp
+    /*
+Minh họa lập trình hướng mệnh lệnh với C#
+Sắp xếp dãy số tăng dần 
+Input: Dãy số nguyên
+Output: Dãy số được sắp xếp tăng dần
+*/
+
+using System;
+
+namespace ImperativeExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Khởi tạo một mảng số nguyên
+            int n=6;
+            int[] numbers = new int[] {3,8,2,1,6,5};
+            
+            // Sắp xếp tăng dần - giải thuật đổi chỗ trực tiếp
+            for(int i=0; i < n-1; i++)
+                for(int j=i+1; j < n; j++)
+                    if(numbers[i] > numbers[j])
+                    {
+                        int t = numbers[i];
+                        numbers[i] = numbers[j];
+                        numbers[j] = t;
+                    }
+
+            // In ra danh sách đã sắp xếp
+            Console.WriteLine("Mang tang dan:");
+            for(int i=0; i < n; i++)
+                Console.Write("{0} ", numbers[i]);
+                
+            // Wait for a key press
+            Console.ReadKey();
+        }
+    }
+}
+    ```
+</details>
 
 #### Lập trình hướng thủ tục/cấu trúc (procedural/structured programming)
 - Là phương pháp lập trình dựa trên cách tiếp cận từ trên xuống (top-down development), từ tổng quát đến chi tiết. Theo đó, chương trình được chia thành các khối chức năng, các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con (thủ tục/hàm).
