@@ -91,6 +91,7 @@ Console.ReadKey();
 </p>
 </details>
 
+<br>
 
 #### Lập trình hướng thủ tục/cấu trúc (procedural/structured programming)
 - Là phương pháp lập trình dựa trên cách tiếp cận từ trên xuống (top-down development), từ tổng quát đến chi tiết. Theo đó, chương trình được chia thành các khối chức năng, các chức năng này nếu cần lại được phân chia tiếp thành các khối chức năng nhỏ hơn, cho đến khi các chức năng nhỏ nhất đủ đơn giản để cài đặt thành các chương trình con (thủ tục/hàm).
@@ -142,7 +143,7 @@ static void InMang(int[] a, int n)
 
 </p>
 </details>
-
+<br>
 
 ### **Lập trình khai báo (Declarative Programming)** <a name="declarative">
 
@@ -189,7 +190,7 @@ namespace DeclarativeProgramming
 
 </p>
 </details>
-
+<br>
 
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
