@@ -32,18 +32,6 @@ Giới thiệu về lập trình hướng đối tượng
 
 <img src="figs/programming-paradigms-2.png" alt="Programming paradigms" width="75%"> 
 
-<div class="info">
-  <p>
-  <ul>
-    <li>
-        Một số ngôn ngữ chỉ hỗ trợ một mô thức lập trình, như Smalltalk, Haskell.
-    </li>
-    <li>
-        Nhiều ngôn ngữ hỗ trợ đa mô thức (multiparadigm), như: C++, Java, JavaScript, C#, PHP, Python.
-    </li>
-  </ul>
-  </p>
-</div>
 
 ### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative">
 - Nguyên lý lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
@@ -184,6 +172,19 @@ namespace DeclarativeProgramming
 </p>
 </details>
 <br>
+
+<div class="info">
+  <p>
+  <ul>
+    <li>
+        Một số ngôn ngữ chỉ hỗ trợ một mô thức lập trình, như Smalltalk, Haskell.
+    </li>
+    <li>
+        Nhiều ngôn ngữ hỗ trợ đa mô thức (multiparadigm), như: C++, Java, JavaScript, C#, PHP, Python.
+    </li>
+  </ul>
+  </p>
+</div>
 
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
