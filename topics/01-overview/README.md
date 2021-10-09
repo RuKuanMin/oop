@@ -136,7 +136,7 @@ Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo các
 
 <details>
 <summary>
-    <img src="../assets/images/icons/code.png" alt="Code">
+    <img src="../../assets/images/icons/code.png" alt="Code">
     Ví dụ
 </summary>
 <p>
