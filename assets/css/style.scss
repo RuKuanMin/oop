@@ -147,6 +147,13 @@ details > summary::before{
 
 details > summary {
   list-style-type: none;
+  padding: 4px;
+  padding-left: 50px;
+  width: 120px;
+  border: none;
+  cursor:text;
+  background:url(../images/icons/code.png) no-repeat;
+  background-size:30px 30px;
 }
 
 details > summary::-webkit-details-marker {
