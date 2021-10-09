@@ -138,6 +138,7 @@ Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo các
 <summary>Ví dụ</summary>
 <p>
 
+```c#
 /*
 Minh họa lập trình khai báo với C#
 Input: Dãy số nguyên
