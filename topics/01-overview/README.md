@@ -148,25 +148,16 @@ Output: Dãy số được sắp xếp tăng dần
 using System;
 using System.Collections.Generic;
 
-namespace DeclarativeProgramming
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Tạo một danh sách
-            List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
+// Tạo một danh sách
+List<int> numbers = new List<int> { 3, 8, 2, 1, 5, 6 };
 
-            // Gọi phương thức sắp xếp (tăng dần)
-            // Người lập trình không cần cài đặt hàm Sort()
-            numbers.Sort();
+// Gọi phương thức sắp xếp (tăng dần)
+// Người lập trình không cần cài đặt hàm Sort()
+numbers.Sort();
 
-            // Print the sorted list
-            Console.WriteLine("Day tang dan:");
-            Console.WriteLine("{0}", string.Join(", ", numbers));
-        }
-    }
-}
+// Print the sorted list
+Console.WriteLine("Day tang dan:");
+Console.WriteLine("{0}", string.Join(", ", numbers));
 ```
 
 </p>
