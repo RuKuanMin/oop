@@ -1,5 +1,5 @@
 <h2 align="center"> 
-LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+Lập trình hướng đối tượng
 </h2>
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
@@ -8,7 +8,7 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 <br>
 
 ### 1 - Các chủ đề
-#### [1.1 - Giới thiệu về lập trình hướng đối tượng](notes/01-overview) 
+#### [1.1 - Giới thiệu về lập trình hướng đối tượng](topics/01-overview) 
 #### [1.2 - Nền tảng .NET và ngôn ngữ C#]()
 #### [1.3 - Sơ lược phân tích thiết kế hướng đối tượng]() 
 #### [1.4 - Lớp và đối tượng]() 
@@ -18,8 +18,7 @@ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 ### 2 - Bài thực hành
 #### [2.1 - Thiết lập môi trường lập trình C#]() 
 #### [2.2 - Lớp và đối tượng]()
-#### [2.3 - Đối tượng, thuộc tính và phương thức]()
-#### [2.4 - Thừa kế và đa hình]()
-#### [2.5 - Lập trình ứng dụng với C#]()
+#### [2.3 - Thừa kế và đa hình]()
+#### [2.4 - Lập trình Windows với C#]()
 
-### [Tài liệu tham khảo](references.md)
+### [Tài liệu tham khảo](topics/references.md)
