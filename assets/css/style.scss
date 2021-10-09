@@ -148,8 +148,8 @@ details > summary::-webkit-details-marker {
 details > summary::before {
   content: '';
 }
-details[open] > summary::before {
-  content:'🡑'; 
+details[open] > summary::after {
+  content:' 🡑'; 
   color: brown;
 }
 
