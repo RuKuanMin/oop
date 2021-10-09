@@ -94,6 +94,7 @@ Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
 
+
 // Khởi tạo một mảng số nguyên
 int n=6;
 int[] numbers = new int[] {3,8,2,1,6,5};
@@ -103,7 +104,7 @@ SapXepTD(numbers, n);
 
 // Gọi hàm in mảng
 InMang(numbers, n);
-  
+
 // Hàm sắp xếp mảng tăng dần
 static void SapXepTD(int[] a, int n)
 {
