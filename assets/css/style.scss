@@ -151,7 +151,8 @@ details > p {
 }
 */
 
-details summary::-webkit-details-marker {
+details > summary::-webkit-details-marker 
+{
   background: url(../images/icons/code.png) center no-repeat;
   color: transparent;
 }
