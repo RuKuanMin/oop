@@ -177,6 +177,10 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
   </p>
 </div>
 
+
+[Example](src/DeclarativeExample/Program.cs)
+
+
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
@@ -213,8 +217,6 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 > Đối tượng = Thuộc tính + Phương thức
 
 
-```csharp:src/DeclarativeExample/Program.cs
-```
 
 
 
