@@ -74,8 +74,6 @@ div {
   background-position: 8px center;
   padding-left: 60px;
   padding-top: 20px;
-  //color: brown;
-  //border: 1px solid rgb(89, 164, 219);
 }
 
 .info {
@@ -85,8 +83,6 @@ div {
   background-position: 8px center;
   padding-left: 35px;
   border: 1px solid brown;
-  //background-color: rgb(221,234,255);
-  //border-left: 6px solid #2196F3;
 }
 
 .warning {
@@ -95,8 +91,7 @@ div {
   background-position: 8px center;
   padding-left: 35px;
   border: 1px solid brown;
-  // background-color: #ffcc66 ;
-  // border-left: 6px solid #ff9900;
+  border-radius: 5px;
 }
 
 .header {
@@ -114,7 +109,7 @@ div {
   background-position:8px center;
   padding-left:35px;
   border:1px solid brown;
-  ;
+  border-radius: 5px;;
   // border: 1px solid green;
 }
 
@@ -137,11 +132,6 @@ img {
   padding-bottom: 20px;
 }
 
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
 details > summary {
   list-style-type: none;
   padding: 4px;
@@ -150,7 +140,7 @@ details > summary {
   width: 100px;
   border:1px solid lightgray;
   border-radius: 5px;
-  cursor:zoom-in;
+  cursor:-webkit-zoom-in;
   background:url(../images/icons/code.png) no-repeat;
   background-size:30px 30px;
   //background-color:#AED6F1;
@@ -165,14 +155,7 @@ details > summary::before {
   content: '';
 }
 
-details > summary::after {
-  //content: " \2304";
-  //color: brown;
-}
-
-details[open] > summary::after {
-  content:"\2303"; 
-  color: brown;
-  padding-left:20px;
+details[open] > summary {
+  cursor:-webkit-zoom-out;
 }
 
