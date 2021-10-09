@@ -4,24 +4,24 @@ Giới thiệu về lập trình hướng đối tượng
 
 <div class="header">
 <p>
-    <h3>Sơ lược các phương pháp lập trình </h3>
-    <ul>
-        <li><h4>Lập trình hướng mệnh lệnh (Imperative Programming)</h4></li>
-        <li><h4>Lập trình khai báo (Declarative Programming)</h4></li>
-    </ul>
+<h3>Sơ lược các phương pháp lập trình </h3>
+<ul>
+<li><h4>Lập trình hướng mệnh lệnh (Imperative Programming)</h4></li>
+<li><h4>Lập trình khai báo (Declarative Programming)</h4></li>
+</ul>
 
-    <a href="#oop"><h3>Phương pháp lập trình hướng đối tượng (Object Oriented Programming)</h3></a>
-    <ul>
-        <li>
-            <h4>Bài toán minh họa</h4>
-        </li>
-        <li>
-            <h4>Cách tiếp cận hướng đối tượng</h4>
-        </li>
-        <li>
-            <h4>Ngôn ngữ lập trình hướng đối tượng</h4>
-        </li>
-    </ul>
+<a href="#oop"><h3>Phương pháp lập trình hướng đối tượng (Object Oriented Programming)</h3></a>
+<ul>
+<li>
+<h4>Bài toán minh họa</h4>
+</li>
+<li>
+<h4>Cách tiếp cận hướng đối tượng</h4>
+</li>
+<li>
+<h4>Ngôn ngữ lập trình hướng đối tượng</h4>
+</li>
+</ul>
 </p>
 </div>
 
@@ -37,6 +37,7 @@ Giới thiệu về lập trình hướng đối tượng
 
 
 ### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative">
+
 - Nguyên lý lập trình mệnh lệnh là **"how to do"** - ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
 - Chương trình được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). 
 - Các phương pháp lập trình hướng thủ tục/cấu trúc (procedural/structured programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
