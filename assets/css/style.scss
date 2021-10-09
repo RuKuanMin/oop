@@ -161,12 +161,12 @@ details > summary::before {
 }
 
 details > summary::after {
-  content: " \2794";
+  content: " \2304";
   color: brown;
 }
 
 details[open] > summary::after {
-  content:" \2191"; 
+  content:" \2303"; 
   color: brown;
 }
 
