@@ -60,6 +60,16 @@ div {
   border-left: 6px solid #04AA6D;
 }
 
+.code {
+  // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  background: url(../images/icons/code.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  //border: 1px solid rgb(89, 164, 219);
+
+}
+
 .info {
   // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
   background: url(../images/icons/info.png) no-repeat; 

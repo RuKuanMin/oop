@@ -177,8 +177,13 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
   </p>
 </div>
 
+<div class="code">
+  <p>
+    [Ví dụ](src/DeclarativeExample/Program.cs)
+  </p>
+</div>
 
-[Example](src/DeclarativeExample/Program.cs)
+
 
 
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
