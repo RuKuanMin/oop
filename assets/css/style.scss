@@ -129,18 +129,14 @@ img {
   padding-bottom: 20px;
 }
 
-/*
 details > summary {
   padding: 4px;
   padding-left: 50px;
   width: 200px;
-  //background-color: #eeeeee;
   border: none;
-  box-shadow: 1px 1px 2px #bbbbbb;
   cursor:text;
   background:url(../images/icons/code.png) no-repeat;
   background-size:40px 40px;
-  background-position:8px center;
 }
 
 details > p {
@@ -149,12 +145,5 @@ details > p {
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
 }
-*/
 
-details > summary::-webkit-details-marker 
-{
-  background: url(../images/icons/code.png) center no-repeat;
-  background-size:40px 40px;
-  background-position:8px center;
-  color: transparent;
-}
+
