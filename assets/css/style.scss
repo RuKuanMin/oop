@@ -130,15 +130,16 @@ img {
 }
 
 details > summary {
-  padding: 4px;
+  padding: 40px;
   width: 200px;
   //background-color: #eeeeee;
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
-  //cursor: pointer;
+  cursor: none;
   background:url(../images/icons/code.png) no-repeat;
   background-size:40px 40px;
   background-position:8px center;
+  cursor:not-allowed;
 }
 
 details > p {
