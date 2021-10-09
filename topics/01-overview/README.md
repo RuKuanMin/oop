@@ -136,9 +136,7 @@ Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo các
 
 <details>
 <summary>Ví dụ</summary>
-
 <p>
-
 
 /*
 Minh họa lập trình khai báo với C#
