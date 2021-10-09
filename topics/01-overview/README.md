@@ -139,7 +139,7 @@ Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo các
 
 <p>
 
-```c#
+
 /*
 Minh họa lập trình khai báo với C#
 Input: Dãy số nguyên
@@ -212,6 +212,10 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
     * Phương thức (methods): Là các hành vi (behaviours) mà đối tượng có thể thực hiện.
 
 > Đối tượng = Thuộc tính + Phương thức
+
+
+```c#:src/DeclarativeExample/Program.cs
+```
 
 
 ## Tài liệu tham khảo 
