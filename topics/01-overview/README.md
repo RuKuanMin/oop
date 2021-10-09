@@ -213,9 +213,11 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 > Đối tượng = Thuộc tính + Phương thức
 
 
-```csharp:src/DeclarativeExample/Program.cs
-
+```c#:src/DeclarativeExample/Program.cs
 ```
+
+
+
 
 
 ## Tài liệu tham khảo 
