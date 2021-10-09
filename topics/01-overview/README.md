@@ -26,7 +26,7 @@ Giới thiệu về lập trình hướng đối tượng
 
 ## Sơ lược các phương pháp lập trình <a name="paradigms">
 - Các chương trình máy tính ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
-- Dựa theo mô thức lập trình (programming paradigms - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
+- Dựa theo "mô thức lập trình" (programming paradigms - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
@@ -177,10 +177,10 @@ namespace DeclarativeProgramming
   <p>
   <ul>
     <li>
-        Một số ngôn ngữ chỉ hỗ trợ một mô thức lập trình, như Smalltalk, Haskell.
+        Một số ngôn ngữ chỉ hỗ trợ một mô thức lập trình (single-paradigm), như Smalltalk, Haskell.
     </li>
     <li>
-        Nhiều ngôn ngữ hỗ trợ đa mô thức (multiparadigm), như: C++, Java, JavaScript, C#, PHP, Python.
+        Nhiều ngôn ngữ hỗ trợ đa mô thức (multi-paradigm), như: C++, Java, JavaScript, C#, PHP, Python.
     </li>
   </ul>
   </p>
