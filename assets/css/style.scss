@@ -149,6 +149,7 @@ details > summary::before {
   content: '';
 }
 details[open] > summary::before {
-  content:icon;
+  content:content:"🡑"; 
+  color: brown;
 }
 
