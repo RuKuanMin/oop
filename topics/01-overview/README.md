@@ -3,29 +3,32 @@ Giới thiệu về lập trình hướng đối tượng
 </h2>
 
 <div class="header">
-<a href="#paradigms"><h3>Sơ lược các phương pháp lập trình </h3></a>
-<ul>
-    <li><h4>Lập trình hướng mệnh lệnh (Imperative Programming)</h4></li>
-    <li><h4>Lập trình khai báo (Declarative Programming)</h4></li>
-</ul>
+<p>
+    <h3>Sơ lược các phương pháp lập trình </h3>
+    <ul>
+        <li><h4>Lập trình hướng mệnh lệnh (Imperative Programming)</h4></li>
+        <li><h4>Lập trình khai báo (Declarative Programming)</h4></li>
+    </ul>
 
-<a href="#oop"><h3>Phương pháp lập trình hướng đối tượng (Object Oriented Programming)</h3></a>
-<ul>
-    <li>
-        <h4>Bài toán minh họa</h4>
-    </li>
-    <li>
-        <h4>Cách tiếp cận hướng đối tượng</h4>
-    </li>
-    <li>
-        <h4>Ngôn ngữ lập trình hướng đối tượng</h4>
-    </li>
-</ul>
+    <a href="#oop"><h3>Phương pháp lập trình hướng đối tượng (Object Oriented Programming)</h3></a>
+    <ul>
+        <li>
+            <h4>Bài toán minh họa</h4>
+        </li>
+        <li>
+            <h4>Cách tiếp cận hướng đối tượng</h4>
+        </li>
+        <li>
+            <h4>Ngôn ngữ lập trình hướng đối tượng</h4>
+        </li>
+    </ul>
+</p>
 </div>
 
 
 ## Sơ lược các phương pháp lập trình <a name="paradigms">
-- Các ứng dụng ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để giải quyết hiệu quả.
+
+- Các ứng dụng ngày càng đa dạng và phức tạp hơn, do đó các ngôn ngữ lập trình cũng cần có sự cải tiến để giải quyết hiệu quả.
 - Dựa theo "mô thức lập trình" (programming paradigms - phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
