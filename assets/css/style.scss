@@ -3,9 +3,9 @@
 
 @import "{{ site.theme }}";
 
-body {
+html, body {
     font-family: Helvetica, Arial, sans-serif;
-    //color: dark;
+    color: darkgrey;
 }
 
 blockquote{
