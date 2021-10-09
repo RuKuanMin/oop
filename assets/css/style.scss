@@ -78,7 +78,7 @@ div {
   background-size: 40px 40px;
   background-position: 8px center;
   padding-left: 35px;
-  border: 1px solid #AED6F1;
+  border: 1px solid brown;
   //background-color: rgb(221,234,255);
   //border-left: 6px solid #2196F3;
 }
@@ -88,7 +88,7 @@ div {
   background-size: 40px 40px;
   background-position: 8px center;
   padding-left: 35px;
-  border: 1px solid #AED6F1;
+  border: 1px solid brown;
   // background-color: #ffcc66 ;
   // border-left: 6px solid #ff9900;
 }
@@ -106,7 +106,7 @@ div {
   background-size:40px 40px;
   background-position:8px center;
   padding-left:35px;
-  border:1px solid #AED6F1;
+  border:1px solid brown;
   ;
   // border: 1px solid green;
 }
@@ -136,7 +136,7 @@ details > summary {
   padding-left: 50px;
   padding-bottom:0px;
   width: 100px;
-  border:1px solid #AED6F1;
+  border:1px solid brown;
   border-radius: 5px;
   cursor:text;
   background:url(../images/icons/code.png) no-repeat;
@@ -154,12 +154,12 @@ details > summary::before {
 }
 
 details > summary::after {
-  content: ' 🡢';
+  content: '  🡢';
   color: brown;
 }
 
 details[open] > summary::after {
-  content:' 🡡'; 
+  content:'  🡡'; 
   color: brown;
 }
 
