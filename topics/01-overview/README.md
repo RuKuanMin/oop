@@ -223,7 +223,6 @@ Quay lại bài toán quản lý đào tạo:
 - Đối tượng có thể tương tác với đối tượng khác bằng cách gọi hàm của chúng. Chẳng hạn, khi một đối tượng sinh viên gọi chức năng "Add()",  chương trình sẽ tạo mới một đối tượng sinh viên, sau đó chức năng "AddAttendee()" sẽ được gọi từ một đối tượng của lớp môn học (Course).
 
 
-
 ## Tài liệu tham khảo 
 
 #### Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
