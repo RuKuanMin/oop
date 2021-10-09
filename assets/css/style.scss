@@ -161,12 +161,12 @@ details > summary::before {
 }
 
 details > summary::after {
-  content: '  🡢';
+  content: " \2794";
   color: brown;
 }
 
 details[open] > summary::after {
-  content:'  🡡'; 
+  content:"  \1F815"; 
   color: brown;
 }
 
