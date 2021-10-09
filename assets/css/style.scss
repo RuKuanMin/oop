@@ -149,7 +149,7 @@ details > summary::before {
   content: '';
 }
 details[open] > summary::before {
-  content:content:'🡑'; 
+  content:'🡑'; 
   color: brown;
 }
 
