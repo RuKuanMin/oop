@@ -147,5 +147,7 @@ details > summary::-webkit-details-marker {
 details > summary::before {
   content: '';
 }
-
+details[open] > summary::before {
+  content: '🔽';
+}
 
