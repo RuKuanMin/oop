@@ -150,12 +150,12 @@ details > summary::before {
 }
 
 details > summary::after {
-  content: ' ˅';
+  content: ' 🡢';
   color: brown;
 }
 
 details[open] > summary::after {
-  content:' ˄'; 
+  content:' 🡡'; 
   color: brown;
 }
 
