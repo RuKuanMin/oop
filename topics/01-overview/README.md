@@ -30,7 +30,7 @@ Giới thiệu về lập trình hướng đối tượng
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
-<img src="figs/programming-paradigms-2.png" alt="Programming paradigms" width="75%"> 
+<img src="figs/programming-paradigms.png" alt="Programming paradigms" width="75%"> 
 
 
 ### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative">
