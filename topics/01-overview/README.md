@@ -222,8 +222,7 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 
 #### Lectures on High-performance Computing for Economists, University of Pennsylvania, 2020
 #### Programming Languages, Stanford University, 2018
-#### Object Oriented Analysis and Design using the UML
-#### Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, Trường đại học Nha Trang, 2020
+#### Object Oriented Analysis and Design using the UML, University of Calgary, 2000
 
 
 
