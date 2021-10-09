@@ -129,26 +129,10 @@ img {
   padding-bottom: 20px;
 }
 
-/*
-details > summary {
-  padding: 4px;
-  padding-left: 50px;
-  width: 120px;
-  border: none;
-  cursor:text;
-  background:url(../images/icons/code.png) no-repeat;
-  background-size:30px 30px;
-  }
-
-details > summary::before{
-  content:'';
-};
-*/
-
 details > summary {
   list-style-type: none;
   padding: 4px;
-  padding-left: 50px;
+  padding-left: 35px;
   width: 120px;
   border: none;
   cursor:text;
