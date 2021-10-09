@@ -161,12 +161,14 @@ details > summary::before {
 }
 
 details > summary::after {
-  content: " \2304";
-  color: brown;
+  //content: " \2304";
+  //color: brown;
+  content: "";
 }
 
 details[open] > summary::after {
-  content:" \2303"; 
+  content:"  \2303"; 
   color: brown;
+  font-size: 13px;
 }
 
