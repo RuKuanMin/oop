@@ -137,10 +137,9 @@ details > summary {
   cursor:text;
   background:url(../images/icons/code.png) no-repeat;
   background-size:30px 30px;
-}
+  }
 
-details > summary::before {
-  content:none;
-}
+::before:no-button;
+
 
 
