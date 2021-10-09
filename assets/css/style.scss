@@ -129,6 +129,7 @@ img {
   padding-bottom: 20px;
 }
 
+/*
 details > summary {
   padding: 4px;
   padding-left: 50px;
@@ -142,6 +143,18 @@ details > summary {
 details > summary::before{
   content:'';
 };
+*/
 
+details > summary {
+  list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: '';
+}
 
 
