@@ -132,7 +132,7 @@ static void InMang(int[] a, int n)
 
 ### **Lập trình khai báo (Declarative Programming)** <a name="declarative">
 
-Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách **what to do** - yêu cầu máy tính làm gì để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), các ngôn ngữ chuyên biệt (domain-specific) như SQL, HTML.
+Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách **"what to do"** - yêu cầu máy tính làm gì để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), các ngôn ngữ chuyên biệt (domain-specific) như SQL, HTML.
 
 <details>
 <summary>Ví dụ</summary>
@@ -213,7 +213,8 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 > Đối tượng = Thuộc tính + Phương thức
 
 
-```c#:src/DeclarativeExample/Program.cs
+```csharp:src/DeclarativeExample/Program.cs
+
 ```
 
 
