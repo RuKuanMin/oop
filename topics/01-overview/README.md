@@ -179,7 +179,7 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 
 <div class="code">
   <p>
-    [Ví dụ](src/DeclarativeExample/Program.cs)
+    <a href="src/DeclarativeExample/Program.cs">Ví dụ </a>
   </p>
 </div>
 
