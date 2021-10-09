@@ -34,7 +34,7 @@ Giới thiệu về lập trình hướng đối tượng
 
 
 ### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative">
-- Nguyên lý lập trình mệnh lệnh là **(how to do)** - ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
+- Nguyên lý lập trình mệnh lệnh là **"how to do"** - ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
 - Chương trình được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). 
 - Các phương pháp lập trình hướng thủ tục/cấu trúc (procedural/structured programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
@@ -131,7 +131,7 @@ static void InMang(int[] a, int n)
 
 ### **Lập trình khai báo (Declarative Programming)** <a name="declarative">
 
-Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách *yêu cầu máy tính làm gì (what to do)* để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), các ngôn ngữ chuyên biệt (domain-specific) như SQL, HTML.
+Các ngôn ngữ lập trình khai báo diễn đạt các câu lệnh theo cách **what to do** - yêu cầu máy tính làm gì để đạt được kết quả mà không cần quan tâm đến cách thức thực hiện chi tiết. Các phân hệ của lập trình khai báo gồm có: Lập trình logic (như Prolog), hướng chức năng (như Haskell, Scala, F#), các ngôn ngữ chuyên biệt (domain-specific) như SQL, HTML.
 
 <details>
 <summary>Ví dụ</summary>
