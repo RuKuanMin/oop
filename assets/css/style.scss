@@ -154,5 +154,7 @@ details > p {
 details > summary::-webkit-details-marker 
 {
   background: url(../images/icons/code.png) center no-repeat;
+  background-size:40px 40px;
+  background-position:8px center;
   color: transparent;
 }
