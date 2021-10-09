@@ -24,7 +24,7 @@ Giới thiệu về lập trình hướng đối tượng
 </div>
 
 
-## Sơ lược các phương pháp lập trình (programming paradigms) <a name="paradigms">
+## Sơ lược các phương pháp lập trình <a name="paradigms">
 - Các chương trình máy tính ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
 - Dựa theo mô thức lập trình (programming paradigms - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
@@ -34,8 +34,8 @@ Giới thiệu về lập trình hướng đối tượng
 
 
 ### **Lập trình hướng mệnh lệnh (Imperative Programming)** <a name="imperative">
-- Nguyên lý lập trình mệnh lệnh là *ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn - (how to do)*, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
-- Các lệnh được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). Hầu hết ngôn ngữ lập trình đều hỗ trợ kiểu lập trình này. 
+- Nguyên lý lập trình mệnh lệnh là **(how to do)** - ra lệnh máy tính thực hiện từng bước xử lý theo một trình tự xác định để đạt kết quả mong muốn, tương đồng với cách máy tính thực hiện ở mức mã máy (machine code). 
+- Chương trình được cài đặt theo trình tự của giải thuật, vì thế kiểu lập trình này còn gọi là lập trình giải thuật (algorithmic programming). 
 - Các phương pháp lập trình hướng thủ tục/cấu trúc (procedural/structured programming), lập trình hướng đối tượng (object-oriented programming) đều thuộc mô thức lập trình hướng mệnh lệnh.
 
 <details>
