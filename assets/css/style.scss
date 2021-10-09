@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
 html, body {
-    font-family: Helvetica, Arial, sans-serif;
-    color: darkgrey;
+    font-family: Helvetica, Arial, sans-serif !important;;
+    color: darkgrey !important;;
 }
 
 blockquote{
