@@ -139,7 +139,9 @@ details > summary {
   background-size:30px 30px;
   }
 
-details > summary::before:no-button;
+details > summary::before{
+  content:'';
+};
 
 
 
