@@ -134,14 +134,15 @@ details > summary {
   padding: 4px;
   padding-left: 50px;
   padding-bottom:0px;
-  width: 120px;
+  width: 100px;
   border: none;
+  border-radius: 5px;
   cursor:text;
   background:url(../images/icons/code.png) no-repeat;
   background-size:30px 30px;
   background-color:#AED6F1;
   background-position:8px center;
-  border-radius: 5px;
+  
 }
 
 details > summary::-webkit-details-marker {
