@@ -25,8 +25,8 @@ Giới thiệu về lập trình hướng đối tượng
 
 
 ## Sơ lược các phương pháp lập trình <a name="paradigms">
-- Các chương trình máy tính ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để đáp ứng yêu cầu. 
-- Dựa theo "mô thức lập trình" (programming paradigms - có thể hiểu là phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
+- Các ứng dụng ngày càng trở nên đa dạng và phức tạp hơn, do đó cách tiếp cận lập trình cũng cần có sự cải tiến để giải quyết hiệu quả.
+- Dựa theo "mô thức lập trình" (programming paradigms - phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
     * [**Lập trình hướng mệnh lệnh (imperative programming)**](#imperative)
     * [**Lập trình khai báo (declarative programming)**](#declarative)
 
@@ -40,7 +40,6 @@ Giới thiệu về lập trình hướng đối tượng
 
 <details>
 <summary> Ví dụ </summary>
-
 <p>
 
 ```c#
@@ -93,7 +92,6 @@ Minh họa lập trình cấu trúc với C#
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
 */
-
 
 // Khởi tạo một mảng số nguyên
 int n=6;
@@ -179,9 +177,6 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 
 
 
-
-
-
 ## Phương pháp lập trình hướng đối tượng <a name="oop">
 ### Bài toán minh họa
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
@@ -216,10 +211,6 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
     * Phương thức (methods): Là các hành vi (behaviours) mà đối tượng có thể thực hiện.
 
 > Đối tượng = Thuộc tính + Phương thức
-
-
-
-
 
 
 
