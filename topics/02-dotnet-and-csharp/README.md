@@ -9,7 +9,7 @@
     <li><h4>.NET 5</h4></li>
 </ul>
 
-<a href="#csconcepts"><h3>Ngôn ngữ C#</h3></a>
+<h3><a href="#csconcepts">Ngôn ngữ C#</a></h3>
 <ul>
     <li>
         <h4>Đặc điểm</h4>
@@ -67,7 +67,7 @@
 <img src="figs/swimlane-architecture-framework.svg" width="75%">
 
 
-### [.NET 5 (.NET Core)](https://docs.microsoft.com/en-us/dotnet/core/introduction)
+### .NET 5 (.NET Core)
 - Là phiên bản .NET hợp nhất, cung cấp khả năng phát triển nhiều loại ứng dụng với nhiều hệ điều hành (cross-plaform).
 - Các loại ứng dụng: Desktop, Web, Mobile, Windows Forms, WPF, Games, IoT, Console,...
 - Các hệ điều hành: Windows, macOS, Linux, Android, iOS, ...
