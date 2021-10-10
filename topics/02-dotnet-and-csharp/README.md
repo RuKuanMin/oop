@@ -40,6 +40,6 @@
 
 #### [Microsoft: .NET Framework documentation](https://docs.microsoft.com/en-us/dotnet/framework/)
 #### [Microsoft: C# tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/)
-#### [Microsoft: .NET tutorial](https://dotnet.microsoft.com/learn/dotnet/in-browser-tutorial)
-#### [W3Schools.com: C# tutorial](https://www.w3schools.com/cs/index.php)
-#### [Visual Studio Code: Working with C#](https://code.visualstudio.com/docs/languages/csharp)
+#### [Microsoft: .NET tutorial](https://dotnet.microsoft.com/learn/dotnet/in-browser-tutorial/)
+#### [W3Schools.com: C# tutorial](https://www.w3schools.com/cs/index.php/)
+#### [Visual Studio Code: Working with C#](https://code.visualstudio.com/docs/languages/csharp/)
