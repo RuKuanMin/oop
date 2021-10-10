@@ -5,7 +5,7 @@
 <div class="header">
 <a href="#dotnet"><h3>Sơ lược về .NET</h3></a>
 <ul>
-    <li><h4>.NET Framwork</h4></li>
+    <li><h4>.NET Framework</h4></li>
     <li><h4>.NET 5</h4></li>
 </ul>
 
@@ -38,8 +38,8 @@
     - Bộ công cụ phát triển, như Microsoft Visual Studio. 
 
 #### Quá trình biên dịch & chạy ứng dụng
-- Mã nguồn được dịch thành file mã trung gian (CIL) với phần mở rộng là `.exe` hoặc `.dll`. 
-- Khi chạy ứng dụng, trình quản lý thực thi CLR chuyển mã trung gian thành mã máy thông qua trình biên dịch gọi là JIT (just-in-time).
+- **Dịch**: Mã nguồn được dịch thành file mã trung gian (CIL) với phần mở rộng là `.exe` hoặc `.dll`. 
+- **Chạy**: Khi chạy ứng dụng, trình quản lý thực thi CLR chuyển mã trung gian thành mã máy thông qua trình biên dịch gọi là JIT (just-in-time compiler).
 
 <img src="figs/swimlane-architecture-framework.svg" width="75%">
 
