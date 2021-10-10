@@ -1,4 +1,4 @@
-## [Lập trình C/C++ với Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
+## [Lập trình C# Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
 
 ### [Đặc điểm](#specs)
 ### [Cài đặt](#install)
