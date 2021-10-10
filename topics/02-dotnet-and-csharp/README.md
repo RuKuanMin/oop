@@ -75,7 +75,9 @@
 
 <div class="goodpractice">
   <p>
+    <ul>
        Nên dùng .NET 5 trở về sau nếu phát triển một ứng dụng mới.
+    <ul>
   </p>
 </div>
 
