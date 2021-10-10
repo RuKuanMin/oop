@@ -3,9 +3,13 @@
 
 @import "{{ site.theme }}";
 
-body {
+* {
     font-family: Helvetica, Arial, sans-serif !important;;
     color:#808080 !important;
+}
+h1,h2,h3,h4
+{
+  color:brown !important;
 }
 
 blockquote{
