@@ -3,17 +3,18 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
-// Khai báo lớp hình tròn 
 
+
+// Khai báo lớp hình tròn 
 public class Circle
 {
-    // fields as private
+    // fields 
     private double _x; // (_x,_y): tọa độ tâm trong mặt phẳng
     private double _y;
     private double _radius; 
     private Color _color;
 
-    // properties as public 
+    // properties
     public double X{
         get{return _x;}
     } 
