@@ -1,5 +1,5 @@
 <h2 align="center"> 
-.NET Framework và ngôn ngữ C#
+.NET và ngôn ngữ C#
 </h2>
 
 <div class="header">
@@ -17,23 +17,11 @@
     <li>
         <h4>Các thành phần của C# </h4>
     </li>
-    <li>
-        <h4>Ngôn ngữ lập trình hướng đối tượng</h4>
-    </li>
 </ul>
 </div>
 
-- ## [Nền tảng .NET](#dotnet)
-- ## [Ngôn ngữ C#](#csconcepts)
-- ## [Môi trường lập trình C#](#setupenvironment)
-    * ### [Cài đặt .NET Framework](#installdotnet)
-    * ### [Visual Studio](#installvs)
-    * ### [Visual Studio Code](#vscode)
-    * ### [SplashKit](#splashkit)
-- ## [Tham khảo](#resources)
 
-
-## Nền tảng .NET <a name="dotnet"/>
+## <a name="dotnet"/>Sơ lược về .NET </a>
 ### .NET Framework
 
 - .NET Framework, do Microsoft phát hành từ 2002, là nền tảng hỗ trợ phát triển các ứng dụng Windows và dịch vụ web. 
