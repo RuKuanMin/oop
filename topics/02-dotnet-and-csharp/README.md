@@ -46,7 +46,7 @@
   <p>
   <ul>
     <li>
-         .NET Framework được cài sẵn cùng trên Windows. 
+         .NET Framework được cài sẵn trên Windows. 
     </li>
     <li>
         Bản phát hành cuối cùng của .NET Framework là 4.8. Từ 2020 Microsoft phát hành .NET 5 - là phiên bản .NET hợp nhất trở về sau - hỗ trợ phát triển nhiều loại ứng dụng hơn và hỗ trợ nhiều hệ điều hành hơn.
