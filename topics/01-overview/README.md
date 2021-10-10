@@ -210,18 +210,17 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 
 
 ### Cách tiếp cận hướng đối tượng (Object-oriented Approach)
-- Cách tiếp cận hướng đối tượng kết hợp dữ liệu và xử lý vào một thực thể gọi là đối tượng (object).
+- Cách tiếp cận hướng đối tượng kết hợp dữ liệu (gọi là thuộc tính - properties) và xử lý (gọi là phương thức - methods) vào một thực thể gọi là đối tượng (object).
+    * Thuộc tính: Là các thông tin mô tả đối tượng. Về mặt lập trình, việc khai báo các thuộc tính tương tự như khai báo biến, vì thế chúng còn được gọi là biến thành viên (member variables).
+    * Phương thức: Là các hành vi mà đối tượng có thể thực hiện. Việc cài đặt các phương thức tương tự như các hàm, vì thế chúng còn được gọi là hàm thành viên (member functions).
 - Chương trình là tập hợp các đối tượng tương tác với nhau.
-- Mỗi đối tượng là sự đóng gói hai thành phần:
-    * Thuộc tính (properties): Là các thông tin mô tả đối tượng.
-    * Phương thức (methods): Là các hành vi (behaviours) mà đối tượng có thể thực hiện.
 
 Quay lại bài toán quản lý đào tạo:
-- Với cách tiếp cận hướng đối tượng, các chức năng thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent) sẽ được đóng gói cùng với dữ liệu sinh viên (Students) trong một module gọi. Với mỗi sinh viên, lớp Student sẽ tạo ra một thực thể tương ứng để lưu trữ, quản lý dữ liệu và các xử lý liên quan. Tương tự như vậy với các chức năng và tập dữ liệu khác.
+- Với cách tiếp cận hướng đối tượng, các chức năng thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent) sẽ được đóng gói cùng với dữ liệu sinh viên (Students) trong một module. Với mỗi sinh viên, lớp Student sẽ tạo ra một thực thể tương ứng để lưu trữ, quản lý dữ liệu và các xử lý liên quan. Tương tự như vậy với các chức năng và tập dữ liệu khác.
 
 <img src="figs/academicsystemoop.png" width="50%">
 
-- Một đối tượng có thể tương tác với đối tượng khác bằng cách gọi hàm của chúng. Chẳng hạn, khi một đối tượng sinh viên gọi chức năng "Add()",  chương trình sẽ tạo mới một đối tượng sinh viên, sau đó chức năng "AddAttendee()" sẽ được gọi từ một đối tượng của lớp môn học (Course).
+- Một đối tượng có thể tương tác với đối tượng khác bằng cách gọi hàm của chúng (gọi là truyền thông điệp). Chẳng hạn, khi một đối tượng sinh viên gọi chức năng "Add()",  chương trình sẽ tạo mới một đối tượng sinh viên, sau đó chức năng "AddAttendee()" sẽ được gọi từ một đối tượng của lớp môn học (Course). 
 
 
 ## Tài liệu tham khảo 
