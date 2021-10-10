@@ -13,7 +13,7 @@ Lập trình hướng đối tượng
 #### [1.3 - Sơ lược phân tích thiết kế hướng đối tượng]() 
 #### [1.4 - Lớp và đối tượng]() 
 #### [1.5 - Thừa kế và đa hình]() 
-#### [1.6 - Phát triển ứng dụng với C#]()
+#### [1.6 - Lập trình Windows với C#]()
 
 ### 2 - Bài thực hành
 #### [2.0 - Thiết lập môi trường lập trình C#](labs/00-environment-setup) 
