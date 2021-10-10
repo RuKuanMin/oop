@@ -3,17 +3,14 @@
 
 @import "{{ site.theme }}";
 
-/*
 body {
-    font-family: Helvetica, Arial, sans-serif !important;;
-    color:black !important;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-h1,h2,h3,h4
+h2,h3
 {
   color:brown !important;
 }
-*/
 
 blockquote{
   font-size: 1.2em;
@@ -142,7 +139,7 @@ details > summary {
   width: 100px;
   border:1px solid lightgray;
   border-radius: 5px;
-  cursor:-webkit-zoom-in;
+  cursor:zoom-in;
   background:url(../images/icons/code.png) no-repeat;
   background-size:30px 30px;
   //background-color:#AED6F1;
@@ -158,24 +155,5 @@ details > summary::before {
 }
 
 details[open] > summary {
-  cursor:-webkit-zoom-out;
-}
-
-a:link {
-  color: darkblue;
-}
-
-/* visited link */
-a:visited {
-  color: green;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
+  cursor:zoom-out;
 }
