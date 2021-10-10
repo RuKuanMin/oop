@@ -157,3 +157,11 @@ details > summary::before {
 details[open] > summary {
   cursor:zoom-out;
 }
+
+a:hover {
+  background-color: lightgray;
+}
+
+a:visited {
+  color: brown;
+}
