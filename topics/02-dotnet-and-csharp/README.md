@@ -46,10 +46,10 @@
   <p>
   <ul>
     <li>
-        Bản phát hành cuối cùng của .NET Framework là 4.8. Từ năm 2020 Microsoft phát hành .NET 5 - là phiên bản .NET hợp nhất trở về sau - hỗ trợ phát triển nhiều loại ứng dụng hơn và hỗ trợ nhiều hệ điều hành hơn.
+         .NET Framework được cài sẵn cùng trên Windows. 
     </li>
     <li>
-        Microsoft tiếp tục hỗ trợ .NET Framework.
+        Bản phát hành cuối cùng của .NET Framework là 4.8. Từ 2020 Microsoft phát hành .NET 5 - là phiên bản .NET hợp nhất trở về sau - hỗ trợ phát triển nhiều loại ứng dụng hơn và hỗ trợ nhiều hệ điều hành hơn.
     </li>
   </ul>
   </p>
@@ -73,6 +73,11 @@
 - Các hệ điều hành: Windows, macOS, Linux, Android, iOS, ...
 - Mã nguồn mở trên [GitHub](https://github.com/dotnet).
 
+<div class="tip">
+  <p>
+       Nên dùng .NET 5 trở về sau nếu phát triển một ứng dụng mới.
+  </p>
+</div>
 
 ### Ngôn ngữ lập trình C#
 
