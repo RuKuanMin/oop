@@ -182,6 +182,7 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 
 
 <h2 id="oop"> Phương pháp lập trình hướng đối tượng </h2>
+
 ### Bài toán minh họa
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
 
