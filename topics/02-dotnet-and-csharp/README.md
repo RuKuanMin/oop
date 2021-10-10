@@ -3,7 +3,7 @@
 </h2>
 
 <div class="header">
-<h3><a href="#dotnet">Sơ lược về .NET</a</h3>
+<h3><a href="#dotnet">Sơ lược về .NET</a></h3>
 <ul>
     <li><h4>.NET Framework</h4></li>
     <li><h4>.NET 5</h4></li>
