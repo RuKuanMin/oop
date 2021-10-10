@@ -4,12 +4,12 @@ Giới thiệu về lập trình hướng đối tượng
 
 <div class="header">
 <p>
-<h3>Sơ lược các phương pháp lập trình </h3>
+<h3><a href="#paradigms">Sơ lược các phương pháp lập trình </a></h3>
 <ul>
 <li><h4>Lập trình hướng mệnh lệnh (Imperative Programming)</h4></li>
 <li><h4>Lập trình khai báo (Declarative Programming)</h4></li>
 </ul>
-<h3>Phương pháp lập trình hướng đối tượng </h3>
+<h3><a href="#oop">Phương pháp lập trình hướng đối tượng</a></h3>
 <ul>
 <li>
 <h4>Bài toán minh họa</h4>
@@ -25,7 +25,8 @@ Giới thiệu về lập trình hướng đối tượng
 </div>
 
 
-## Sơ lược các phương pháp lập trình 
+<h2 id="paradigms"> Sơ lược các phương pháp lập trình</h2>
+
 
 - Các ứng dụng ngày càng đa dạng và phức tạp hơn, do đó các ngôn ngữ lập trình cũng cần có sự cải tiến để giải quyết hiệu quả.
 - Dựa theo "mô thức lập trình" (programming paradigms - phương pháp luận hay nguyên tắc chung cơ bản trong lập trình), các ngôn ngữ lập trình được chia thành hai nhóm chính: 
@@ -180,7 +181,7 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 
 
 
-## Phương pháp lập trình hướng đối tượng
+<h2 id="oop"> Phương pháp lập trình hướng đối tượng </h2>
 ### Bài toán minh họa
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
 
