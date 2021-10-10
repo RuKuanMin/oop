@@ -3,7 +3,8 @@
 
 @import "{{ site.theme }}";
 
-* {
+/*
+body {
     font-family: Helvetica, Arial, sans-serif !important;;
     color:black !important;
 }
@@ -12,6 +13,7 @@ h1,h2,h3,h4
 {
   color:brown !important;
 }
+*/
 
 blockquote{
   font-size: 1.2em;
@@ -159,3 +161,21 @@ details[open] > summary {
   cursor:-webkit-zoom-out;
 }
 
+a:link {
+  color: darkblue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
