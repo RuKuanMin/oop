@@ -158,10 +158,14 @@ details[open] > summary {
   cursor:zoom-out;
 }
 
+a:link {
+  color: brown;
+}
+
 a:hover {
   background-color: lightgray;
 }
 
 a:visited {
-  color: brown;
+  color:cornflowerblue;
 }
