@@ -219,7 +219,7 @@ Các tình huống trên cho thấy nhược điểm của phương pháp lập 
 Quay lại bài toán quản lý đào tạo:
 - Với cách tiếp cận hướng đối tượng, các chức năng thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent) xử lý trên tập dữ liệu sinh viên (Students). Vì thế, các phương thức xử lý này sẽ được đóng gói cùng với dữ liệu sinh viên trong một đối tượng thuộc lớp Student. Với mỗi sinh viên, lớp Student sẽ tạo ra một thực thể tương ứng để lưu trữ, quản lý dữ liệu và các xử lý liên quan. Tương tự như vậy với các chức năng và tập dữ liệu khác.
 
-<img src="figs/academicsystemoop.PNG" width="50%">
+<img src="figs/academicsystemoop.png" width="50%">
 
 - Đối tượng có thể tương tác với đối tượng khác bằng cách gọi hàm của chúng. Chẳng hạn, khi một đối tượng sinh viên gọi chức năng "Add()",  chương trình sẽ tạo mới một đối tượng sinh viên, sau đó chức năng "AddAttendee()" sẽ được gọi từ một đối tượng của lớp môn học (Course).
 
