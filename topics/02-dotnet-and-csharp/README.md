@@ -73,7 +73,7 @@
 - Các hệ điều hành: Windows, macOS, Linux, Android, iOS, ...
 - Mã nguồn mở trên [GitHub](https://github.com/dotnet).
 
-<div class="tip">
+<div class="goodpractice">
   <p>
        Nên dùng .NET 5 trở về sau nếu phát triển một ứng dụng mới.
   </p>
