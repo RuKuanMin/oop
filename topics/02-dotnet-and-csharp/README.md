@@ -22,18 +22,18 @@
 
 
 ## <a name="dotnet">Sơ lược về .NET </a>
-- .NET - do Microsoft phát hành từ 2002 - là nền tảng phát triển nhiều loại ứng dụng (web, mobile, desktop, games, IoT).
-- .NET hỗ trợ một số ngôn ngữ lập trình khác nhau: C#, F#, và Visual Basic.
+- .NET - do Microsoft phát hành từ 2002 - là nền tảng phát triển nhiều loại ứng dụng (web, mobile, desktop, games, IoT,...).
+- .NET hỗ trợ các ngôn ngữ lập trình C#, F#, và Visual Basic.
 
 - Các phiên bản của .NET:
     - .NET Framework
-    - NET 5 (.NET Core)
+    - .NET 5 (.NET Core)
     - UWP (Univeral Windows Platform)
     - Mono
 
 - Mỗi phiên bản .NET gồm các thành phần chính sau:
     - Trình biên dịch & xử lý thực thi (Common Language Runtime - CLR).
-    - Thư viện các lớp dựng sẵn.
+    - Thư viện các lớp dựng sẵn (Class Library).
     - Một số nền tảng phát triển ứng dụng, như Windows Forms, Windows Presentation Foundation (WPF).
     - Bộ công cụ phát triển, như Microsoft Visual Studio. 
 
@@ -41,7 +41,19 @@
 ### .NET Framework
 #### Đặc điểm
 - Là phiên bản đầu tiên của .NET.
-- Hỗ trợ phát triển các loại ứng dụng Windows và web.
+- Chỉ hỗ trợ phát triển các loại ứng dụng trên Windows: desktop, web,...
+<div class="info">
+  <p>
+  <ul>
+    <li>
+        Bản phát hành cuối cùng của .NET Framework là 4.8. Từ năm 2020 Microsoft phát hành .NET 5 - là phiên bản .NET hợp nhất trở về sau - hỗ trợ phát triển nhiều loại ứng dụng hơn và hỗ trợ nhiều hệ điều hành hơn.
+    </li>
+    <li>
+        Microsoft tiếp tục hỗ trợ .NET Framework.
+    </li>
+  </ul>
+  </p>
+</div>
 
 #### Kiến trúc .NET Framework
 - Hai thành phần chính của .NET Framework là CLR, và thư viện lớp dựng sẵn (.NET Framework Class Library). 
@@ -54,10 +66,11 @@
 
 <img src="figs/swimlane-architecture-framework.svg" width="75%">
 
+
 ### [.NET 5 (.NET Core)](https://docs.microsoft.com/en-us/dotnet/core/introduction)
-- Là phiên bản cung cấp khả năng phát triển ứng dụng đa nền tảng (cross-plaform).
+- Là phiên bản .NET hợp nhất, cung cấp khả năng phát triển nhiều loại ứng dụng với nhiều hệ điều hành (cross-plaform).
 - Các loại ứng dụng: Desktop, Web, Mobile, Windows Forms, WPF, Games, IoT, Console,...
-- Có thể tạo ứng dụng .NET trên nhiều hệ điều hành: Windows, macOS, Linux, Android, iOS, ...
+- Các hệ điều hành: Windows, macOS, Linux, Android, iOS, ...
 - Mã nguồn mở trên [GitHub](https://github.com/dotnet).
 
 
