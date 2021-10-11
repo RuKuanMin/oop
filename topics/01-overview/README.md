@@ -205,6 +205,7 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 <details>
 <summary>Ví dụ</summary>
 <p>
+
 ```c#
 /*
 Minh họa lập trình hướng đối tượng
