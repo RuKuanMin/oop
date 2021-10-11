@@ -7,10 +7,11 @@ Output: Dãy số được sắp xếp tăng dần
 
 using System;
 
-// Khởi tạo một mảng số nguyên
+// Khởi tạo dãy số
 int n=6;
 int[] numbers = new int[] {3,8,2,1,6,5};
 
+// Sắp xếp dãy tăng dần
 int i=0;
 OUTER_LOOP:
     int j=i+1;
@@ -26,8 +27,8 @@ OUTER_LOOP:
     i += 1;
     if(i < n-1) goto OUTER_LOOP;
 
-// In ra mảng đã sắp xếp
-Console.WriteLine("Mang tang dan:");
+// In ra dãy đã sắp xếp
+Console.WriteLine("Day tang dan:");
 i = 0;
 LOOP:
     Console.Write("{0} ", numbers[i]);
