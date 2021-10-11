@@ -1,5 +1,5 @@
 ﻿/*
-Minh họa lập trình hướng mệnh lệnh với C#
+Minh họa lập trình tuần tự với C#
 Sắp xếp dãy số tăng dần 
 Input: Dãy số nguyên
 Output: Dãy số được sắp xếp tăng dần
@@ -11,19 +11,27 @@ using System;
 int n=6;
 int[] numbers = new int[] {3,8,2,1,6,5};
 
-// Sắp xếp tăng dần - giải thuật đổi chỗ trực tiếp
-for(int i=0; i < n-1; i++)
-    for(int j=i+1; j < n; j++)
+int i=0;
+OUTER_LOOP:
+    int j=i+1;
+    INNER_LOOP:
         if(numbers[i] > numbers[j])
-        {
-            int t = numbers[i];
-            numbers[i] = numbers[j];
-            numbers[j] = t;
-        }
+            {
+                int t = numbers[i];
+                numbers[i] = numbers[j];
+                numbers[j] = t;
+            }
+        j += 1;
+        if(j < n) goto INNER_LOOP;
+    i += 1;
+    if(i < n-1) goto OUTER_LOOP;
 
-// In ra danh sách đã sắp xếp
+// In ra mảng đã sắp xếp
 Console.WriteLine("Mang tang dan:");
-for(int i=0; i < n; i++)
+i = 0;
+LOOP:
     Console.Write("{0} ", numbers[i]);
+    i += 1;
+    if(i < n) goto LOOP;
                 
 

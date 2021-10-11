@@ -33,7 +33,7 @@ Giới thiệu về lập trình hướng đối tượng
     * Lập trình hướng mệnh lệnh (imperative programming)
     * Lập trình khai báo (declarative programming)
 
-<img src="figs/programming-paradigms-vi.png" alt="Programming paradigms" width="75%"> 
+<img src="figs/programming-paradigms.png" alt="Programming paradigms" width="75%"> 
 
 
 ### Lập trình hướng mệnh lệnh (Imperative Programming)
@@ -196,78 +196,6 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 
 <h2 id="oop"> Phương pháp lập trình hướng đối tượng </h2>
 
-### Cách tiếp cận hướng đối tượng (Object-oriented Approach)
-- Cách tiếp cận hướng đối tượng kết hợp dữ liệu (gọi là thuộc tính - properties) và xử lý (gọi là phương thức - methods) vào một thực thể gọi là đối tượng (object).
-    * Thuộc tính: Là các thông tin mô tả đối tượng. Về mặt lập trình, việc khai báo các thuộc tính tương tự như khai báo biến, vì thế chúng còn được gọi là biến thành viên (member variables).
-    * Phương thức: Là các hành vi mà đối tượng có thể thực hiện. Việc cài đặt các phương thức tương tự như các hàm, vì thế chúng còn được gọi là hàm thành viên (member functions).
-- Chương trình là tập hợp các đối tượng tương tác với nhau.
-
-<details>
-<summary>Ví dụ</summary>
-<p>
-```c#
-/*
-Minh họa lập trình hướng đối tượng
-Input: Mảng các số nguyên
-Output: Mảng sắp xếp tăng dần
-*/
-using System;
-
-public class Array{
-    private int[] numbers; // Dữ liệu
-
-    // Constructor
-    public Array(int elements)
-    {
-        numbers = new int[elements];
-        Random randNum = new Random();
-        for(int i=0; i < numbers.Length; i++)
-            numbers[i] = randNum.Next(0,20);
-    }
-
-    // Phương thức (hàm) in mảng
-    public void Print()
-    {
-        Console.WriteLine("{0}", string.Join(", ", numbers));
-    }
-
-    // Hàm sắp xếp tăng dần
-    public void Sort()
-    {   
-        for(int i=0; i < numbers.Length - 1; i++)
-            for(int j=i+1; j < numbers.Length; j++)
-                if(numbers[i] > numbers[j])
-                {
-                    int t = numbers[i];
-                    numbers[i] = numbers[j];
-                    numbers[j] = t;
-                }
-    }
-
-    // Chương trình chính    
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Tạo mảng ngẫu nhiên các số nguyên - gọi phương thức thiết lập (constructor)
-            Array myNumbers = new Array(6);
-            
-            // In mảng - gọi phương thức Print()
-            myNumbers.Print();
-
-            // Sắp xếp tăng dần - gọi phương thức Sort()
-            myNumbers.Sort();
-
-            // In mảng sau sắp xếp - gọi phương thức Print()
-            myNumbers.Print();
-        }
-    }
-}
-```
-
-</p>
-</details>
-
 ### Bài toán minh họa
 Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
 
@@ -294,7 +222,11 @@ Với phương pháp lập trình cấu trúc, cần thiết kế lại mô hìn
 Các tình huống trên cho thấy nhược điểm của phương pháp lập trình cấu trúc khi giải quyết những bài toán phức tạp. Khi đó, việc nâng cấp hay mở rộng trở nên khó khăn. Đồng thời, khả năng *tái sử dụng mã nguồn* và *sự che chắn dữ liệu* cũng hạn chế.
 
 
-
+### Cách tiếp cận hướng đối tượng (Object-oriented Approach)
+- Cách tiếp cận hướng đối tượng kết hợp dữ liệu (gọi là thuộc tính - properties) và xử lý (gọi là phương thức - methods) vào một thực thể gọi là đối tượng (object).
+    * Thuộc tính: Là các thông tin mô tả đối tượng. Về mặt lập trình, việc khai báo các thuộc tính tương tự như khai báo biến, vì thế chúng còn được gọi là biến thành viên (member variables).
+    * Phương thức: Là các hành vi mà đối tượng có thể thực hiện. Việc cài đặt các phương thức tương tự như các hàm, vì thế chúng còn được gọi là hàm thành viên (member functions).
+- Chương trình là tập hợp các đối tượng tương tác với nhau.
 
 Quay lại bài toán quản lý đào tạo:
 - Với cách tiếp cận hướng đối tượng, các chức năng thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent) sẽ được đóng gói cùng với dữ liệu sinh viên (Students) trong một module. Với mỗi sinh viên, lớp Student sẽ tạo ra một thực thể tương ứng để lưu trữ, quản lý dữ liệu và các xử lý liên quan. Tương tự như vậy với các chức năng và tập dữ liệu khác.
