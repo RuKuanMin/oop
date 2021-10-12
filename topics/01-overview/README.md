@@ -198,7 +198,7 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 - Cách tiếp cận hướng đối tượng kết hợp dữ liệu (gọi là thuộc tính - properties) và xử lý (gọi là phương thức - methods) vào một thực thể gọi là đối tượng (object).
     * Thuộc tính: Là các thông tin mô tả đối tượng. Về mặt lập trình, việc khai báo các thuộc tính tương tự như khai báo biến, vì thế chúng còn được gọi là biến thành viên (member variables).
     * Phương thức: Là các hành vi mà đối tượng có thể thực hiện. Việc cài đặt các phương thức tương tự như các hàm, vì thế chúng còn được gọi là hàm thành viên (member functions).
-- Chương trình là tập hợp các đối tượng tương tác với nhau.
+- Chương trình là tập hợp các đối tượng. Đối tượng thực hiện các yêu cầu xử lý thông qua cơ chế truyền thông điệp (message passing). 
 
 <details>
 <summary>Ví dụ</summary>
