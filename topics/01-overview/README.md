@@ -270,39 +270,7 @@ class Program
 </p>
 </details>
 
-### Bài toán minh họa
-Để minh họa các cách tiếp cận lập trình, ta xét bài toán - đã đơn giản hóa - sau đây:
-
-Một trường học cần xây dựng phần mềm quản lý đào tạo. Hệ thống này quản lý dữ liệu của sinh viên (Students), giảng viên (Lecturers), các môn học (Courses), và các kỳ thi (Exams). 
-Phần mềm cần có các chức năng: thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent), dự thi (TakeExams), xem điểm (ViewGrades). 
-
-Sau khi phân tích, mô hình hệ thống quản lý đào tạo được thiết kế theo sơ đồ sau:
-
-<img src="figs/academicsystem.PNG" width="75%">
-
-Hệ thống quản lý gồm có dữ liệu (data) và các chức năng (functions) thao tác trên dữ liệu. Trong đó, đường nét đứt thể hiện sự phụ thuộc của một tập dữ liệu vào một tập dữ liệu khác; chẳng hạn, mỗi sinh viên học nhiều môn học, mỗi môn học lại có nhiều sinh viên. Đường mũi tên thể hiện sự tác động của các chức năng lên một hoặc một số tập dữ liệu; ví dụ, chức năng thêm sinh viên (AddStudent) sẽ thay đổi nội dung của tập dữ liệu sinh viên (Students), còn chức năng dự thi (TakeExams) cần truy cập dữ liệu của cả sinh viên và kỳ thi (Exams). 
-
-#### Cách tiếp cận hướng cấu trúc
-Theo cách tiếp cận lập trình hướng thủ tục/cấu trúc, mỗi chức năng được tổ chức thành một chương trình con (hàm) tương ứng. Các hàm thực hiện xử lý dữ liệu thông qua truyền tham số và trả về kết quả cho lời gọi hàm. 
-
-Xét vài tình huống sau:
-- *Tình huống 1*: Giả sử dữ liệu đang lưu trữ năm sinh là số có 2 chữ số, nay cần chuyển đổi thành số có 4 chữ số (ví dụ: 97 -> 1997).
-
-Giải pháp hiển nhiên là cần thay đổi trường dữ liệu ngày sinh của sinh viên và giảng viên thành số có 4 chữ số. Khi đó, tất cả các hàm có tác động lên sinh viên và giảng viên sẽ không hoạt động được, trừ khi phải chỉnh sửa lại mã nguồn. Bên cạnh đó, tập dữ liệu sinh viên có mối quan hệ phụ thuộc với các tập dữ liệu khác, vì thế việc thay đổi này có thể gây ra lỗi cho hệ thống.
-
-- *Tình huống 2*: Hệ thống cần quản lý thêm một thành phần dữ liệu mới là sinh viên hệ vừa làm vừa học.
-
-Với phương pháp lập trình cấu trúc, cần thiết kế lại mô hình dữ liệu để bổ sung tập dữ liệu sinh viên vừa làm vừa học, sau đó viết các hàm xử lý tương ứng với mỗi chức năng cần có với tập dữ liệu mới này. 
-
-Các tình huống trên cho thấy nhược điểm của phương pháp lập trình cấu trúc khi giải quyết những bài toán phức tạp. Khi đó, việc nâng cấp hay mở rộng trở nên khó khăn. Đồng thời, khả năng *tái sử dụng mã nguồn* và *sự che chắn dữ liệu* cũng hạn chế.
-
-#### Cách tiếp cận hướng đối tượng
-
-- Với cách tiếp cận hướng đối tượng, các chức năng thêm sinh viên (AddStudent), xóa sinh viên (RemoveStudent) sẽ được đóng gói cùng với dữ liệu sinh viên (Students) trong một module. Với mỗi sinh viên, lớp Student sẽ tạo ra một thực thể tương ứng để lưu trữ, quản lý dữ liệu và các xử lý liên quan. Tương tự như vậy với các chức năng và tập dữ liệu khác.
-
-<img src="figs/academicsystemoop.png" width="50%">
-
-- Một đối tượng có thể tương tác với đối tượng khác bằng cách gọi hàm của chúng (gọi là truyền thông điệp). Chẳng hạn, khi một đối tượng sinh viên gọi chức năng "Add()",  chương trình sẽ tạo mới một đối tượng sinh viên, sau đó chức năng "AddAttendee()" sẽ được gọi từ một đối tượng của lớp môn học (Course). 
+### Lập trình hướng đối tượng (Object Oriented Programming)
 
 
 ## Tài liệu tham khảo 
