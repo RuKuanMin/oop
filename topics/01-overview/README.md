@@ -194,11 +194,27 @@ Console.WriteLine("{0}", string.Join(", ", numbers));
 
 <h2 id="oop"> Phương pháp lập trình hướng đối tượng </h2>
 
-### Cách tiếp cận hướng đối tượng (Object-oriented Approach)
-- Cách tiếp cận hướng đối tượng kết hợp dữ liệu (gọi là thuộc tính - properties) và xử lý (gọi là phương thức - methods) vào một thực thể gọi là đối tượng (object).
+### Cách tiếp cận hướng đối tượng (Object Oriented Approach)
+- Cách tiếp cận hướng đối tượng kết hợp dữ liệu và xử lý có liên quan với nhau vào một module.
+- Thích hợp cho phát triển các hệ thống phức tạp và thay đổi nhanh chóng do:
+    - Đáp ứng các thay đổi của hệ thống với chi phí thấp.
+    - Khả năng tái sử dụng cao.
+    - Tính module hóa cao, giúp đơn giản hóa việc phát triển các hệ thống lớn từ các thành phần đã có.
+
+ - Các thành phần của hệ thống hướng đối tượng:
+    - Đối tượng (objects). Một đối tượng là một thực thể được xác định bởi các thuộc tính và hành vi của nó. Các thực thể hữu hình (như sinh viên, giảng viên) hay vô hình (như tài khoản ngân hàng) đều có thể mô hình hóa dưới dạng đối tượng.
+    - Thuộc tính (attributes): là các trường thông tin mô tả đối tượng.
+    - Hành vi (behaviour): là cách đối tượng ứng xử với môi trường xung quanh. 
+    - Lớp (class): là một nhóm các đối tượng có thuộc tính và hành vi tương tự nhau.
+    - Phương thức (methods): là hành động xác định hành vi của một lớp đối tượng - là những hành động mà đối tượng có thể làm.
+    - Thông điệp (message): là một phương thức tác động lên đối tượng để yêu cầu thực hiện hành động cụ thể. 
+
+### Lập trình hướng đối tượng (Object Oriented Programming)
+- Là phương pháp lập trình dựa trên cách tiếp cận hướng đối tượng.
+- Chương trình là tập hợp các đối tượng. Đối tượng thực hiện các yêu cầu xử lý thông qua cơ chế truyền thông điệp (message passing). 
     * Thuộc tính: Là các thông tin mô tả đối tượng. Về mặt lập trình, việc khai báo các thuộc tính tương tự như khai báo biến, vì thế chúng còn được gọi là biến thành viên (member variables).
     * Phương thức: Là các hành vi mà đối tượng có thể thực hiện. Việc cài đặt các phương thức tương tự như các hàm, vì thế chúng còn được gọi là hàm thành viên (member functions).
-- Chương trình là tập hợp các đối tượng. Đối tượng thực hiện các yêu cầu xử lý thông qua cơ chế truyền thông điệp (message passing). 
+
 
 <details>
 <summary>Ví dụ</summary>
@@ -274,7 +290,7 @@ class Program
 </p>
 </details>
 
-### Lập trình hướng đối tượng (Object Oriented Programming)
+
 
 
 ## Tài liệu tham khảo 
