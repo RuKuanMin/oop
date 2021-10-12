@@ -146,7 +146,7 @@ details > summary {
   list-style-type: none;
   padding: 4px;
   padding-left: 50px;
-  padding-bottom:20px;
+  padding-bottom:0px;
   width: 75px;
   border:1px solid lightgrey;
   border-radius: 5px;
@@ -157,6 +157,7 @@ details > summary {
   background-position:8px center;
   color: brown;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 details > summary::-webkit-details-marker {
