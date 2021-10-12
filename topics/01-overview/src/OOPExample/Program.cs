@@ -9,13 +9,14 @@ using System;
 public class Array{
     private int[] numbers; // Dữ liệu/biến thành viên
 
-    // constructor
-    public Array(int elements)
+    // Phương thức (hàm) thiết lập (constructor)
+    // Tạo một dãy n phần tử có giá trị ngẫu nhiên trong đoạn [Min, Max]
+    public Array(int n, int min=0, int max=50)
     {
-        numbers = new int[elements];
+        numbers = new int[n];
         Random randNum = new Random();
         for(int i=0; i < numbers.Length; i++)
-            numbers[i] = randNum.Next(0,20);
+            numbers[i] = randNum.Next(min, max);
     }
 
     // Phương thức/Hàm thành viên
@@ -43,8 +44,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Tạo mảng ngẫu nhiên các số nguyên - gọi phương thức thiết lập (constructor)
-        Array myNumbers = new Array(6);
+        // Gọi phương thức thiết lập (constructor)
+        // tạo mảng ngẫu nhiên các số nguyên trong khoảng [0, 30]
+        Array myNumbers = new Array(6, 0, 30);
         
         // In mảng - gọi phương thức Print()
         myNumbers.Print();
