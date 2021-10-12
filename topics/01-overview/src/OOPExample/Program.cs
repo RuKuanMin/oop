@@ -49,12 +49,14 @@ class Program
         Array myNumbers = new Array(6, 0, 30);
         
         // In mảng - gọi phương thức Print()
+        Console.WriteLine("Random numbers:");
         myNumbers.Print();
 
         // Sắp xếp tăng dần - gọi phương thức Sort()
         myNumbers.Sort();
 
         // In mảng sau sắp xếp - gọi phương thức Print()
+        Console.WriteLine("The numbers in ascending order:");
         myNumbers.Print();
     }
 }
