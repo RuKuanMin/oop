@@ -7,8 +7,7 @@ Từ km thứ 6 trở đi: 11000 đ/km
 Nếu số km > 100 thì giảm 10% tổng số tiền phải trả.
 
 Input: 
-Quãng đường (km): nhập từ bàn phím
-Bảng giá
+Quãng đường (km)
 Output: Số tiền phải trả
 */
 using System;
@@ -20,9 +19,8 @@ namespace TaxiFare
         static void Main(string[] args)
         {
             double quangDuong, soTien=0;
-            Console.WriteLine("Nhap quang duong (km):");
-            // quangDuong = Convert.ToDouble(Console.ReadLine());
-
+            Console.WriteLine("Nhap quang duong di (km):");
+            
             bool inputOK = double.TryParse(Console.ReadLine(), out quangDuong);
 
             if(inputOK)
