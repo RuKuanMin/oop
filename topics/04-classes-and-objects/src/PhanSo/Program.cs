@@ -20,8 +20,8 @@ public class PhanSo
     private int _tuSo=0, _mauSo=1; // Đây là dữ liệu riêng (private), không cho phép truy xuất từ bên ngoài lớp
 
     public int TuSo{        // Thuộc tính (property)
-        get{return _tuSo;}  
-        set{_tuSo = value;}
+        get{return _tuSo;}  // Đọc giá trị của trường _tuSo
+        set{_tuSo = value;} // Thay đổi giá trị của trường _tuSo
     }
     
     public int MauSo{   
