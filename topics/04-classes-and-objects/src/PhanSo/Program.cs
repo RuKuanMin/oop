@@ -50,10 +50,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Tạo đối tượng phân số
-        PhanSo p = new PhanSo();
-        p.Nhap();   // Gọi phương thức nhập
-        p.Xuat();
+        PhanSo p = new PhanSo(); // Tạo đối tượng phân số
+        p.Nhap();   // Gọi phương thức Nhap()
+        p.Xuat();   // Gọi phương thức Xuat()
         Console.WriteLine("Tu so = {0}", p.TuSo);   // Thực hiện được vì thuộc tính TuSo cho phép đọc {get;} giá trị _tuSo
         Console.WriteLine("Mau so = {0}", p.MauSo); // Thực hiện được vì thuộc tính MauSo cho phép đọc {get;} giá trị _mauSo       
         p.TuSo = 10;                                // Thực hiện được vì thuộc tính TuSo cho phép thay đổi {set;} giá trị _tuSo
