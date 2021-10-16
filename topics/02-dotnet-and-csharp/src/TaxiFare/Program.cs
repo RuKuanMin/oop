@@ -36,8 +36,8 @@ if(quangDuong <= 1)
 else    if(quangDuong <= 5) 
             soTien = Gia1 + (quangDuong - 1) * Gia2;
         else    if(quangDuong <= 100) 
-                    soTien = Gia1 + (quangDuong - 1) * Gia2 + (quangDuong - 5) * Gia3;
+                    soTien = Gia1 + 4 * Gia2 + (quangDuong - 5) * Gia3;
                 else 
-                    soTien = (Gia1 + (quangDuong - 1) * Gia2 + (quangDuong - 5) * Gia3) * 0.9;
+                    soTien = (Gia1 + 4 * Gia2 + (quangDuong - 5) * Gia3) * 0.9;
 /// Output
 Console.WriteLine("Quang duong: {0:0.00} (km), so tien: {1:C} (VND)", quangDuong, soTien);
