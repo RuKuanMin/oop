@@ -3,8 +3,8 @@ Xử lý phân số
 
 Mục tiêu: 
 - Giải quyết một bài toán đơn giản theo phương pháp hướng đối tượng
-- Biết cách xây dựng lớp, tạo đối tượng, sử dụng đối tượng (truyền thông điệp)
-- Biết cách thiết lập đóng gói (encapsulation) để che dấu dữ liệu
+- Biết xây dựng lớp, tạo đối tượng, sử dụng đối tượng
+- Biết thiết lập bao đóng (encapsulation) để che dấu dữ liệu:
     * Phân biệt được trường dữ liệu (fields) và thuộc tính (properties)
     * Đặt mức truy cập private cho các trường dữ liệu
     * Khi cần truy cập đến các trường dữ liệu này, tạo các phương thức dùng chung (public) get và set 
