@@ -43,21 +43,21 @@ public class PhanSo
     {
         Console.WriteLine("{0}/{1}", _tuSo, _mauSo);
     }
-}
+} // End of class PhanSo
 
-// Main program class
+// Main program 
 class Program
 {
     static void Main(string[] args)
     {
         // Tạo đối tượng phân số
         PhanSo p = new PhanSo();
-        p.Nhap();   
+        p.Nhap();   // Gọi phương thức nhập
         p.Xuat();
+        Console.WriteLine("Tu so = {0}", p.TuSo);   // Thực hiện được vì thuộc tính TuSo cho phép đọc {get;} giá trị _tuSo
+        Console.WriteLine("Mau so = {0}", p.MauSo); // Thực hiện được vì thuộc tính MauSo cho phép đọc {get;} giá trị _mauSo       
+        p.TuSo = 10;                                // Thực hiện được vì thuộc tính TuSo cho phép thay đổi {set;} giá trị _tuSo
         Console.WriteLine("Tu so = {0}", p.TuSo);       
-        Console.WriteLine("Mau so = {0}", p.MauSo);       
-        p.TuSo = 10;        // Lệnh này thực hiện được vì thuộc tính TuSo cho phép cả đọc {get;} và ghi {set;}
-        Console.WriteLine("Tu so = {0}", p.TuSo);       
-        // p.MauSo = 10;    // Lệnh này sẽ không thực hiện được vì thuộc tính MauSo chỉ cho đọc {get;}
+        // p.MauSo = 10;                            // Không thực hiện được vì thuộc tính MauSo không cho thay đổi {set;} giá trị _mauSo
     }
 }
