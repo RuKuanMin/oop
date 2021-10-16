@@ -8,6 +8,8 @@ Mục tiêu:
     * Phân biệt được trường dữ liệu (fields) và thuộc tính (properties)
     * Đặt mức truy cập private cho các trường dữ liệu
     * Khi cần truy cập đến các trường dữ liệu này, tạo các phương thức dùng chung (public) get và set 
+- Dùng quy cách đặt tên (coding conventions) thống nhất (theo đề xuất của Microsoft)
+  https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
 */
 
 using System;
