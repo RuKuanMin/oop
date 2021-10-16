@@ -11,7 +11,10 @@ Output: Số tiền phải trả
 */
 using System;
 
+// Các mốc khoảng cách di chuyển và mức giá tương ứng
+const double KhoangCach1=1, KhoangCach2=5, KhoangCach3=100;
 const double Gia1=15000, Gia2=13500, Gia3=11000;
+const double HSGiamGia=0.1; // Hệ số giảm giá (10%)
 double quangDuong, soTien=0;
 bool inputOK=false;
 
@@ -31,13 +34,15 @@ do{
 } while(!(inputOK && quangDuong > 0));
 
 // Process 
-if(quangDuong <= 1) 
+if(quangDuong <= KhoangCach1) 
     soTien = Gia1;
-else    if(quangDuong <= 5) 
-            soTien = Gia1 + (quangDuong - 1) * Gia2;
-        else    if(quangDuong <= 100) 
-                    soTien = Gia1 + 4 * Gia2 + (quangDuong - 5) * Gia3;
+else    if(quangDuong <= KhoangCach2) 
+            soTien = KhoangCach1 * Gia1 + (quangDuong - KhoangCach1) * Gia2;
+        else    if(quangDuong <= KhoangCach3) 
+                    soTien = KhoangCach1 * Gia1 + (KhoangCach2 - KhoangCach1) * Gia2 
+                    + (quangDuong - KhoangCach2) * Gia3;
                 else 
-                    soTien = (Gia1 + 4 * Gia2 + (quangDuong - 5) * Gia3) * 0.9;
-/// Output
+                    soTien = (KhoangCach1 * Gia1 + (KhoangCach2 - KhoangCach1) * Gia2 
+                    + (quangDuong - KhoangCach2) * Gia3) * (1 - HSGiamGia);
+// Output
 Console.WriteLine("Quang duong: {0:0.00} (km), so tien: {1:C} (VND)", quangDuong, soTien);
