@@ -6,43 +6,36 @@ Từ km thứ 2 đến km 5: 13500 đ/km
 Từ km thứ 6 trở đi: 11000 đ/km
 Nếu số km > 100 thì giảm 10% tổng số tiền phải trả.
 
-Input: 
-Quãng đường (km)
+Input: Quãng đường (km)
 Output: Số tiền phải trả
 */
 using System;
 
-namespace TaxiFare
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            double quangDuong, soTien=0;
-            Console.WriteLine("Nhap quang duong di (km):");
-            
-            bool inputOK = double.TryParse(Console.ReadLine(), out quangDuong);
+const double Gia1=15000, Gia2=13500, Gia3=11000;
+double quangDuong, soTien=0;
+bool inputOK=false;
 
-            if(inputOK)
-            {
-                if(quangDuong <= 0 ) Console.WriteLine("Khoang cach phai > 0");
+// Input
+Console.WriteLine("Nhap quang duong di (km):");
+do{// Kiểm tra việc nhập dữ liệu 
+   // -> yêu cầu nhập lại cho đến khi thỏa mãn là giá trị số > 0
+    inputOK = double.TryParse(Console.ReadLine(), out quangDuong);
+    if(!inputOK || quangDuong <= 0) 
+        Console.WriteLine("Quang duong phai la so > 0.");
+} while(!(inputOK && quangDuong > 0));
+
+// Process 
+if(quangDuong <= 1) 
+    soTien = Gia1;
+else    if(quangDuong <= 5) 
+            soTien = Gia1 + (quangDuong - 1) * Gia2;
+        else    if(quangDuong <= 100) 
+                    soTien = Gia1 + (quangDuong - 1) * Gia2 + (quangDuong - 5) * Gia3;
                 else 
-                {
-                    if(quangDuong <= 1) soTien = 15000; // hard code
-                    else if(quangDuong <= 5) soTien = 15000 + (quangDuong-1) * 13500;
-                    else if(quangDuong <= 100) soTien = 15000 + (quangDuong-1) * 13500 + (quangDuong - 5) * 11000;
-                    else soTien = (15000 + (quangDuong-1) * 13500 + (quangDuong - 5) * 11000) * 0.9;
-
-                    Console.WriteLine("Quang duong: {0} (km), so tien: {1} (VND)", quangDuong, soTien);
-                }          
-            }
-            else
-            {
-                Console.WriteLine("Vui long nhap gia tri so km.");
-            }
-        }
-    }
-}
+                    soTien = (Gia1 + (quangDuong - 1) * Gia2 + (quangDuong - 5) * Gia3) * 0.9;
+/// Output
+Console.WriteLine("Quang duong: {0} (km), so tien: {1} (VND)", quangDuong, soTien);
+          
 
 
 
