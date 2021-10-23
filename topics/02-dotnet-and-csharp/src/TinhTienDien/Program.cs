@@ -15,7 +15,7 @@ using System;
 
 namespace TinhTienDien
 {
-    public class Program
+    class Program
     {
         // Khai báo các hằng 
         const int Muc1=100, Muc2=150, Muc3=300;
@@ -23,14 +23,20 @@ namespace TinhTienDien
 
         static void Main()
         {
-
-
-            int sokWh;
+            int sokWh=0;
             double sotien=0;
+
             // Input
             do{
-                Console.Write("So kWh tieu thu:");
-                sokWh = int.Parse(Console.ReadLine());
+                try
+                {
+                    Console.Write("So kWh tieu thu:");
+                    sokWh = int.Parse(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Vui long nhap gia tri so.");
+                }
             }while(sokWh <= 0);
 
             // Process
@@ -46,4 +52,3 @@ namespace TinhTienDien
         }
     }
 }
-
