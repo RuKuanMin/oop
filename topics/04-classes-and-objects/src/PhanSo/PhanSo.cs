@@ -62,7 +62,12 @@ public class PhanSo
     {
         int ucln=1;
         for(int i=Math.Min(Math.Abs(_tuSo), Math.Abs(_mauSo)); i > 1; i--)
-            if(_mauSo % i == 0 && _tuSo % i == 0) ucln=i;
+            if(_mauSo % i == 0 && _tuSo % i == 0) 
+            {
+                ucln = i;
+                break;
+            }
+            
         
         _tuSo /= ucln;
         _mauSo /= ucln;
