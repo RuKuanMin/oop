@@ -47,54 +47,6 @@ class Program
         p1.ToiGian();
         p1.Xuat();
 
-        
-        /* Tạo 1 mảng các phân số
-            - Tìm & in ra phân số lớn nhất
-            - Sắp xếp mảng phân số theo thứ tự tăng dần của giá trị
-        
-        // Khai báo mảng phân số
-        const int Number_Of_Elements = 5;
-        PhanSo[] psList = new PhanSo[Number_Of_Elements];
-        // Nhập danh sách phân số
-        for(int i=0; i < Number_Of_Elements; i++)
-        {
-            // Phải khởi tạo từng đối tượng
-            psList[i] = new PhanSo();
-            Console.WriteLine("Nhap phan so thu {0}", i+1);
-            psList[i].Nhap();
-        }
-        // In danh sách phân số
-        Console.WriteLine("Danh sach phan so:");
-        for(int i=0; i < Number_Of_Elements; i++)
-            psList[i].Xuat();
-
-        // Tìm phân số lớn nhất
-        PhanSo psMax = new PhanSo(psList[0]); // gán phân số lớn nhất = phân số đầu tiên 
-                                              // sử dụng hàm thiết lập sao chép
-        // Xét lần lượt từng phần tử, so sánh & gán
-        for(int i=1; i < Number_Of_Elements; i++)
-            if(psMax.GiaTri() < psList[i].GiaTri()) psMax = psList[i];
-
-        // In ra phân số lớn nhất
-        Console.WriteLine("Phan so lon nhat:");
-        psMax.Xuat();
-
-        // Sắp xếp mảng phân số tăng dần
-        for(int i=0; i < Number_Of_Elements - 1; i++)
-            for(int j=i+1; j < Number_Of_Elements; j++)
-            if(psList[i].GiaTri() > psList[j].GiaTri())
-            {
-                PhanSo tmp = new PhanSo();
-                tmp = psList[i];
-                psList[i] = psList[j];
-                psList[j] = tmp;
-            }
-
-        // In danh sách phân số sau sắp xếp
-        Console.WriteLine("Danh sach phan so da sap xep:");
-        for(int i=0; i < Number_Of_Elements; i++)
-            psList[i].Xuat();
-        */
     }
 }
 
