@@ -11,53 +11,90 @@ Mục tiêu:
       với phương thức get (cho phép đọc), set (cho phép thay đổi)
 - Dùng quy cách đặt tên (coding conventions) thống nhất (theo đề xuất của Microsoft)
   https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
 */
 
 using System;
-
-//Khai báo lớp Phân số
-public class PhanSo
-{
-    private int _tuSo=0, _mauSo=1; // Đây là dữ liệu riêng (private), không cho phép truy xuất từ bên ngoài lớp
-
-    public int TuSo{        // Thuộc tính (property)
-        get{return _tuSo;}  // Đọc giá trị của trường _tuSo
-        set{_tuSo = value;} // Thay đổi giá trị của trường _tuSo
-    }
-    
-    public int MauSo{   
-        get{return _mauSo;} // Chỉ cho phép đọc, không được thay đổi giá trị biến _mauSo
-    }
-
-    public void Nhap()
-    {
-        Console.Write("Tu so = ");
-        _tuSo = Convert.ToInt32(Console.ReadLine());
-        do{
-            Console.Write("Mau so = ");
-            _mauSo = Convert.ToInt32(Console.ReadLine());
-            if(_mauSo == 0) Console.WriteLine("Mau so phai != 0");
-        }while(_mauSo == 0);
-    }   
-
-    public void Xuat()
-    {
-        Console.WriteLine("{0}/{1}", _tuSo, _mauSo);
-    }
-} // End of class PhanSo
 
 // Main program 
 class Program
 {
     static void Main(string[] args)
     {
-        PhanSo p = new PhanSo(); // Tạo đối tượng phân số
-        p.Nhap();   // Gọi phương thức Nhap()
-        p.Xuat();   // Gọi phương thức Xuat()
-        Console.WriteLine("Tu so = {0}", p.TuSo);   // Thực hiện được vì thuộc tính TuSo cho phép đọc {get;} giá trị _tuSo
-        Console.WriteLine("Mau so = {0}", p.MauSo); // Thực hiện được vì thuộc tính MauSo cho phép đọc {get;} giá trị _mauSo       
-        p.TuSo = 10;                                // Thực hiện được vì thuộc tính TuSo cho phép thay đổi {set;} giá trị _tuSo
-        Console.WriteLine("Tu so = {0}", p.TuSo);       
+
+        PhanSo p1 = new PhanSo(); // Tạo đối tượng phân số
+        p1.Nhap();   // Gọi phương thức Nhap()
+        p1.Xuat();   // Gọi phương thức Xuat()
+        Console.WriteLine("Tu so = {0}", p1.TuSo);   // Thực hiện được vì thuộc tính TuSo cho phép đọc {get;} giá trị _tuSo
+        Console.WriteLine("Mau so = {0}", p1.MauSo); // Thực hiện được vì thuộc tính MauSo cho phép đọc {get;} giá trị _mauSo       
+        //p1.TuSo = 10;                                // Thực hiện được vì thuộc tính TuSo cho phép thay đổi {set;} giá trị _tuSo
+        Console.WriteLine("Tu so = {0}", p1.TuSo);       
         // p.MauSo = 10;                            // Không thực hiện được vì thuộc tính MauSo không cho thay đổi {set;} giá trị _mauSo
+        // Tối giản phân số
+        p1.ToiGian();
+        // In ra phân số tối giản:
+        Console.WriteLine("Phan so toi gian:");
+        p1.Xuat();
+        // Tạo phân số sử dụng hàm thiết lập
+        PhanSo p2 = new PhanSo(21,49);
+        p2.Xuat();
+        p2.ToiGian();
+        p2.Xuat();
+        // p1 = p1 + p2
+        p1.Cong(p2);
+        // In ra p1 sau khi cộng thêm p2
+        Console.WriteLine("Tong 2 phan so:");
+        p1.ToiGian();
+        p1.Xuat();
+
+        
+        /* Tạo 1 mảng các phân số
+            - Tìm & in ra phân số lớn nhất
+            - Sắp xếp mảng phân số theo thứ tự tăng dần của giá trị
+        
+        // Khai báo mảng phân số
+        const int Number_Of_Elements = 5;
+        PhanSo[] psList = new PhanSo[Number_Of_Elements];
+        // Nhập danh sách phân số
+        for(int i=0; i < Number_Of_Elements; i++)
+        {
+            // Phải khởi tạo từng đối tượng
+            psList[i] = new PhanSo();
+            Console.WriteLine("Nhap phan so thu {0}", i+1);
+            psList[i].Nhap();
+        }
+        // In danh sách phân số
+        Console.WriteLine("Danh sach phan so:");
+        for(int i=0; i < Number_Of_Elements; i++)
+            psList[i].Xuat();
+
+        // Tìm phân số lớn nhất
+        PhanSo psMax = new PhanSo(psList[0]); // gán phân số lớn nhất = phân số đầu tiên 
+                                              // sử dụng hàm thiết lập sao chép
+        // Xét lần lượt từng phần tử, so sánh & gán
+        for(int i=1; i < Number_Of_Elements; i++)
+            if(psMax.GiaTri() < psList[i].GiaTri()) psMax = psList[i];
+
+        // In ra phân số lớn nhất
+        Console.WriteLine("Phan so lon nhat:");
+        psMax.Xuat();
+
+        // Sắp xếp mảng phân số tăng dần
+        for(int i=0; i < Number_Of_Elements - 1; i++)
+            for(int j=i+1; j < Number_Of_Elements; j++)
+            if(psList[i].GiaTri() > psList[j].GiaTri())
+            {
+                PhanSo tmp = new PhanSo();
+                tmp = psList[i];
+                psList[i] = psList[j];
+                psList[j] = tmp;
+            }
+
+        // In danh sách phân số sau sắp xếp
+        Console.WriteLine("Danh sach phan so da sap xep:");
+        for(int i=0; i < Number_Of_Elements; i++)
+            psList[i].Xuat();
+        */
     }
 }
+

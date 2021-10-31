@@ -31,6 +31,17 @@ namespace Point
             _x = x;
             _y = y;
         }
+        // Phương thức thiết lập sao chép (copy constructor)
+        public Point(Point p)
+        {
+            _x = p._x;
+            _y = p._y;
+        }
+        // Phương thức hủy (destructor)
+        ~Point()
+        {
+            Console.WriteLine("Destroyed.");
+        }
         // Nhập tọa độ điểm từ bàn phím
         public void Nhap()
         {
@@ -72,8 +83,13 @@ namespace Point
             p.Xuat();
             // Tạo đối tượng mới sử dụng hàm thiết lập:
             Point p2 = new Point(10,20);
-            Console.WriteLine("Toa do cua diem moi:");
+            Console.WriteLine("Toa do cua diem p2:");
             p2.Xuat();
+            // Sử dụng hàm thiết lập sao chép (tạo một đối tượng mới bằng cách sao chép 1 đối tượng đã có)
+            Point p3 = new Point(p2);
+            Console.WriteLine("Toa do cua diem p3:");
+            p3.Xuat();
+
         }
     }
 }
