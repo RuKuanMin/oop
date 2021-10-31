@@ -50,13 +50,7 @@ public class PhanSo
 
     // Hàm tìm USCLN của 2 số tự nhiên a,b
     // Phương thức tĩnh (static), dùng chung cho cả lớp
-    public static int UCLN(int a, int b)
-    {
-        while(a != b)
-            if(a > b) a -= b;
-            else b -= a;
-        return a;
-    }
+    
     // Tối giản phân số
     public void ToiGian()
     {
